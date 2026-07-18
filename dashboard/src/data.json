@@ -6,7 +6,7 @@
     {
       "agent_name": "ERP Inventory Analyst",
       "role_description": "Internal inventory, budget, and warehouse capacity analysis via log-linear sales velocity detection.",
-      "findings_summary": "Identified 23 viral SKUs with exponential sales growth (slope>0.15, R2>0.9) from 237 total SKUs. Calculated exact remaining budget of 31,047,680 TND and available capacity of 324.669 m3 after accounting for 87.45M TND and 1,675.331 m3 already tied in slow stock."
+      "findings_summary": "Identified 14 high-velocity SKUs with exponential sales growth (slope>0.15, R2>0.9) from 237 total SKUs. Confirmed remaining budget of 361,000 TND and available warehouse capacity of 102.42 m3, allowing for strategic bulk procurement."
     },
     {
       "agent_name": "Trend Analyst",
