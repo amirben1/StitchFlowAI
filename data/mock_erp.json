@@ -1,0 +1,9 @@
+{
+  "budget_tnd": 150000,
+  "warehouse_capacity_m3": 500,
+  "used_capacity_m3": 350,
+  "inventory": [
+    {"sku": "TSHIRT-BLK-M", "name": "Black T-Shirt M", "stock_level": 5, "velocity": "high", "volume_per_unit_m3": 0.005},
+    {"sku": "JACKET-WIN-L", "name": "Winter Jacket L", "stock_level": 50, "velocity": "low", "volume_per_unit_m3": 0.02}
+  ]
+}
