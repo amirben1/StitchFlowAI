@@ -1,0 +1,64 @@
+{
+  "generated_at": "2026-07-18T19:10:09.286129+00:00",
+  "narrative": "[No LLM API key configured - set ANTHROPIC_API_KEY or GEMINI_API_KEY and LLM_PROVIDER to enable narrative reasoning. Showing raw fused trend data instead.]",
+  "fused_trends": [
+    {
+      "topic": "linen shirt",
+      "trend_score": 76.5,
+      "confidence": 0.97,
+      "direction": "rising",
+      "contributing_sources": [
+        "fashion_news",
+        "google_trends",
+        "youtube"
+      ],
+      "evidence": [
+        "[google_trends] Search interest changed +38.0% over the period (latest index: 82/100).",
+        "[fashion_news] Multiple outlets cite linen as a leading summer fabric.",
+        "[youtube] Linen shirts featured in several summer outfit videos."
+      ]
+    },
+    {
+      "topic": "cargo pants",
+      "trend_score": 74.4,
+      "confidence": 0.87,
+      "direction": "rising",
+      "contributing_sources": [
+        "google_trends",
+        "youtube"
+      ],
+      "evidence": [
+        "[google_trends] Search interest changed +12.0% over the period (latest index: 65/100).",
+        "[youtube] Cargo pants dominant in streetwear haul videos."
+      ]
+    },
+    {
+      "topic": "quiet luxury",
+      "trend_score": 53.3,
+      "confidence": 0.65,
+      "direction": "stable",
+      "contributing_sources": [
+        "fashion_news",
+        "google_trends"
+      ],
+      "evidence": [
+        "[google_trends] Search interest changed +5.0% over the period (latest index: 55/100).",
+        "[fashion_news] Steady coverage as an ongoing aesthetic, not a spike."
+      ]
+    },
+    {
+      "topic": "oversized hoodie",
+      "trend_score": 16.7,
+      "confidence": 0.45,
+      "direction": "declining",
+      "contributing_sources": [
+        "fashion_news",
+        "google_trends"
+      ],
+      "evidence": [
+        "[google_trends] Search interest changed -25.0% over the period (latest index: 20/100).",
+        "[fashion_news] Rarely mentioned in recent coverage."
+      ]
+    }
+  ]
+}

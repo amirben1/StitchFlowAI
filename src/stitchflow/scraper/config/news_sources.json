@@ -1,0 +1,8 @@
+{
+  "sources": [
+    {"name": "FashionUnited", "rss": "https://fashionunited.com/rss/news"},
+    {"name": "Vogue Business", "rss": "https://www.voguebusiness.com/rss"},
+    {"name": "Business of Fashion", "rss": "https://www.businessoffashion.com/feed/"},
+    {"name": "WWD", "rss": "https://wwd.com/feed/"}
+  ]
+}

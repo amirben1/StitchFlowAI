@@ -16,12 +16,21 @@ class ReadERPTool(BaseTool):
     def _run(self) -> str:
         return _read_json_file("data/mock_erp.json")
 
-class ReadTrendsTool(BaseTool):
-    name: str = "Read Digital Trends Data"
-    description: str = "Reads digital fashion trends data."
+class RunDigitalScraperTool(BaseTool):
+    name: str = "Run Digital Trends Scraper"
+    description: str = "Scrapes live data from Google Trends, TikTok, and YouTube to gather fashion sentiment and velocity."
     
     def _run(self) -> str:
-        return _read_json_file("data/mock_digital_trends.json")
+        try:
+            from src.stitchflow.scraper.main import run_pipeline
+            # Run the teammate's scraper pipeline
+            report = run_pipeline(mock=False)
+            return report.to_json()
+        except Exception as e:
+            # Fallback to mock data if there are network/rate limit issues
+            from src.stitchflow.scraper.main import run_pipeline
+            report = run_pipeline(mock=True)
+            return f"Live scrape failed ({str(e)}). Falling back to mock data: {report.to_json()}"
 
 class ReadLocalMarketTool(BaseTool):
     name: str = "Read Local Market Data"

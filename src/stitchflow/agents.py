@@ -2,7 +2,7 @@ from crewai import Agent
 from src.stitchflow.llm import llm
 from src.stitchflow.tools import (
     ReadERPTool, 
-    ReadTrendsTool, 
+    RunDigitalScraperTool, 
     ReadLocalMarketTool, 
     ExecutePythonTool, 
     WebSearchTool
@@ -10,7 +10,7 @@ from src.stitchflow.tools import (
 
 # Instantiate Tools
 erp_tool = ReadERPTool()
-trends_tool = ReadTrendsTool()
+scraper_tool = RunDigitalScraperTool()
 market_tool = ReadLocalMarketTool()
 py_tool = ExecutePythonTool()
 search_tool = WebSearchTool()
@@ -31,7 +31,7 @@ agent_trends = Agent(
     backstory="You are a data-driven fashion trend forecaster.",
     verbose=True,
     allow_delegation=False,
-    tools=[trends_tool, search_tool],
+    tools=[scraper_tool, search_tool],
     llm=llm
 )
 

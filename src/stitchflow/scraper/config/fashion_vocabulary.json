@@ -1,0 +1,9 @@
+{
+  "shirts": ["linen shirt", "polo shirt", "oversized shirt", "denim shirt"],
+  "tops": ["crochet top", "crop top", "oversized hoodie"],
+  "pants": ["cargo pants", "wide leg jeans", "linen pants", "straight jeans"],
+  "dresses": ["maxi dress", "summer dress", "linen dress"],
+  "outerwear": ["denim jacket", "bomber jacket", "trench coat"],
+  "footwear": ["loafers", "chunky sneakers", "sandals"],
+  "styles": ["old money style", "quiet luxury", "streetwear", "y2k fashion"]
+}
