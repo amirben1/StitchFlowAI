@@ -1,11 +1,23 @@
 import os
-from crewai import Agent, Task, Crew, Process, LLM
+from crewai import Agent, Task, Crew, Process
+from crewai.llms.base_llm import BaseLLM
+from langchain_google_genai import ChatGoogleGenerativeAI
 from tools import ReadERPTool, ReadTrendsTool, ReadLocalMarketTool
 from fpdf import FPDF
 import re
+from typing import Any
+
+# Adapter to pass LangChain models to CrewAI v1.15.4
+class CrewAILangChainAdapter(BaseLLM):
+    llm: Any
+    
+    def call(self, messages, *args, **kwargs):
+        response = self.llm.invoke(messages)
+        return response.content
 
 # Initialize LLM
-llm = LLM(model="gemini/gemini-1.5-pro")
+langchain_llm = ChatGoogleGenerativeAI(model="gemini-1.5-pro")
+llm = CrewAILangChainAdapter(model="gemini-1.5-pro", llm=langchain_llm)
 
 # Instantiate Tools
 erp_tool = ReadERPTool()
@@ -102,13 +114,19 @@ def markdown_to_pdf(markdown_text, filename="Procurement_Optimization_Report.pdf
         clean_line = re.sub(r'\*\*(.*?)\*\*', r'\1', line) # Remove bold
         clean_line = re.sub(r'\*(.*?)\*', r'\1', clean_line) # Remove italic
         clean_line = re.sub(r'#+\s(.*)', r'\1', clean_line) # Remove headers
+        clean_line = re.sub(r'^\s*-\s+', r'  • ', clean_line) # Convert bullets
+        clean_line = re.sub(r'^\s*\*\s+', r'  • ', clean_line) # Convert asterisk bullets
+        clean_line = re.sub(r'^\s*(\d+)\.\s+', r'  \1. ', clean_line) # Clean numbered lists
         clean_line = clean_line.encode('latin-1', 'replace').decode('latin-1')
         pdf.multi_cell(0, 8, txt=clean_line)
     pdf.output(filename)
 
 if __name__ == "__main__":
-    result = crew.kickoff()
-    markdown_output = str(result)
-    print("Crew finished. Generating PDF...")
-    markdown_to_pdf(markdown_output)
-    print("PDF Generated successfully.")
+    try:
+        result = crew.kickoff()
+        markdown_output = str(result)
+        print("Crew finished. Generating PDF...")
+        markdown_to_pdf(markdown_output)
+        print("PDF Generated successfully.")
+    except Exception as e:
+        print(f"An error occurred during execution: {e}")
