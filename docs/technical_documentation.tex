@@ -1,0 +1,59 @@
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{tcolorbox}
+\usepackage{enumitem}
+
+\title{\textbf{StitchFlow AI: Technical Architecture \& Documentation}}
+\author{Engineering Team}
+\date{July 2026}
+
+\begin{document}
+
+\maketitle
+
+\section{Executive Summary}
+StitchFlow AI is an autonomous, multi-agent supply chain intelligence system designed for the fast-fashion sector. It replaces traditional, slow-moving procurement analysis with a swarm of specialized AI agents that dynamically cross-reference internal ERP data against live digital trends and local competitor intelligence. 
+
+\section{System Architecture}
+The system is bifurcated into a Python-based backend agent swarm and a React-based frontend dashboard. 
+
+\begin{itemize}
+    \item \textbf{Agent Framework:} \texttt{CrewAI} (Python) orchestrates the agent swarm, managing sequential task delegation and data passing.
+    \item \textbf{Data Sources:} Internal operations are mocked via JSON (\texttt{mock\_erp.json}, \texttt{mock\_local\_market.json}), while real-world digital trend scraping feeds external context.
+    \item \textbf{Output Artifacts:} The swarm produces two deterministic artifacts upon completion: a JSON feed for the live dashboard and a LaTeX-compiled PDF for executive sign-off.
+    \item \textbf{Frontend:} A React application utilizing raw, vanilla CSS to enforce a strict "Cold Luxury / Industrial Brutalist" aesthetic. 
+\end{itemize}
+
+\section{Multi-Agent Swarm Design}
+The intelligence pipeline is distributed across three specialized agents, preventing monolithic hallucination and enforcing rigorous cross-validation.
+
+\subsection{1. ERP Inventory Analyst}
+\textbf{Role:} Internal logistics computation.
+\textbf{Capabilities:} Scans historical sales velocity to identify exponential demand curves (viral SKUs). Computes precise remaining warehouse capacity ($m^3$) and tracks the strictly enforced budget ceiling (e.g., 361,000 TND).
+
+\subsection{2. Trend Analyst}
+\textbf{Role:} External validation.
+\textbf{Capabilities:} Ingests digital scraper data to validate if an internal velocity spike is a true market trend (e.g., \textit{Gorpcore}, \textit{Quiet Luxury}) or a data anomaly. 
+
+\subsection{3. Local Market Analyst}
+\textbf{Role:} Competitive intelligence.
+\textbf{Capabilities:} Audits local competitors (e.g., \textit{TunisTech}, \textit{SousseStyle}) to detect out-of-stock rates and price markups, identifying highly profitable gaps in the local supply chain.
+
+\section{Pipeline Execution}
+The pipeline is invoked via \texttt{main.py}. 
+\begin{enumerate}
+    \item \textbf{Data Ingestion:} The ERP Analyst reads the raw JSON datasets.
+    \item \textbf{Debate \& Synthesis:} The Trend and Market analysts validate the ERP findings, dropping irrelevant SKUs.
+    \item \textbf{JSON Export:} A highly structured JSON payload (\texttt{data.json}) is written directly into the \texttt{dashboard/src/} directory, instantly updating the React application via Hot Module Replacement.
+    \item \textbf{PDF Compilation:} The Chief Reporter Agent drafts a professional procurement summary in LaTeX. The system intercepts this string, patches rendering bugs (e.g., \texttt{\textbackslash approx}), and triggers \texttt{pdflatex} to compile a distributable PDF report into the \texttt{docs/} directory.
+\end{enumerate}
+
+\section{Deployment \& Constraints}
+\begin{tcolorbox}[colback=black!5!white,colframe=black!75!black,title=Safety Parameters]
+The system enforces strict mathematical cutoffs during the JSON export phase. If the agents attempt to procure items that exceed the remaining budget or available warehouse volume, the serialization engine immediately truncates the payload to prevent deficit spending.
+\end{tcolorbox}
+
+\end{document}
