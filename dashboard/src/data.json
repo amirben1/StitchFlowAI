@@ -2,6 +2,23 @@
   "last_updated": "2026-07-18T19:30:00Z",
   "budget_remaining_tnd": 245000,
   "capacity_remaining_m3": 850,
+  "agent_summaries": [
+    {
+      "agent_name": "ERP Data Analyst",
+      "role_description": "Analyzes internal warehouse capacity, sales velocity, and available capital.",
+      "findings_summary": "Identified high sales velocity for SKU-112 (Heavyweight Zip Hoodies) which is depleting stock faster than expected. Confirmed 850 m³ of warehouse space available, primarily in Section C. Flagged SKU-044 (Neon Windbreaker) as dead stock consuming 22 m³."
+    },
+    {
+      "agent_name": "Social Trend Forecaster",
+      "role_description": "Monitors TikTok, Instagram, and fashion blogs for emerging macro-trends.",
+      "findings_summary": "Detected a massive 310% surge in TikTok mentions for 'Utility Cargo Pants' over the last 48 hours, driven by a viral styling video. The trend is expanding rapidly into mainstream European markets. Neon colors have plummeted in sentiment."
+    },
+    {
+      "agent_name": "Market Competitor Analyst",
+      "role_description": "Scrapes competitor websites to identify stockouts and pricing opportunities.",
+      "findings_summary": "Found that major competitor 'Z-Retail' is completely out of stock on Olive Cargo Pants in 80% of local sizes. Pricing analysis suggests a high margin opportunity if we can procure and list within 5 days before they restock."
+    }
+  ],
   "recommendations": [
     {
       "id": "SKU-091",
