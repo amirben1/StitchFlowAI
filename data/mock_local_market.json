@@ -1,0 +1,8 @@
+{
+  "competitors": [
+    {"name": "Competitor A", "top_selling": "Oversized Hoodies", "price_tnd": 45, "stock_status": "Out of Stock"}
+  ],
+  "customer_feedback": [
+    {"source": "Instagram Comments", "sentiment": "positive", "theme": "Looking for affordable cargo pants"}
+  ]
+}
