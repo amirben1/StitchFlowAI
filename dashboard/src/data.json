@@ -1,0 +1,34 @@
+{
+  "last_updated": "2026-07-18T19:30:00Z",
+  "budget_remaining_tnd": 245000,
+  "capacity_remaining_m3": 850,
+  "recommendations": [
+    {
+      "id": "SKU-091",
+      "name": "Olive Utility Cargo Pants",
+      "action": "PROCURE",
+      "quantity": 1200,
+      "cost_tnd": 45000,
+      "volume_m3": 12.5,
+      "reasoning": "TikTok mentions up 310%. Competitor 'Z-Retail' is 80% out-of-stock locally."
+    },
+    {
+      "id": "SKU-112",
+      "name": "Heavyweight Zip Hoodie (Charcoal)",
+      "action": "PROCURE",
+      "quantity": 800,
+      "cost_tnd": 32000,
+      "volume_m3": 18.0,
+      "reasoning": "Consistent 15% MoM growth in internal ERP data. High margin."
+    },
+    {
+      "id": "SKU-044",
+      "name": "Neon Windbreaker",
+      "action": "CLEARANCE",
+      "quantity": 0,
+      "cost_tnd": 0,
+      "volume_m3": 0,
+      "reasoning": "Search volume dropped 60%. Currently occupying 22m³ of warehouse space. Apply 20% discount."
+    }
+  ]
+}

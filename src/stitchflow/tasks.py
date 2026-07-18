@@ -25,3 +25,10 @@ task_report = Task(
     agent=agent_reporter,
     context=[task_erp, task_trends, task_market]
 )
+
+task_export_json = Task(
+    description="Based on the exact same recommendations you just made for the LaTeX report, generate a structured JSON output. This JSON will be fed directly into a React dashboard. The JSON must have the following keys: 'last_updated' (ISO timestamp), 'budget_remaining_tnd' (number), 'capacity_remaining_m3' (number), and 'recommendations' (an array of objects, each containing: 'id' (e.g. SKU-123), 'name', 'action' (must be exactly 'PROCURE' or 'CLEARANCE'), 'quantity' (number), 'cost_tnd' (number), 'volume_m3' (number), 'reasoning' (a short 1-2 sentence string)). Output ONLY valid JSON, do not wrap it in markdown code blocks.",
+    expected_output="A raw JSON string matching the specified schema.",
+    agent=agent_reporter,
+    context=[task_report]
+)
