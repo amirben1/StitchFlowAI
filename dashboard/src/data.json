@@ -1,7 +1,7 @@
 {
   "last_updated": "2024-12-19T14:32:05.123456+00:00",
-  "budget_remaining_tnd": 2133.0,
-  "capacity_remaining_m3": 76.86,
+  "budget_remaining_tnd": 16775.31,
+  "capacity_remaining_m3": 102.428,
   "agent_summaries": [
     {
       "agent_name": "ERP Inventory Analyst",
@@ -21,40 +21,130 @@
   ],
   "recommendations": [
     {
-      "id": "SKU-1043",
+      "id": "SKU-2010",
       "name": "Dresses - Quiet Luxury",
       "action": "PROCURE",
-      "quantity": 1518,
-      "cost_tnd": 119922.0,
-      "volume_m3": 27.324,
-      "reasoning": "Viral SKU with exponential velocity in Quiet Luxury trend; competitor OOS gap and validated relevance justify restock within budget and capacity."
+      "quantity": 103,
+      "cost_tnd": 15408.48,
+      "volume_m3": 1.746,
+      "reasoning": "Validated viral 'Quiet Luxury' trend. High competitor out-of-stock rate detected. Secure market gap."
     },
     {
-      "id": "SKU-1099",
-      "name": "Tops - Quiet Luxury",
+      "id": "SKU-2011",
+      "name": "Outerwear - Gorpcore",
       "action": "PROCURE",
-      "quantity": 1111,
-      "cost_tnd": 49995.0,
-      "volume_m3": 13.332,
-      "reasoning": "Viral SKU with exponential velocity in Quiet Luxury trend; competitor OOS gap and validated relevance justify restock within budget and capacity."
+      "quantity": 125,
+      "cost_tnd": 24933.73,
+      "volume_m3": 1.49,
+      "reasoning": "Validated viral 'Gorpcore' trend. High competitor out-of-stock rate detected. Secure market gap."
     },
     {
-      "id": "SKU-1156",
+      "id": "SKU-2012",
       "name": "Accessories - Mesh Layering",
       "action": "PROCURE",
-      "quantity": 1034,
-      "cost_tnd": 29986.0,
-      "volume_m3": 8.272,
-      "reasoning": "Viral SKU with exponential velocity in Mesh Layering trend; competitor OOS gap and validated relevance justify restock within budget and capacity."
+      "quantity": 98,
+      "cost_tnd": 5571.88,
+      "volume_m3": 1.88,
+      "reasoning": "Validated viral 'Mesh Layering' trend. High competitor out-of-stock rate detected. Secure market gap."
     },
     {
-      "id": "SKU-1233",
+      "id": "SKU-2013",
+      "name": "Bottoms - Olive Cargo",
+      "action": "PROCURE",
+      "quantity": 155,
+      "cost_tnd": 19308.0,
+      "volume_m3": 1.853,
+      "reasoning": "Validated viral 'Olive Cargo' trend. High competitor out-of-stock rate detected. Secure market gap."
+    },
+    {
+      "id": "SKU-2014",
       "name": "Tops - Quiet Luxury",
       "action": "PROCURE",
-      "quantity": 1142,
-      "cost_tnd": 47964.0,
-      "volume_m3": 12.562,
-      "reasoning": "Viral SKU with exponential velocity in Quiet Luxury trend; competitor OOS gap and validated relevance justify restock within budget and capacity."
+      "quantity": 154,
+      "cost_tnd": 13976.64,
+      "volume_m3": 3.217,
+      "reasoning": "Validated viral 'Quiet Luxury' trend. High competitor out-of-stock rate detected. Secure market gap."
+    },
+    {
+      "id": "SKU-2015",
+      "name": "Footwear - Gorpcore",
+      "action": "PROCURE",
+      "quantity": 91,
+      "cost_tnd": 16165.9,
+      "volume_m3": 1.772,
+      "reasoning": "Validated viral 'Gorpcore' trend. High competitor out-of-stock rate detected. Secure market gap."
+    },
+    {
+      "id": "SKU-2016",
+      "name": "Tailored Trousers - Quiet Luxury",
+      "action": "PROCURE",
+      "quantity": 125,
+      "cost_tnd": 18424.91,
+      "volume_m3": 1.363,
+      "reasoning": "Validated viral 'Quiet Luxury' trend. High competitor out-of-stock rate detected. Secure market gap."
+    },
+    {
+      "id": "SKU-2017",
+      "name": "Jackets - Olive Cargo",
+      "action": "PROCURE",
+      "quantity": 179,
+      "cost_tnd": 27162.17,
+      "volume_m3": 4.932,
+      "reasoning": "Validated viral 'Olive Cargo' trend. High competitor out-of-stock rate detected. Secure market gap."
+    },
+    {
+      "id": "SKU-2018",
+      "name": "Tops - Mesh Layering",
+      "action": "PROCURE",
+      "quantity": 136,
+      "cost_tnd": 9486.24,
+      "volume_m3": 3.395,
+      "reasoning": "Validated viral 'Mesh Layering' trend. High competitor out-of-stock rate detected. Secure market gap."
+    },
+    {
+      "id": "SKU-2019",
+      "name": "Accessories - Gorpcore",
+      "action": "PROCURE",
+      "quantity": 161,
+      "cost_tnd": 7043.85,
+      "volume_m3": 3.141,
+      "reasoning": "Validated viral 'Gorpcore' trend. High competitor out-of-stock rate detected. Secure market gap."
+    },
+    {
+      "id": "SKU-2020",
+      "name": "Knitwear - Quiet Luxury",
+      "action": "PROCURE",
+      "quantity": 172,
+      "cost_tnd": 23065.08,
+      "volume_m3": 1.902,
+      "reasoning": "Validated viral 'Quiet Luxury' trend. High competitor out-of-stock rate detected. Secure market gap."
+    },
+    {
+      "id": "SKU-2021",
+      "name": "Shorts - Olive Cargo",
+      "action": "PROCURE",
+      "quantity": 155,
+      "cost_tnd": 13147.84,
+      "volume_m3": 3.956,
+      "reasoning": "Validated viral 'Olive Cargo' trend. High competitor out-of-stock rate detected. Secure market gap."
+    },
+    {
+      "id": "SKU-2022",
+      "name": "Dresses - Mesh Layering",
+      "action": "PROCURE",
+      "quantity": 133,
+      "cost_tnd": 14330.47,
+      "volume_m3": 2.166,
+      "reasoning": "Validated viral 'Mesh Layering' trend. High competitor out-of-stock rate detected. Secure market gap."
+    },
+    {
+      "id": "SKU-2023",
+      "name": "Pants - Gorpcore",
+      "action": "PROCURE",
+      "quantity": 179,
+      "cost_tnd": 25199.5,
+      "volume_m3": 3.109,
+      "reasoning": "Validated viral 'Gorpcore' trend. High competitor out-of-stock rate detected. Secure market gap."
     }
   ]
 }
