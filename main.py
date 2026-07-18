@@ -47,13 +47,17 @@ def main():
         latex_output = task_report.output.raw
         json_output = task_export_json.output.raw
         
-        print("Crew finished. Generating PDF via pdflatex...")
-        latex_to_pdf(latex_output)
-        
         print("Updating Dashboard JSON feed...")
         save_json_feed(json_output)
+        print("Success! Dashboard JSON updated.")
         
-        print("Success! Dashboard and PDF updated.")
+        print("Generating PDF via pdflatex...")
+        try:
+            latex_to_pdf(latex_output)
+            print("Success! PDF updated.")
+        except Exception as e:
+            print(f"PDF generation had warnings or failed: {e}")
+            
     except Exception as e:
         print(f"An error occurred during execution: {e}")
 
