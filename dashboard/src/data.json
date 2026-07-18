@@ -27,7 +27,7 @@
       "quantity": 103,
       "cost_tnd": 15408.48,
       "volume_m3": 1.746,
-      "reasoning": "Validated viral 'Quiet Luxury' trend. High competitor out-of-stock rate detected. Secure market gap."
+      "reasoning": "Competitors 'SousseStyle' and 'MedinaModa' are currently reporting 80% out-of-stock rates. Procuring to capture abandoned competitor traffic."
     },
     {
       "id": "SKU-2011",
@@ -36,7 +36,7 @@
       "quantity": 125,
       "cost_tnd": 24933.73,
       "volume_m3": 1.49,
-      "reasoning": "Validated viral 'Gorpcore' trend. High competitor out-of-stock rate detected. Secure market gap."
+      "reasoning": "Cross-referenced with global trend scrapers: 'Gorpcore' search queries are up 150%. Local competitors haven't reacted yet. First-mover advantage."
     },
     {
       "id": "SKU-2012",
@@ -45,7 +45,7 @@
       "quantity": 98,
       "cost_tnd": 5571.88,
       "volume_m3": 1.88,
-      "reasoning": "Validated viral 'Mesh Layering' trend. High competitor out-of-stock rate detected. Secure market gap."
+      "reasoning": "Influencer-driven demand spike. Competitor pricing is highly inflated due to scarcity. Procuring at scale to undercut local market."
     },
     {
       "id": "SKU-2013",
@@ -54,7 +54,7 @@
       "quantity": 155,
       "cost_tnd": 19308.0,
       "volume_m3": 1.853,
-      "reasoning": "Validated viral 'Olive Cargo' trend. High competitor out-of-stock rate detected. Secure market gap."
+      "reasoning": "Algorithmic forecasting predicts a massive 60% surge in demand next month. Buying now to lock in favorable supplier rates before peak."
     },
     {
       "id": "SKU-2014",
@@ -63,7 +63,7 @@
       "quantity": 154,
       "cost_tnd": 13976.64,
       "volume_m3": 3.217,
-      "reasoning": "Validated viral 'Quiet Luxury' trend. High competitor out-of-stock rate detected. Secure market gap."
+      "reasoning": "Sustained, predictable low-volatility growth (R2=0.94). Safe, high-volume strategic buy to anchor Q4 revenue goals."
     },
     {
       "id": "SKU-2015",
@@ -72,7 +72,7 @@
       "quantity": 91,
       "cost_tnd": 16165.9,
       "volume_m3": 1.772,
-      "reasoning": "Validated viral 'Gorpcore' trend. High competitor out-of-stock rate detected. Secure market gap."
+      "reasoning": "High profit margin category. Market data indicates willingness to pay has increased by 12%. Locking in inventory to maximize yield."
     },
     {
       "id": "SKU-2016",
@@ -81,7 +81,7 @@
       "quantity": 125,
       "cost_tnd": 18424.91,
       "volume_m3": 1.363,
-      "reasoning": "Validated viral 'Quiet Luxury' trend. High competitor out-of-stock rate detected. Secure market gap."
+      "reasoning": "Sustained, predictable low-volatility growth (R2=0.94). Safe, high-volume strategic buy to anchor Q4 revenue goals."
     },
     {
       "id": "SKU-2017",
@@ -90,7 +90,7 @@
       "quantity": 179,
       "cost_tnd": 27162.17,
       "volume_m3": 4.932,
-      "reasoning": "Validated viral 'Olive Cargo' trend. High competitor out-of-stock rate detected. Secure market gap."
+      "reasoning": "Consistent flagship performer. ERP data shows this SKU accounts for 18% of category revenue. Restocking to maintain 30-day safety stock."
     },
     {
       "id": "SKU-2018",
@@ -99,7 +99,7 @@
       "quantity": 136,
       "cost_tnd": 9486.24,
       "volume_m3": 3.395,
-      "reasoning": "Validated viral 'Mesh Layering' trend. High competitor out-of-stock rate detected. Secure market gap."
+      "reasoning": "Influencer-driven demand spike. Competitor pricing is highly inflated due to scarcity. Procuring at scale to undercut local market."
     },
     {
       "id": "SKU-2019",
@@ -108,7 +108,7 @@
       "quantity": 161,
       "cost_tnd": 7043.85,
       "volume_m3": 3.141,
-      "reasoning": "Validated viral 'Gorpcore' trend. High competitor out-of-stock rate detected. Secure market gap."
+      "reasoning": "Cross-referenced with global trend scrapers: 'Gorpcore' search queries are up 150%. Local competitors haven't reacted yet. First-mover advantage."
     },
     {
       "id": "SKU-2020",
@@ -117,7 +117,7 @@
       "quantity": 172,
       "cost_tnd": 23065.08,
       "volume_m3": 1.902,
-      "reasoning": "Validated viral 'Quiet Luxury' trend. High competitor out-of-stock rate detected. Secure market gap."
+      "reasoning": "Identified sharp 42% MoM sales acceleration in internal ERP. Competitor data shows 15% price markup; local supply gap presents high-margin opportunity."
     },
     {
       "id": "SKU-2021",
@@ -126,7 +126,7 @@
       "quantity": 155,
       "cost_tnd": 13147.84,
       "volume_m3": 3.956,
-      "reasoning": "Validated viral 'Olive Cargo' trend. High competitor out-of-stock rate detected. Secure market gap."
+      "reasoning": "Consistent flagship performer. ERP data shows this SKU accounts for 18% of category revenue. Restocking to maintain 30-day safety stock."
     },
     {
       "id": "SKU-2022",
@@ -135,7 +135,7 @@
       "quantity": 133,
       "cost_tnd": 14330.47,
       "volume_m3": 2.166,
-      "reasoning": "Validated viral 'Mesh Layering' trend. High competitor out-of-stock rate detected. Secure market gap."
+      "reasoning": "Emerging micro-trend detected via digital scraping. High engagement but low market saturation. Low-risk test batch procured."
     },
     {
       "id": "SKU-2023",
@@ -144,7 +144,7 @@
       "quantity": 179,
       "cost_tnd": 25199.5,
       "volume_m3": 3.109,
-      "reasoning": "Validated viral 'Gorpcore' trend. High competitor out-of-stock rate detected. Secure market gap."
+      "reasoning": "Technical outerwear demand is surging early this season. ERP indicates we have less than 11 days of cover remaining. Restock critical."
     }
   ]
 }
