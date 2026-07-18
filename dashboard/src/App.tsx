@@ -133,9 +133,9 @@ export default function App() {
       <div className="relative z-10 flex flex-col min-h-[100dvh]">
         
         {/* Navigation */}
-        <nav className="p-8 flex items-center justify-between mix-blend-difference sticky top-0 z-50">
-          <div className="text-xs font-mono tracking-widest uppercase">STITCHFLOW // LOGISTICS</div>
-          <div className="flex items-center gap-2 text-xs font-mono text-zinc-500 uppercase tracking-widest">
+        <nav className="px-8 py-6 flex items-center justify-between bg-[#050505]/90 backdrop-blur-xl border-b border-zinc-800 sticky top-0 z-50">
+          <div className="text-sm font-mono tracking-widest font-bold text-white uppercase">STITCHFLOW // LOGISTICS</div>
+          <div className="flex items-center gap-2 text-xs font-mono font-bold text-zinc-400 uppercase tracking-widest">
             <span>SYNC: {new Date(agentData.last_updated).toISOString().split('T')[1].slice(0, 5)}</span>
           </div>
         </nav>
