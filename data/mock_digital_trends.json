@@ -1,6 +1,43 @@
 {
-  "trends": [
-    {"style_name": "Oversized Hoodies", "platform": "TikTok", "engagement_score": 95, "est_lead_time_days": 14, "est_cost_per_unit_tnd": 25},
-    {"style_name": "Cargo Pants", "platform": "Instagram", "engagement_score": 88, "est_lead_time_days": 21, "est_cost_per_unit_tnd": 35}
+  "global_trends": [
+    {
+      "style": "Gorpcore",
+      "key_items": [
+        "Olive Cargo Pants",
+        "Technical Jackets"
+      ],
+      "yoy_growth_percent": 340,
+      "projected_peak_month": "October"
+    },
+    {
+      "style": "Y2K Nostalgia",
+      "key_items": [
+        "Low-rise Jeans",
+        "Baby Tees"
+      ],
+      "yoy_growth_percent": 120,
+      "projected_peak_month": "July"
+    },
+    {
+      "style": "Quiet Luxury",
+      "key_items": [
+        "Cashmere Sweaters",
+        "Tailored Trousers"
+      ],
+      "yoy_growth_percent": 45,
+      "projected_peak_month": "December"
+    }
+  ],
+  "social_media_virality": [
+    {
+      "hashtag": "#cargopants",
+      "views_last_7_days": "45M",
+      "trend_vector": "up"
+    },
+    {
+      "hashtag": "#skinnyjeans",
+      "views_last_7_days": "1.2M",
+      "trend_vector": "down"
+    }
   ]
 }

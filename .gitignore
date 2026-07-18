@@ -1,0 +1,9 @@
+.env
+__pycache__/
+node_modules/
+*.aux
+*.log
+*.pdf
+*.tex
+temp_agent_script.py
+.superpowers/
