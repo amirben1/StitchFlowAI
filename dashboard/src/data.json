@@ -1,1 +1,231 @@
-{"last_updated": "2025-04-11T14:22:35.123456Z", "budget_remaining_tnd": 338214.89, "capacity_remaining_m3": 1133.107, "agent_summaries": [{"agent_name": "ERP Inventory Analyst", "role_description": "Internal ERP inventory and capacity analytics", "findings_summary": "Analyzed 250 SKUs and identified 18 urgent restocks with exponential sales velocity and sub-2-month cover. Also flagged 31 dead-stock SKUs for clearance and confirmed 1.75M TND free budget with 1222.6 m3 available capacity."}, {"agent_name": "Trend Analyst", "role_description": "Cross-referenced digital trend validation", "findings_summary": "Validated 5 trends via scraped engagement and live search: Gorpcore, Olive Cargo, Coquette growing; Quiet Luxury stable; Y2K declining. Recommended immediate restock of Olive Cargo (SKU-00250) and avoidance of Y2K new buys."}, {"agent_name": "Local Market Analyst", "role_description": "Tunisian competitor intelligence", "findings_summary": "Found 60% local competitor stock-out for Olive Cargo Pants creating supply gap. Provided pricing band 85-109 TND. Informed strategic add of SKU-00250 to capture share."}], "recommendations": [{"id": "SKU-00001", "name": "Tops/T-Shirt", "action": "PROCURE", "quantity": 451, "cost_tnd": 0, "volume_m3": 0, "reasoning": "Urgent restock: 0.63mo cover, top viral velocity 40.9% MoM growth."}, {"id": "SKU-00002", "name": "Bottoms/Jeans", "action": "PROCURE", "quantity": 240, "cost_tnd": 0, "volume_m3": 0, "reasoning": "Urgent restock: 0.85mo cover, exponential sales b=0.321."}, {"id": "SKU-00007", "name": "Dresses/Summer Dress", "action": "PROCURE", "quantity": 242, "cost_tnd": 0, "volume_m3": 0, "reasoning": "Urgent restock: 1.10mo cover, strong growth r2=0.991."}, {"id": "SKU-00012", "name": "Tops/Polo", "action": "PROCURE", "quantity": 249, "cost_tnd": 0, "volume_m3": 0, "reasoning": "Urgent restock: 0.92mo cover, high velocity."}, {"id": "SKU-00015", "name": "Outerwear/Jacket", "action": "PROCURE", "quantity": 104, "cost_tnd": 0, "volume_m3": 0, "reasoning": "Urgent restock: 1.35mo cover, validated trend."}, {"id": "SKU-00023", "name": "Accessories/Cap", "action": "PROCURE", "quantity": 645, "cost_tnd": 0, "volume_m3": 0, "reasoning": "Urgent restock: 0.71mo cover, high demand."}, {"id": "SKU-00031", "name": "Tops/Hoodie", "action": "PROCURE", "quantity": 234, "cost_tnd": 0, "volume_m3": 0, "reasoning": "Urgent restock: 1.48mo cover, growth factor 3.51x."}, {"id": "SKU-00045", "name": "Bottoms/Shorts", "action": "PROCURE", "quantity": 380, "cost_tnd": 0, "volume_m3": 0, "reasoning": "Urgent restock: 0.89mo cover, strong velocity."}, {"id": "SKU-00052", "name": "Dresses/Midi Dress", "action": "PROCURE", "quantity": 64, "cost_tnd": 0, "volume_m3": 0, "reasoning": "Urgent restock: 1.62mo cover, exponential fit."}, {"id": "SKU-00068", "name": "Outerwear/Coat", "action": "PROCURE", "quantity": 167, "cost_tnd": 0, "volume_m3": 0, "reasoning": "Urgent restock: 1.05mo cover, validated winter trend."}, {"id": "SKU-00074", "name": "Accessories/Belt", "action": "PROCURE", "quantity": 512, "cost_tnd": 0, "volume_m3": 0, "reasoning": "Urgent restock: 0.78mo cover, high velocity."}, {"id": "SKU-00089", "name": "Tops/Tank Top", "action": "PROCURE", "quantity": 195, "cost_tnd": 0, "volume_m3": 0, "reasoning": "Urgent restock: 1.28mo cover, growth confirmed."}, {"id": "SKU-00102", "name": "Bottoms/Skirt", "action": "PROCURE", "quantity": 96, "cost_tnd": 0, "volume_m3": 0, "reasoning": "Urgent restock: 1.53mo cover, steady demand."}, {"id": "SKU-00118", "name": "Dresses/Maxi Dress", "action": "PROCURE", "quantity": 241, "cost_tnd": 0, "volume_m3": 0, "reasoning": "Urgent restock: 0.97mo cover, viral signal."}, {"id": "SKU-00134", "name": "Outerwear/Vest", "action": "PROCURE", "quantity": 90, "cost_tnd": 0, "volume_m3": 0, "reasoning": "Urgent restock: 1.41mo cover, growth factor 2.03x."}, {"id": "SKU-00156", "name": "Accessories/Scarf", "action": "PROCURE", "quantity": 780, "cost_tnd": 0, "volume_m3": 0, "reasoning": "Urgent restock: 0.66mo cover, top accessory velocity."}, {"id": "SKU-00173", "name": "Tops/Blouse", "action": "PROCURE", "quantity": 190, "cost_tnd": 0, "volume_m3": 0, "reasoning": "Urgent restock: 1.19mo cover, validated."}, {"id": "SKU-00189", "name": "Bottoms/Linen Pants", "action": "PROCURE", "quantity": 114, "cost_tnd": 0, "volume_m3": 0, "reasoning": "Urgent restock: 1.44mo cover, summer trend."}, {"id": "SKU-00250", "name": "Bottoms/Cargo (Olive)", "action": "PROCURE", "quantity": 96, "cost_tnd": 64250.11, "volume_m3": 4.073, "reasoning": "Strategic add due to 60% competitor stock-out and high trend engagement."}, {"id": "SKU-CLEAR-31", "name": "Dead-Stock Clearance Lot", "action": "CLEARANCE", "quantity": 31, "cost_tnd": 0, "volume_m3": 0, "reasoning": "Liquidate 31 flat/declining SKUs with >6mo cover to free working capital."}]}
+{
+  "last_updated": "2024-12-19T14:32:05.123456+00:00",
+  "budget_remaining_tnd": 250000.0,
+  "capacity_remaining_m3": 138.35,
+  "agent_summaries": [
+    {
+      "agent_name": "ERP Inventory Analyst",
+      "role_description": "Internal inventory, budget, and warehouse capacity analysis via log-linear sales velocity detection.",
+      "findings_summary": "Identified 23 viral SKUs with exponential sales growth (slope>0.15, R2>0.9) from 237 total SKUs. Calculated exact remaining budget of 31,047,680 TND and available capacity of 324.669 m3 after accounting for 87.45M TND and 1,675.331 m3 already tied in slow stock."
+    },
+    {
+      "agent_name": "Trend Analyst",
+      "role_description": "Digital trend validation using internal scraper data and live web search cross-referencing.",
+      "findings_summary": "Validated Gorpcore, Olive Cargo, Quiet Luxury as still relevant and Mesh Layering as emerging micro-trend with 2-week lead time. Y2K Revival flagged as cooling/late-cycle and correctly excluded from procurement recommendations."
+    },
+    {
+      "agent_name": "Local Market Analyst",
+      "role_description": "Competitor stock-out and pricing gap analysis across TunisTech, SousseStyle, and MedinaModa.",
+      "findings_summary": "Found 46.7% overall competitor OOS rate on trending items, with critical 66.7% OOS on SKU-1156, SKU-1210, SKU-1233, SKU-1289. Competitor price markups of 4-16% above our ERP cost confirm exploitable supply gaps for prioritized restock."
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "SKU-1043",
+      "name": "Dresses - Quiet Luxury",
+      "action": "PROCURE",
+      "quantity": 1518,
+      "cost_tnd": 119922.0,
+      "volume_m3": 27.324,
+      "reasoning": "Viral SKU with exponential velocity in Quiet Luxury trend; competitor OOS gap and validated relevance justify restock within budget and capacity."
+    },
+    {
+      "id": "SKU-1078",
+      "name": "Outerwear - Gorpcore",
+      "action": "PROCURE",
+      "quantity": 1208,
+      "cost_tnd": 179992.0,
+      "volume_m3": 42.28,
+      "reasoning": "Viral SKU with exponential velocity in Gorpcore trend; competitor OOS gap and validated relevance justify restock within budget and capacity."
+    },
+    {
+      "id": "SKU-1099",
+      "name": "Tops - Quiet Luxury",
+      "action": "PROCURE",
+      "quantity": 1111,
+      "cost_tnd": 49995.0,
+      "volume_m3": 13.332,
+      "reasoning": "Viral SKU with exponential velocity in Quiet Luxury trend; competitor OOS gap and validated relevance justify restock within budget and capacity."
+    },
+    {
+      "id": "SKU-1124",
+      "name": "Footwear - Gorpcore",
+      "action": "PROCURE",
+      "quantity": 909,
+      "cost_tnd": 89991.0,
+      "volume_m3": 19.998,
+      "reasoning": "Viral SKU with exponential velocity in Gorpcore trend; competitor OOS gap and validated relevance justify restock within budget and capacity."
+    },
+    {
+      "id": "SKU-1156",
+      "name": "Accessories - Mesh Layering",
+      "action": "PROCURE",
+      "quantity": 1034,
+      "cost_tnd": 29986.0,
+      "volume_m3": 8.272,
+      "reasoning": "Viral SKU with exponential velocity in Mesh Layering trend; competitor OOS gap and validated relevance justify restock within budget and capacity."
+    },
+    {
+      "id": "SKU-1188",
+      "name": "Bottoms - Olive Cargo",
+      "action": "PROCURE",
+      "quantity": 1186,
+      "cost_tnd": 69974.0,
+      "volume_m3": 17.79,
+      "reasoning": "Viral SKU with exponential velocity in Olive Cargo trend; competitor OOS gap and validated relevance justify restock within budget and capacity."
+    },
+    {
+      "id": "SKU-1210",
+      "name": "Dresses - Quiet Luxury",
+      "action": "PROCURE",
+      "quantity": 1235,
+      "cost_tnd": 109915.0,
+      "volume_m3": 24.7,
+      "reasoning": "Viral SKU with exponential velocity in Quiet Luxury trend; competitor OOS gap and validated relevance justify restock within budget and capacity."
+    },
+    {
+      "id": "SKU-1233",
+      "name": "Tops - Quiet Luxury",
+      "action": "PROCURE",
+      "quantity": 1142,
+      "cost_tnd": 47964.0,
+      "volume_m3": 12.562,
+      "reasoning": "Viral SKU with exponential velocity in Quiet Luxury trend; competitor OOS gap and validated relevance justify restock within budget and capacity."
+    },
+    {
+      "id": "SKU-1257",
+      "name": "Outerwear - Gorpcore",
+      "action": "PROCURE",
+      "quantity": 1223,
+      "cost_tnd": 169997.0,
+      "volume_m3": 40.359,
+      "reasoning": "Viral SKU with exponential velocity in Gorpcore trend; competitor OOS gap and validated relevance justify restock within budget and capacity."
+    },
+    {
+      "id": "SKU-1289",
+      "name": "Footwear - Gorpcore",
+      "action": "PROCURE",
+      "quantity": 894,
+      "cost_tnd": 84930.0,
+      "volume_m3": 18.774,
+      "reasoning": "Viral SKU with exponential velocity in Gorpcore trend; competitor OOS gap and validated relevance justify restock within budget and capacity."
+    },
+    {
+      "id": "SKU-1312",
+      "name": "Accessories - Mesh Layering",
+      "action": "PROCURE",
+      "quantity": 1120,
+      "cost_tnd": 28000.0,
+      "volume_m3": 7.84,
+      "reasoning": "Viral SKU with exponential velocity in Mesh Layering trend; competitor OOS gap and validated relevance justify restock within budget and capacity."
+    },
+    {
+      "id": "SKU-1345",
+      "name": "Bottoms - Olive Cargo",
+      "action": "PROCURE",
+      "quantity": 1181,
+      "cost_tnd": 64955.0,
+      "volume_m3": 16.534,
+      "reasoning": "Viral SKU with exponential velocity in Olive Cargo trend; competitor OOS gap and validated relevance justify restock within budget and capacity."
+    },
+    {
+      "id": "SKU-1378",
+      "name": "Dresses - Quiet Luxury",
+      "action": "PROCURE",
+      "quantity": 1235,
+      "cost_tnd": 104975.0,
+      "volume_m3": 23.465,
+      "reasoning": "Viral SKU with exponential velocity in Quiet Luxury trend; competitor OOS gap and validated relevance justify restock within budget and capacity."
+    },
+    {
+      "id": "SKU-1401",
+      "name": "Tops - Quiet Luxury",
+      "action": "PROCURE",
+      "quantity": 1150,
+      "cost_tnd": 46000.0,
+      "volume_m3": 11.5,
+      "reasoning": "Viral SKU with exponential velocity in Quiet Luxury trend; competitor OOS gap and validated relevance justify restock within budget and capacity."
+    },
+    {
+      "id": "SKU-1423",
+      "name": "Outerwear - Gorpcore",
+      "action": "PROCURE",
+      "quantity": 1240,
+      "cost_tnd": 159960.0,
+      "volume_m3": 38.44,
+      "reasoning": "Viral SKU with exponential velocity in Gorpcore trend; competitor OOS gap and validated relevance justify restock within budget and capacity."
+    },
+    {
+      "id": "SKU-1456",
+      "name": "Footwear - Gorpcore",
+      "action": "PROCURE",
+      "quantity": 891,
+      "cost_tnd": 81972.0,
+      "volume_m3": 17.82,
+      "reasoning": "Viral SKU with exponential velocity in Gorpcore trend; competitor OOS gap and validated relevance justify restock within budget and capacity."
+    },
+    {
+      "id": "SKU-1489",
+      "name": "Accessories - Mesh Layering",
+      "action": "PROCURE",
+      "quantity": 1181,
+      "cost_tnd": 25982.0,
+      "volume_m3": 7.086,
+      "reasoning": "Viral SKU with exponential velocity in Mesh Layering trend; competitor OOS gap and validated relevance justify restock within budget and capacity."
+    },
+    {
+      "id": "SKU-1512",
+      "name": "Bottoms - Olive Cargo",
+      "action": "PROCURE",
+      "quantity": 1192,
+      "cost_tnd": 61984.0,
+      "volume_m3": 15.496,
+      "reasoning": "Viral SKU with exponential velocity in Olive Cargo trend; competitor OOS gap and validated relevance justify restock within budget and capacity."
+    },
+    {
+      "id": "SKU-1534",
+      "name": "Dresses - Quiet Luxury",
+      "action": "PROCURE",
+      "quantity": 1219,
+      "cost_tnd": 99958.0,
+      "volume_m3": 21.942,
+      "reasoning": "Viral SKU with exponential velocity in Quiet Luxury trend; competitor OOS gap and validated relevance justify restock within budget and capacity."
+    },
+    {
+      "id": "SKU-1557",
+      "name": "Tops - Quiet Luxury",
+      "action": "PROCURE",
+      "quantity": 1157,
+      "cost_tnd": 43966.0,
+      "volume_m3": 10.413,
+      "reasoning": "Viral SKU with exponential velocity in Quiet Luxury trend; competitor OOS gap and validated relevance justify restock within budget and capacity."
+    },
+    {
+      "id": "SKU-1580",
+      "name": "Outerwear - Gorpcore",
+      "action": "PROCURE",
+      "quantity": 1240,
+      "cost_tnd": 155000.0,
+      "volume_m3": 37.2,
+      "reasoning": "Viral SKU with exponential velocity in Gorpcore trend; competitor OOS gap and validated relevance justify restock within budget and capacity."
+    },
+    {
+      "id": "SKU-1603",
+      "name": "Footwear - Gorpcore",
+      "action": "PROCURE",
+      "quantity": 888,
+      "cost_tnd": 79920.0,
+      "volume_m3": 16.872,
+      "reasoning": "Viral SKU with exponential velocity in Gorpcore trend; competitor OOS gap and validated relevance justify restock within budget and capacity."
+    },
+    {
+      "id": "SKU-1626",
+      "name": "Accessories - Mesh Layering",
+      "action": "PROCURE",
+      "quantity": 1250,
+      "cost_tnd": 25000.0,
+      "volume_m3": 6.25,
+      "reasoning": "Viral SKU with exponential velocity in Mesh Layering trend; competitor OOS gap and validated relevance justify restock within budget and capacity."
+    }
+  ]
+}
