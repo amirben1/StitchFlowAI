@@ -1,421 +1,426 @@
 {
   "competitor_pricing": [
     {
-      "competitor": "Zara Tunis",
-      "observed_product": "Oversized Hoodie",
-      "price_tnd": 142,
+      "competitor": "Local Boutique",
+      "observed_product": "Cashmere Sweater",
+      "price_tnd": 89,
       "stock_status": "Out of Stock",
       "promotion_active": false,
-      "date_observed": "2026-07-08"
-    },
-    {
-      "competitor": "Local Boutique",
-      "observed_product": "Olive Cargo Pants",
-      "price_tnd": 134,
-      "stock_status": "Low Stock",
-      "promotion_active": false,
-      "date_observed": "2026-07-14"
-    },
-    {
-      "competitor": "Local Boutique",
-      "observed_product": "Parachute Pants",
-      "price_tnd": 95,
-      "stock_status": "Out of Stock",
-      "promotion_active": true,
       "date_observed": "2026-07-06"
     },
     {
-      "competitor": "Zara Tunis",
-      "observed_product": "Graphic Tees",
-      "price_tnd": 119,
+      "competitor": "Bershka Sfax",
+      "observed_product": "Oversized Hoodie",
+      "price_tnd": 78,
+      "stock_status": "In Stock",
+      "promotion_active": true,
+      "date_observed": "2026-07-15"
+    },
+    {
+      "competitor": "Bershka Sfax",
+      "observed_product": "Cargo Pants",
+      "price_tnd": 201,
+      "stock_status": "Out of Stock",
+      "promotion_active": false,
+      "date_observed": "2026-07-06"
+    },
+    {
+      "competitor": "Bershka Sfax",
+      "observed_product": "Cashmere Sweater",
+      "price_tnd": 128,
+      "stock_status": "Low Stock",
+      "promotion_active": false,
+      "date_observed": "2026-07-04"
+    },
+    {
+      "competitor": "Local Boutique",
+      "observed_product": "Cargo Pants",
+      "price_tnd": 147,
+      "stock_status": "Out of Stock",
+      "promotion_active": false,
+      "date_observed": "2026-07-06"
+    },
+    {
+      "competitor": "Bershka Sfax",
+      "observed_product": "Cashmere Sweater",
+      "price_tnd": 183,
       "stock_status": "In Stock",
       "promotion_active": false,
-      "date_observed": "2026-07-12"
+      "date_observed": "2026-07-16"
+    },
+    {
+      "competitor": "Local Boutique",
+      "observed_product": "Linen Shirt",
+      "price_tnd": 226,
+      "stock_status": "Out of Stock",
+      "promotion_active": false,
+      "date_observed": "2026-07-13"
     },
     {
       "competitor": "Zara Tunis",
-      "observed_product": "Oversized Hoodie",
-      "price_tnd": 40,
+      "observed_product": "Cashmere Sweater",
+      "price_tnd": 149,
       "stock_status": "In Stock",
+      "promotion_active": false,
+      "date_observed": "2026-07-09"
+    },
+    {
+      "competitor": "Bershka Sfax",
+      "observed_product": "Oversized Hoodie",
+      "price_tnd": 181,
+      "stock_status": "Overstocked",
       "promotion_active": true,
       "date_observed": "2026-07-16"
     },
     {
-      "competitor": "Zara Tunis",
-      "observed_product": "Oversized Hoodie",
-      "price_tnd": 46,
+      "competitor": "Bershka Sfax",
+      "observed_product": "Cargo Pants",
+      "price_tnd": 43,
+      "stock_status": "Out of Stock",
+      "promotion_active": false,
+      "date_observed": "2026-07-10"
+    },
+    {
+      "competitor": "Pull&Bear Sousse",
+      "observed_product": "Cashmere Sweater",
+      "price_tnd": 204,
       "stock_status": "In Stock",
       "promotion_active": false,
-      "date_observed": "2026-07-15"
-    },
-    {
-      "competitor": "Local Boutique",
-      "observed_product": "Parachute Pants",
-      "price_tnd": 76,
-      "stock_status": "Out of Stock",
-      "promotion_active": true,
-      "date_observed": "2026-07-14"
+      "date_observed": "2026-07-11"
     },
     {
       "competitor": "Zara Tunis",
-      "observed_product": "Graphic Tees",
-      "price_tnd": 79,
-      "stock_status": "Low Stock",
+      "observed_product": "Linen Shirt",
+      "price_tnd": 179,
+      "stock_status": "Out of Stock",
       "promotion_active": false,
       "date_observed": "2026-07-10"
     },
     {
       "competitor": "Bershka Sfax",
-      "observed_product": "Graphic Tees",
-      "price_tnd": 115,
+      "observed_product": "Oversized Hoodie",
+      "price_tnd": 100,
       "stock_status": "In Stock",
-      "promotion_active": false,
-      "date_observed": "2026-07-15"
-    },
-    {
-      "competitor": "Pull&Bear Sousse",
-      "observed_product": "Oversized Hoodie",
-      "price_tnd": 133,
-      "stock_status": "Low Stock",
-      "promotion_active": false,
-      "date_observed": "2026-07-15"
-    },
-    {
-      "competitor": "Pull&Bear Sousse",
-      "observed_product": "Oversized Hoodie",
-      "price_tnd": 127,
-      "stock_status": "Out of Stock",
-      "promotion_active": false,
-      "date_observed": "2026-07-16"
-    },
-    {
-      "competitor": "Local Boutique",
-      "observed_product": "Olive Cargo Pants",
-      "price_tnd": 43,
-      "stock_status": "Low Stock",
       "promotion_active": true,
-      "date_observed": "2026-07-15"
-    },
-    {
-      "competitor": "Bershka Sfax",
-      "observed_product": "Graphic Tees",
-      "price_tnd": 50,
-      "stock_status": "Out of Stock",
-      "promotion_active": false,
-      "date_observed": "2026-07-16"
-    },
-    {
-      "competitor": "Pull&Bear Sousse",
-      "observed_product": "Graphic Tees",
-      "price_tnd": 124,
-      "stock_status": "Out of Stock",
-      "promotion_active": true,
-      "date_observed": "2026-07-14"
-    },
-    {
-      "competitor": "Zara Tunis",
-      "observed_product": "Parachute Pants",
-      "price_tnd": 103,
-      "stock_status": "Out of Stock",
-      "promotion_active": true,
-      "date_observed": "2026-07-04"
-    },
-    {
-      "competitor": "Bershka Sfax",
-      "observed_product": "Olive Cargo Pants",
-      "price_tnd": 130,
-      "stock_status": "Out of Stock",
-      "promotion_active": false,
-      "date_observed": "2026-07-07"
-    },
-    {
-      "competitor": "Local Boutique",
-      "observed_product": "Graphic Tees",
-      "price_tnd": 40,
-      "stock_status": "Out of Stock",
-      "promotion_active": false,
       "date_observed": "2026-07-17"
     },
     {
-      "competitor": "Local Boutique",
-      "observed_product": "Oversized Hoodie",
-      "price_tnd": 136,
-      "stock_status": "Low Stock",
-      "promotion_active": false,
-      "date_observed": "2026-07-07"
-    },
-    {
       "competitor": "Bershka Sfax",
-      "observed_product": "Oversized Hoodie",
-      "price_tnd": 77,
-      "stock_status": "Low Stock",
-      "promotion_active": true,
-      "date_observed": "2026-07-12"
-    },
-    {
-      "competitor": "Local Boutique",
-      "observed_product": "Graphic Tees",
-      "price_tnd": 127,
-      "stock_status": "Low Stock",
-      "promotion_active": true,
-      "date_observed": "2026-07-07"
-    },
-    {
-      "competitor": "Zara Tunis",
-      "observed_product": "Olive Cargo Pants",
-      "price_tnd": 126,
+      "observed_product": "Cargo Pants",
+      "price_tnd": 192,
       "stock_status": "Out of Stock",
-      "promotion_active": false,
-      "date_observed": "2026-07-05"
-    },
-    {
-      "competitor": "Pull&Bear Sousse",
-      "observed_product": "Graphic Tees",
-      "price_tnd": 149,
-      "stock_status": "In Stock",
-      "promotion_active": true,
-      "date_observed": "2026-07-04"
-    },
-    {
-      "competitor": "Pull&Bear Sousse",
-      "observed_product": "Olive Cargo Pants",
-      "price_tnd": 131,
-      "stock_status": "Low Stock",
-      "promotion_active": false,
-      "date_observed": "2026-07-04"
-    },
-    {
-      "competitor": "Pull&Bear Sousse",
-      "observed_product": "Oversized Hoodie",
-      "price_tnd": 103,
-      "stock_status": "Out of Stock",
-      "promotion_active": false,
-      "date_observed": "2026-07-09"
-    },
-    {
-      "competitor": "Local Boutique",
-      "observed_product": "Parachute Pants",
-      "price_tnd": 88,
-      "stock_status": "Out of Stock",
-      "promotion_active": false,
-      "date_observed": "2026-07-09"
-    },
-    {
-      "competitor": "Local Boutique",
-      "observed_product": "Oversized Hoodie",
-      "price_tnd": 44,
-      "stock_status": "Out of Stock",
-      "promotion_active": false,
-      "date_observed": "2026-07-09"
-    },
-    {
-      "competitor": "Bershka Sfax",
-      "observed_product": "Parachute Pants",
-      "price_tnd": 114,
-      "stock_status": "In Stock",
-      "promotion_active": false,
-      "date_observed": "2026-07-11"
-    },
-    {
-      "competitor": "Pull&Bear Sousse",
-      "observed_product": "Olive Cargo Pants",
-      "price_tnd": 46,
-      "stock_status": "In Stock",
-      "promotion_active": true,
-      "date_observed": "2026-07-06"
-    },
-    {
-      "competitor": "Pull&Bear Sousse",
-      "observed_product": "Oversized Hoodie",
-      "price_tnd": 83,
-      "stock_status": "In Stock",
-      "promotion_active": false,
-      "date_observed": "2026-07-05"
-    },
-    {
-      "competitor": "Zara Tunis",
-      "observed_product": "Oversized Hoodie",
-      "price_tnd": 132,
-      "stock_status": "In Stock",
-      "promotion_active": false,
-      "date_observed": "2026-07-11"
-    },
-    {
-      "competitor": "Zara Tunis",
-      "observed_product": "Oversized Hoodie",
-      "price_tnd": 143,
-      "stock_status": "Out of Stock",
-      "promotion_active": false,
-      "date_observed": "2026-07-05"
-    },
-    {
-      "competitor": "Local Boutique",
-      "observed_product": "Olive Cargo Pants",
-      "price_tnd": 80,
-      "stock_status": "Out of Stock",
-      "promotion_active": false,
-      "date_observed": "2026-07-06"
-    },
-    {
-      "competitor": "Local Boutique",
-      "observed_product": "Graphic Tees",
-      "price_tnd": 45,
-      "stock_status": "In Stock",
       "promotion_active": false,
       "date_observed": "2026-07-13"
     },
     {
       "competitor": "Local Boutique",
-      "observed_product": "Oversized Hoodie",
-      "price_tnd": 123,
+      "observed_product": "Cargo Pants",
+      "price_tnd": 78,
+      "stock_status": "Low Stock",
+      "promotion_active": false,
+      "date_observed": "2026-07-05"
+    },
+    {
+      "competitor": "Bershka Sfax",
+      "observed_product": "Linen Shirt",
+      "price_tnd": 135,
+      "stock_status": "Out of Stock",
+      "promotion_active": false,
+      "date_observed": "2026-07-09"
+    },
+    {
+      "competitor": "Pull&Bear Sousse",
+      "observed_product": "Cargo Pants",
+      "price_tnd": 204,
+      "stock_status": "Out of Stock",
+      "promotion_active": false,
+      "date_observed": "2026-07-10"
+    },
+    {
+      "competitor": "Zara Tunis",
+      "observed_product": "Linen Shirt",
+      "price_tnd": 172,
+      "stock_status": "Out of Stock",
+      "promotion_active": false,
+      "date_observed": "2026-07-14"
+    },
+    {
+      "competitor": "Local Boutique",
+      "observed_product": "Cashmere Sweater",
+      "price_tnd": 233,
       "stock_status": "In Stock",
       "promotion_active": false,
+      "date_observed": "2026-07-17"
+    },
+    {
+      "competitor": "Zara Tunis",
+      "observed_product": "Oversized Hoodie",
+      "price_tnd": 97,
+      "stock_status": "Overstocked",
+      "promotion_active": true,
+      "date_observed": "2026-07-11"
+    },
+    {
+      "competitor": "Zara Tunis",
+      "observed_product": "Oversized Hoodie",
+      "price_tnd": 193,
+      "stock_status": "In Stock",
+      "promotion_active": true,
       "date_observed": "2026-07-10"
     },
     {
       "competitor": "Bershka Sfax",
       "observed_product": "Oversized Hoodie",
-      "price_tnd": 115,
-      "stock_status": "Out of Stock",
+      "price_tnd": 126,
+      "stock_status": "In Stock",
       "promotion_active": true,
+      "date_observed": "2026-07-17"
+    },
+    {
+      "competitor": "Bershka Sfax",
+      "observed_product": "Linen Shirt",
+      "price_tnd": 229,
+      "stock_status": "Low Stock",
+      "promotion_active": false,
+      "date_observed": "2026-07-06"
+    },
+    {
+      "competitor": "Bershka Sfax",
+      "observed_product": "Cargo Pants",
+      "price_tnd": 145,
+      "stock_status": "Out of Stock",
+      "promotion_active": false,
+      "date_observed": "2026-07-06"
+    },
+    {
+      "competitor": "Zara Tunis",
+      "observed_product": "Cargo Pants",
+      "price_tnd": 43,
+      "stock_status": "Low Stock",
+      "promotion_active": false,
+      "date_observed": "2026-07-13"
+    },
+    {
+      "competitor": "Bershka Sfax",
+      "observed_product": "Cashmere Sweater",
+      "price_tnd": 94,
+      "stock_status": "Out of Stock",
+      "promotion_active": false,
+      "date_observed": "2026-07-15"
+    },
+    {
+      "competitor": "Zara Tunis",
+      "observed_product": "Oversized Hoodie",
+      "price_tnd": 227,
+      "stock_status": "Overstocked",
+      "promotion_active": true,
+      "date_observed": "2026-07-16"
+    },
+    {
+      "competitor": "Local Boutique",
+      "observed_product": "Cargo Pants",
+      "price_tnd": 231,
+      "stock_status": "Out of Stock",
+      "promotion_active": false,
+      "date_observed": "2026-07-11"
+    },
+    {
+      "competitor": "Zara Tunis",
+      "observed_product": "Cashmere Sweater",
+      "price_tnd": 91,
+      "stock_status": "Out of Stock",
+      "promotion_active": false,
+      "date_observed": "2026-07-15"
+    },
+    {
+      "competitor": "Bershka Sfax",
+      "observed_product": "Cargo Pants",
+      "price_tnd": 235,
+      "stock_status": "Low Stock",
+      "promotion_active": false,
       "date_observed": "2026-07-12"
     },
     {
+      "competitor": "Bershka Sfax",
+      "observed_product": "Linen Shirt",
+      "price_tnd": 85,
+      "stock_status": "Low Stock",
+      "promotion_active": false,
+      "date_observed": "2026-07-09"
+    },
+    {
       "competitor": "Pull&Bear Sousse",
-      "observed_product": "Parachute Pants",
-      "price_tnd": 86,
+      "observed_product": "Linen Shirt",
+      "price_tnd": 160,
+      "stock_status": "Low Stock",
+      "promotion_active": false,
+      "date_observed": "2026-07-11"
+    },
+    {
+      "competitor": "Local Boutique",
+      "observed_product": "Cargo Pants",
+      "price_tnd": 67,
       "stock_status": "Out of Stock",
-      "promotion_active": true,
-      "date_observed": "2026-07-04"
+      "promotion_active": false,
+      "date_observed": "2026-07-16"
     },
     {
       "competitor": "Zara Tunis",
       "observed_product": "Oversized Hoodie",
       "price_tnd": 69,
-      "stock_status": "Out of Stock",
+      "stock_status": "In Stock",
       "promotion_active": true,
-      "date_observed": "2026-07-14"
-    },
-    {
-      "competitor": "Pull&Bear Sousse",
-      "observed_product": "Parachute Pants",
-      "price_tnd": 146,
-      "stock_status": "Out of Stock",
-      "promotion_active": false,
       "date_observed": "2026-07-15"
     },
     {
-      "competitor": "Bershka Sfax",
-      "observed_product": "Olive Cargo Pants",
-      "price_tnd": 111,
-      "stock_status": "Low Stock",
+      "competitor": "Pull&Bear Sousse",
+      "observed_product": "Cashmere Sweater",
+      "price_tnd": 66,
+      "stock_status": "In Stock",
       "promotion_active": false,
-      "date_observed": "2026-07-05"
+      "date_observed": "2026-07-16"
+    },
+    {
+      "competitor": "Pull&Bear Sousse",
+      "observed_product": "Linen Shirt",
+      "price_tnd": 94,
+      "stock_status": "Out of Stock",
+      "promotion_active": false,
+      "date_observed": "2026-07-12"
     },
     {
       "competitor": "Local Boutique",
-      "observed_product": "Parachute Pants",
-      "price_tnd": 42,
-      "stock_status": "Low Stock",
-      "promotion_active": false,
-      "date_observed": "2026-07-14"
-    },
-    {
-      "competitor": "Pull&Bear Sousse",
-      "observed_product": "Graphic Tees",
-      "price_tnd": 111,
-      "stock_status": "Out of Stock",
-      "promotion_active": false,
-      "date_observed": "2026-07-13"
-    },
-    {
-      "competitor": "Bershka Sfax",
-      "observed_product": "Graphic Tees",
-      "price_tnd": 55,
-      "stock_status": "In Stock",
-      "promotion_active": false,
-      "date_observed": "2026-07-17"
-    },
-    {
-      "competitor": "Pull&Bear Sousse",
-      "observed_product": "Parachute Pants",
-      "price_tnd": 111,
-      "stock_status": "Out of Stock",
-      "promotion_active": false,
-      "date_observed": "2026-07-17"
-    },
-    {
-      "competitor": "Pull&Bear Sousse",
       "observed_product": "Oversized Hoodie",
-      "price_tnd": 142,
-      "stock_status": "In Stock",
+      "price_tnd": 131,
+      "stock_status": "Overstocked",
       "promotion_active": true,
-      "date_observed": "2026-07-06"
+      "date_observed": "2026-07-10"
     },
     {
       "competitor": "Local Boutique",
-      "observed_product": "Graphic Tees",
-      "price_tnd": 88,
-      "stock_status": "In Stock",
-      "promotion_active": false,
-      "date_observed": "2026-07-04"
-    },
-    {
-      "competitor": "Zara Tunis",
-      "observed_product": "Oversized Hoodie",
-      "price_tnd": 87,
+      "observed_product": "Cashmere Sweater",
+      "price_tnd": 97,
       "stock_status": "Out of Stock",
       "promotion_active": false,
       "date_observed": "2026-07-11"
     },
     {
-      "competitor": "Zara Tunis",
-      "observed_product": "Parachute Pants",
-      "price_tnd": 149,
+      "competitor": "Local Boutique",
+      "observed_product": "Cashmere Sweater",
+      "price_tnd": 104,
+      "stock_status": "Low Stock",
+      "promotion_active": false,
+      "date_observed": "2026-07-09"
+    },
+    {
+      "competitor": "Pull&Bear Sousse",
+      "observed_product": "Cashmere Sweater",
+      "price_tnd": 246,
       "stock_status": "Out of Stock",
       "promotion_active": false,
-      "date_observed": "2026-07-07"
+      "date_observed": "2026-07-08"
+    },
+    {
+      "competitor": "Pull&Bear Sousse",
+      "observed_product": "Cargo Pants",
+      "price_tnd": 126,
+      "stock_status": "Out of Stock",
+      "promotion_active": false,
+      "date_observed": "2026-07-08"
     },
     {
       "competitor": "Zara Tunis",
       "observed_product": "Oversized Hoodie",
-      "price_tnd": 44,
-      "stock_status": "Low Stock",
+      "price_tnd": 76,
+      "stock_status": "Overstocked",
       "promotion_active": true,
-      "date_observed": "2026-07-14"
+      "date_observed": "2026-07-05"
+    },
+    {
+      "competitor": "Local Boutique",
+      "observed_product": "Oversized Hoodie",
+      "price_tnd": 42,
+      "stock_status": "In Stock",
+      "promotion_active": true,
+      "date_observed": "2026-07-12"
     },
     {
       "competitor": "Pull&Bear Sousse",
-      "observed_product": "Olive Cargo Pants",
-      "price_tnd": 92,
+      "observed_product": "Cashmere Sweater",
+      "price_tnd": 112,
+      "stock_status": "Low Stock",
+      "promotion_active": false,
+      "date_observed": "2026-07-10"
+    },
+    {
+      "competitor": "Bershka Sfax",
+      "observed_product": "Cashmere Sweater",
+      "price_tnd": 100,
       "stock_status": "Out of Stock",
+      "promotion_active": false,
+      "date_observed": "2026-07-12"
+    },
+    {
+      "competitor": "Zara Tunis",
+      "observed_product": "Cashmere Sweater",
+      "price_tnd": 169,
+      "stock_status": "In Stock",
+      "promotion_active": false,
+      "date_observed": "2026-07-11"
+    },
+    {
+      "competitor": "Pull&Bear Sousse",
+      "observed_product": "Oversized Hoodie",
+      "price_tnd": 152,
+      "stock_status": "In Stock",
       "promotion_active": true,
       "date_observed": "2026-07-04"
     },
     {
-      "competitor": "Bershka Sfax",
+      "competitor": "Local Boutique",
       "observed_product": "Oversized Hoodie",
-      "price_tnd": 135,
+      "price_tnd": 220,
+      "stock_status": "In Stock",
+      "promotion_active": true,
+      "date_observed": "2026-07-09"
+    },
+    {
+      "competitor": "Pull&Bear Sousse",
+      "observed_product": "Cashmere Sweater",
+      "price_tnd": 144,
+      "stock_status": "In Stock",
+      "promotion_active": false,
+      "date_observed": "2026-07-08"
+    },
+    {
+      "competitor": "Pull&Bear Sousse",
+      "observed_product": "Linen Shirt",
+      "price_tnd": 56,
       "stock_status": "Out of Stock",
       "promotion_active": false,
-      "date_observed": "2026-07-09"
+      "date_observed": "2026-07-17"
     }
   ],
   "customer_sentiment": [
     {
-      "keyword": "Olive Cargo",
-      "sentiment_score": 0.95,
-      "mentions": 1450
+      "keyword": "Linen Shirt",
+      "sentiment_score": 0.97,
+      "mentions": 3450
     },
     {
-      "keyword": "Skinny Jeans",
-      "sentiment_score": -0.4,
+      "keyword": "Cargo Pants",
+      "sentiment_score": 0.87,
+      "mentions": 2120
+    },
+    {
+      "keyword": "Quiet Luxury",
+      "sentiment_score": 0.65,
+      "mentions": 1890
+    },
+    {
+      "keyword": "Oversized Hoodie",
+      "sentiment_score": -0.45,
       "mentions": 120
-    },
-    {
-      "keyword": "Heavyweight Hoodie",
-      "sentiment_score": 0.8,
-      "mentions": 890
     }
   ]
 }

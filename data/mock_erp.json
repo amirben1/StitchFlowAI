@@ -1,3805 +1,3805 @@
 {
   "budget_tnd": 250000,
   "warehouse_capacity_m3": 1000,
-  "used_capacity_m3": 1002.0363000000001,
+  "used_capacity_m3": 861.6512999999998,
   "inventory": [
     {
-      "sku": "HOO-BLA-S-0",
-      "category": "Hoodies",
-      "color": "Black",
-      "size": "S",
-      "current_stock": 372,
-      "reorder_point": 132,
-      "unit_cost_tnd": 19,
-      "volume_m3": 0.0257,
+      "sku": "OVE-GRE-M-0",
+      "category": "Oversized Hoodies",
+      "color": "Grey",
+      "size": "M",
+      "current_stock": 181,
+      "reorder_point": 131,
+      "unit_cost_tnd": 27,
+      "volume_m3": 0.0117,
       "sales_last_6_months": [
-        34,
-        29,
+        800,
+        600,
+        400,
+        200,
         100,
-        41,
-        37,
-        51
+        20
       ],
       "supplier_lead_time_days": 9
     },
     {
-      "sku": "HOO-RED-L-1",
-      "category": "Hoodies",
-      "color": "Red",
+      "sku": "CAR-NAV-M-1",
+      "category": "Cargo Pants",
+      "color": "Navy",
+      "size": "M",
+      "current_stock": 404,
+      "reorder_point": 153,
+      "unit_cost_tnd": 79,
+      "volume_m3": 0.0091,
+      "sales_last_6_months": [
+        50,
+        70,
+        100,
+        150,
+        220,
+        300
+      ],
+      "supplier_lead_time_days": 7
+    },
+    {
+      "sku": "CAS-WHI-XL-2",
+      "category": "Cashmere Sweaters",
+      "color": "White",
+      "size": "XL",
+      "current_stock": 162,
+      "reorder_point": 68,
+      "unit_cost_tnd": 72,
+      "volume_m3": 0.0276,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 45
+    },
+    {
+      "sku": "CAR-BLA-L-3",
+      "category": "Cargo Pants",
+      "color": "Black",
       "size": "L",
-      "current_stock": 63,
-      "reorder_point": 99,
-      "unit_cost_tnd": 46,
+      "current_stock": 87,
+      "reorder_point": 72,
+      "unit_cost_tnd": 109,
+      "volume_m3": 0.0151,
+      "sales_last_6_months": [
+        50,
+        70,
+        100,
+        150,
+        220,
+        300
+      ],
+      "supplier_lead_time_days": 41
+    },
+    {
+      "sku": "LIN-NAV-XL-4",
+      "category": "Linen Shirts",
+      "color": "Navy",
+      "size": "XL",
+      "current_stock": 417,
+      "reorder_point": 129,
+      "unit_cost_tnd": 66,
+      "volume_m3": 0.0115,
+      "sales_last_6_months": [
+        10,
+        20,
+        50,
+        150,
+        400,
+        1200
+      ],
+      "supplier_lead_time_days": 13
+    },
+    {
+      "sku": "SNE-WHI-S-5",
+      "category": "Sneakers",
+      "color": "White",
+      "size": "S",
+      "current_stock": 483,
+      "reorder_point": 161,
+      "unit_cost_tnd": 39,
+      "volume_m3": 0.0299,
+      "sales_last_6_months": [
+        83,
+        56,
+        83,
+        34,
+        53,
+        9
+      ],
+      "supplier_lead_time_days": 35
+    },
+    {
+      "sku": "SNE-OLI-XL-6",
+      "category": "Sneakers",
+      "color": "Olive",
+      "size": "XL",
+      "current_stock": 69,
+      "reorder_point": 175,
+      "unit_cost_tnd": 27,
+      "volume_m3": 0.0192,
+      "sales_last_6_months": [
+        81,
+        81,
+        51,
+        16,
+        29,
+        100
+      ],
+      "supplier_lead_time_days": 7
+    },
+    {
+      "sku": "CAS-BEI-S-7",
+      "category": "Cashmere Sweaters",
+      "color": "Beige",
+      "size": "S",
+      "current_stock": 419,
+      "reorder_point": 139,
+      "unit_cost_tnd": 40,
+      "volume_m3": 0.0097,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 18
+    },
+    {
+      "sku": "LIN-GRE-XL-8",
+      "category": "Linen Shirts",
+      "color": "Grey",
+      "size": "XL",
+      "current_stock": 283,
+      "reorder_point": 195,
+      "unit_cost_tnd": 72,
+      "volume_m3": 0.0156,
+      "sales_last_6_months": [
+        10,
+        20,
+        50,
+        150,
+        400,
+        1200
+      ],
+      "supplier_lead_time_days": 32
+    },
+    {
+      "sku": "LIN-GRE-XL-9",
+      "category": "Linen Shirts",
+      "color": "Grey",
+      "size": "XL",
+      "current_stock": 466,
+      "reorder_point": 109,
+      "unit_cost_tnd": 84,
+      "volume_m3": 0.0119,
+      "sales_last_6_months": [
+        10,
+        20,
+        50,
+        150,
+        400,
+        1200
+      ],
+      "supplier_lead_time_days": 38
+    },
+    {
+      "sku": "CAR-BEI-M-10",
+      "category": "Cargo Pants",
+      "color": "Beige",
+      "size": "M",
+      "current_stock": 235,
+      "reorder_point": 80,
+      "unit_cost_tnd": 39,
+      "volume_m3": 0.0154,
+      "sales_last_6_months": [
+        50,
+        70,
+        100,
+        150,
+        220,
+        300
+      ],
+      "supplier_lead_time_days": 9
+    },
+    {
+      "sku": "TAI-GRE-XL-11",
+      "category": "Tailored Trousers",
+      "color": "Grey",
+      "size": "XL",
+      "current_stock": 22,
+      "reorder_point": 151,
+      "unit_cost_tnd": 42,
+      "volume_m3": 0.0248,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 44
+    },
+    {
+      "sku": "SNE-NAV-S-12",
+      "category": "Sneakers",
+      "color": "Navy",
+      "size": "S",
+      "current_stock": 416,
+      "reorder_point": 143,
+      "unit_cost_tnd": 91,
+      "volume_m3": 0.0133,
+      "sales_last_6_months": [
+        40,
+        44,
+        95,
+        20,
+        56,
+        63
+      ],
+      "supplier_lead_time_days": 34
+    },
+    {
+      "sku": "SNE-NAV-M-13",
+      "category": "Sneakers",
+      "color": "Navy",
+      "size": "M",
+      "current_stock": 205,
+      "reorder_point": 171,
+      "unit_cost_tnd": 66,
+      "volume_m3": 0.0173,
+      "sales_last_6_months": [
+        15,
+        65,
+        37,
+        16,
+        63,
+        64
+      ],
+      "supplier_lead_time_days": 42
+    },
+    {
+      "sku": "LIN-GRE-L-14",
+      "category": "Linen Shirts",
+      "color": "Grey",
+      "size": "L",
+      "current_stock": 226,
+      "reorder_point": 110,
+      "unit_cost_tnd": 62,
       "volume_m3": 0.011,
       "sales_last_6_months": [
         10,
-        88,
-        71,
-        96,
-        78,
-        86
+        20,
+        50,
+        150,
+        400,
+        1200
+      ],
+      "supplier_lead_time_days": 24
+    },
+    {
+      "sku": "TAI-BLA-S-15",
+      "category": "Tailored Trousers",
+      "color": "Black",
+      "size": "S",
+      "current_stock": 358,
+      "reorder_point": 81,
+      "unit_cost_tnd": 108,
+      "volume_m3": 0.0151,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
       ],
       "supplier_lead_time_days": 10
     },
     {
-      "sku": "SNE-WHI-M-2",
-      "category": "Sneakers",
-      "color": "White",
-      "size": "M",
-      "current_stock": 445,
-      "reorder_point": 160,
-      "unit_cost_tnd": 34,
-      "volume_m3": 0.0257,
-      "sales_last_6_months": [
-        45,
-        66,
-        78,
-        5,
-        24,
-        56
-      ],
-      "supplier_lead_time_days": 11
-    },
-    {
-      "sku": "HOO-GRE-L-3",
-      "category": "Hoodies",
-      "color": "Grey",
+      "sku": "LIN-NAV-L-16",
+      "category": "Linen Shirts",
+      "color": "Navy",
       "size": "L",
-      "current_stock": 285,
-      "reorder_point": 138,
-      "unit_cost_tnd": 20,
-      "volume_m3": 0.0299,
-      "sales_last_6_months": [
-        69,
-        85,
-        65,
-        54,
-        12,
-        9
-      ],
-      "supplier_lead_time_days": 40
-    },
-    {
-      "sku": "HOO-BLA-M-4",
-      "category": "Hoodies",
-      "color": "Black",
-      "size": "M",
-      "current_stock": 197,
-      "reorder_point": 90,
-      "unit_cost_tnd": 45,
-      "volume_m3": 0.0283,
-      "sales_last_6_months": [
-        18,
-        96,
-        43,
-        27,
-        67,
-        30
-      ],
-      "supplier_lead_time_days": 19
-    },
-    {
-      "sku": "HOO-GRE-XL-5",
-      "category": "Hoodies",
-      "color": "Grey",
-      "size": "XL",
-      "current_stock": 489,
-      "reorder_point": 148,
-      "unit_cost_tnd": 11,
-      "volume_m3": 0.0264,
-      "sales_last_6_months": [
-        36,
-        91,
-        68,
-        31,
-        17,
-        22
-      ],
-      "supplier_lead_time_days": 35
-    },
-    {
-      "sku": "HOO-BLU-S-6",
-      "category": "Hoodies",
-      "color": "Blue",
-      "size": "S",
-      "current_stock": 263,
-      "reorder_point": 144,
-      "unit_cost_tnd": 11,
-      "volume_m3": 0.0073,
-      "sales_last_6_months": [
-        79,
-        20,
-        48,
-        76,
-        46,
-        28
-      ],
-      "supplier_lead_time_days": 14
-    },
-    {
-      "sku": "JEA-BLU-M-7",
-      "category": "Jeans",
-      "color": "Blue",
-      "size": "M",
-      "current_stock": 297,
-      "reorder_point": 52,
-      "unit_cost_tnd": 23,
-      "volume_m3": 0.0068,
-      "sales_last_6_months": [
-        89,
-        37,
-        20,
-        64,
-        12,
-        16
-      ],
-      "supplier_lead_time_days": 37
-    },
-    {
-      "sku": "JEA-RED-M-8",
-      "category": "Jeans",
-      "color": "Red",
-      "size": "M",
-      "current_stock": 414,
-      "reorder_point": 113,
-      "unit_cost_tnd": 36,
-      "volume_m3": 0.0186,
-      "sales_last_6_months": [
-        48,
-        38,
-        54,
-        64,
-        48,
-        48
-      ],
-      "supplier_lead_time_days": 17
-    },
-    {
-      "sku": "CAR-BLA-S-9",
-      "category": "Cargo Pants",
-      "color": "Black",
-      "size": "S",
-      "current_stock": 301,
-      "reorder_point": 188,
-      "unit_cost_tnd": 13,
-      "volume_m3": 0.0181,
-      "sales_last_6_months": [
-        35,
-        19,
-        72,
-        75,
-        16,
-        50
-      ],
-      "supplier_lead_time_days": 32
-    },
-    {
-      "sku": "T-S-OLI-M-10",
-      "category": "T-Shirts",
-      "color": "Olive",
-      "size": "M",
-      "current_stock": 287,
-      "reorder_point": 158,
-      "unit_cost_tnd": 13,
-      "volume_m3": 0.0177,
-      "sales_last_6_months": [
-        76,
-        65,
-        29,
-        21,
-        68,
-        33
-      ],
-      "supplier_lead_time_days": 21
-    },
-    {
-      "sku": "JAC-GRE-M-11",
-      "category": "Jackets",
-      "color": "Grey",
-      "size": "M",
-      "current_stock": 473,
-      "reorder_point": 154,
-      "unit_cost_tnd": 14,
-      "volume_m3": 0.0236,
-      "sales_last_6_months": [
-        6,
-        14,
-        48,
-        98,
-        11,
-        93
-      ],
-      "supplier_lead_time_days": 18
-    },
-    {
-      "sku": "JEA-BLU-XL-12",
-      "category": "Jeans",
-      "color": "Blue",
-      "size": "XL",
-      "current_stock": 488,
-      "reorder_point": 168,
-      "unit_cost_tnd": 22,
-      "volume_m3": 0.0243,
-      "sales_last_6_months": [
-        93,
-        31,
-        79,
-        20,
-        20,
-        38
-      ],
-      "supplier_lead_time_days": 9
-    },
-    {
-      "sku": "JAC-GRE-M-13",
-      "category": "Jackets",
-      "color": "Grey",
-      "size": "M",
-      "current_stock": 495,
-      "reorder_point": 139,
-      "unit_cost_tnd": 21,
-      "volume_m3": 0.0058,
-      "sales_last_6_months": [
-        36,
-        77,
-        71,
-        18,
-        48,
-        20
-      ],
-      "supplier_lead_time_days": 30
-    },
-    {
-      "sku": "SNE-BLA-S-14",
-      "category": "Sneakers",
-      "color": "Black",
-      "size": "S",
-      "current_stock": 335,
-      "reorder_point": 72,
-      "unit_cost_tnd": 10,
-      "volume_m3": 0.0142,
-      "sales_last_6_months": [
-        15,
-        69,
-        76,
-        18,
-        26,
-        19
-      ],
-      "supplier_lead_time_days": 21
-    },
-    {
-      "sku": "CAR-BLA-M-15",
-      "category": "Cargo Pants",
-      "color": "Black",
-      "size": "M",
-      "current_stock": 387,
-      "reorder_point": 115,
-      "unit_cost_tnd": 24,
-      "volume_m3": 0.0298,
-      "sales_last_6_months": [
-        10,
-        69,
-        15,
-        31,
-        54,
-        80
-      ],
-      "supplier_lead_time_days": 18
-    },
-    {
-      "sku": "JAC-RED-S-16",
-      "category": "Jackets",
-      "color": "Red",
-      "size": "S",
-      "current_stock": 302,
-      "reorder_point": 50,
-      "unit_cost_tnd": 12,
-      "volume_m3": 0.0111,
-      "sales_last_6_months": [
-        28,
-        93,
-        9,
-        60,
-        91,
-        98
-      ],
-      "supplier_lead_time_days": 18
-    },
-    {
-      "sku": "CAR-BLA-M-17",
-      "category": "Cargo Pants",
-      "color": "Black",
-      "size": "M",
-      "current_stock": 354,
-      "reorder_point": 71,
-      "unit_cost_tnd": 41,
-      "volume_m3": 0.0114,
-      "sales_last_6_months": [
-        83,
-        56,
-        14,
-        60,
-        54,
-        7
-      ],
-      "supplier_lead_time_days": 40
-    },
-    {
-      "sku": "SNE-RED-M-18",
-      "category": "Sneakers",
-      "color": "Red",
-      "size": "M",
-      "current_stock": 19,
-      "reorder_point": 122,
-      "unit_cost_tnd": 10,
-      "volume_m3": 0.0081,
-      "sales_last_6_months": [
-        69,
-        90,
-        86,
-        69,
-        73,
-        48
-      ],
-      "supplier_lead_time_days": 23
-    },
-    {
-      "sku": "JAC-RED-L-19",
-      "category": "Jackets",
-      "color": "Red",
-      "size": "L",
-      "current_stock": 29,
-      "reorder_point": 136,
-      "unit_cost_tnd": 24,
-      "volume_m3": 0.0133,
-      "sales_last_6_months": [
-        86,
-        52,
-        55,
-        78,
-        40,
-        98
-      ],
-      "supplier_lead_time_days": 21
-    },
-    {
-      "sku": "SNE-GRE-L-20",
-      "category": "Sneakers",
-      "color": "Grey",
-      "size": "L",
-      "current_stock": 58,
-      "reorder_point": 173,
-      "unit_cost_tnd": 22,
-      "volume_m3": 0.0137,
-      "sales_last_6_months": [
-        30,
-        86,
-        76,
-        89,
-        66,
-        86
-      ],
-      "supplier_lead_time_days": 38
-    },
-    {
-      "sku": "CAR-OLI-XL-21",
-      "category": "Cargo Pants",
-      "color": "Olive",
-      "size": "XL",
-      "current_stock": 119,
-      "reorder_point": 117,
-      "unit_cost_tnd": 46,
-      "volume_m3": 0.0208,
-      "sales_last_6_months": [
-        10,
-        25,
-        50,
-        120,
-        300,
-        800
-      ],
-      "supplier_lead_time_days": 39
-    },
-    {
-      "sku": "T-S-OLI-XL-22",
-      "category": "T-Shirts",
-      "color": "Olive",
-      "size": "XL",
-      "current_stock": 338,
-      "reorder_point": 158,
-      "unit_cost_tnd": 45,
-      "volume_m3": 0.0099,
-      "sales_last_6_months": [
-        84,
-        45,
-        57,
-        18,
-        78,
-        79
-      ],
-      "supplier_lead_time_days": 26
-    },
-    {
-      "sku": "HOO-OLI-M-23",
-      "category": "Hoodies",
-      "color": "Olive",
-      "size": "M",
-      "current_stock": 120,
-      "reorder_point": 179,
-      "unit_cost_tnd": 43,
-      "volume_m3": 0.0233,
-      "sales_last_6_months": [
-        25,
-        44,
-        52,
-        65,
-        60,
-        53
-      ],
-      "supplier_lead_time_days": 31
-    },
-    {
-      "sku": "CAR-WHI-XL-24",
-      "category": "Cargo Pants",
-      "color": "White",
-      "size": "XL",
-      "current_stock": 159,
-      "reorder_point": 150,
-      "unit_cost_tnd": 38,
-      "volume_m3": 0.0259,
-      "sales_last_6_months": [
-        6,
-        39,
-        72,
-        73,
-        93,
-        7
-      ],
-      "supplier_lead_time_days": 23
-    },
-    {
-      "sku": "SNE-GRE-M-25",
-      "category": "Sneakers",
-      "color": "Grey",
-      "size": "M",
-      "current_stock": 388,
-      "reorder_point": 115,
-      "unit_cost_tnd": 43,
-      "volume_m3": 0.0182,
-      "sales_last_6_months": [
-        10,
-        65,
-        16,
-        71,
-        7,
-        70
-      ],
-      "supplier_lead_time_days": 38
-    },
-    {
-      "sku": "HOO-RED-M-26",
-      "category": "Hoodies",
-      "color": "Red",
-      "size": "M",
-      "current_stock": 195,
-      "reorder_point": 148,
-      "unit_cost_tnd": 43,
-      "volume_m3": 0.0251,
-      "sales_last_6_months": [
-        35,
-        86,
-        12,
-        47,
-        65,
-        61
-      ],
-      "supplier_lead_time_days": 23
-    },
-    {
-      "sku": "SNE-BLA-L-27",
-      "category": "Sneakers",
-      "color": "Black",
-      "size": "L",
-      "current_stock": 377,
-      "reorder_point": 86,
-      "unit_cost_tnd": 28,
-      "volume_m3": 0.0222,
-      "sales_last_6_months": [
-        41,
-        78,
-        48,
-        25,
-        21,
-        27
-      ],
-      "supplier_lead_time_days": 38
-    },
-    {
-      "sku": "HOO-RED-S-28",
-      "category": "Hoodies",
-      "color": "Red",
-      "size": "S",
-      "current_stock": 455,
-      "reorder_point": 76,
-      "unit_cost_tnd": 36,
-      "volume_m3": 0.0101,
-      "sales_last_6_months": [
-        46,
-        22,
-        7,
-        63,
-        30,
-        10
-      ],
-      "supplier_lead_time_days": 36
-    },
-    {
-      "sku": "T-S-RED-L-29",
-      "category": "T-Shirts",
-      "color": "Red",
-      "size": "L",
-      "current_stock": 194,
-      "reorder_point": 112,
-      "unit_cost_tnd": 48,
-      "volume_m3": 0.0269,
-      "sales_last_6_months": [
-        28,
-        24,
-        100,
-        82,
-        8,
-        50
-      ],
-      "supplier_lead_time_days": 24
-    },
-    {
-      "sku": "SNE-BLA-S-30",
-      "category": "Sneakers",
-      "color": "Black",
-      "size": "S",
-      "current_stock": 94,
-      "reorder_point": 59,
-      "unit_cost_tnd": 48,
-      "volume_m3": 0.021,
-      "sales_last_6_months": [
-        26,
-        82,
-        74,
-        25,
-        75,
-        8
-      ],
-      "supplier_lead_time_days": 44
-    },
-    {
-      "sku": "JAC-GRE-XL-31",
-      "category": "Jackets",
-      "color": "Grey",
-      "size": "XL",
-      "current_stock": 323,
-      "reorder_point": 94,
-      "unit_cost_tnd": 17,
-      "volume_m3": 0.029,
-      "sales_last_6_months": [
-        86,
-        94,
-        15,
-        7,
-        84,
-        41
-      ],
-      "supplier_lead_time_days": 15
-    },
-    {
-      "sku": "T-S-GRE-XL-32",
-      "category": "T-Shirts",
-      "color": "Grey",
-      "size": "XL",
-      "current_stock": 229,
-      "reorder_point": 104,
-      "unit_cost_tnd": 26,
-      "volume_m3": 0.0176,
-      "sales_last_6_months": [
-        18,
-        67,
-        21,
-        56,
-        74,
-        78
-      ],
-      "supplier_lead_time_days": 17
-    },
-    {
-      "sku": "SNE-BLU-M-33",
-      "category": "Sneakers",
-      "color": "Blue",
-      "size": "M",
-      "current_stock": 302,
-      "reorder_point": 174,
-      "unit_cost_tnd": 20,
-      "volume_m3": 0.0296,
-      "sales_last_6_months": [
-        6,
-        79,
-        20,
-        27,
-        23,
-        39
-      ],
-      "supplier_lead_time_days": 44
-    },
-    {
-      "sku": "CAR-OLI-S-34",
-      "category": "Cargo Pants",
-      "color": "Olive",
-      "size": "S",
-      "current_stock": 179,
-      "reorder_point": 173,
-      "unit_cost_tnd": 22,
-      "volume_m3": 0.0299,
-      "sales_last_6_months": [
-        10,
-        25,
-        50,
-        120,
-        300,
-        800
-      ],
-      "supplier_lead_time_days": 31
-    },
-    {
-      "sku": "JEA-WHI-XL-35",
-      "category": "Jeans",
-      "color": "White",
-      "size": "XL",
-      "current_stock": 137,
-      "reorder_point": 190,
-      "unit_cost_tnd": 23,
-      "volume_m3": 0.0299,
-      "sales_last_6_months": [
-        48,
-        84,
-        77,
-        37,
-        59,
-        61
-      ],
-      "supplier_lead_time_days": 40
-    },
-    {
-      "sku": "JEA-RED-S-36",
-      "category": "Jeans",
-      "color": "Red",
-      "size": "S",
-      "current_stock": 154,
-      "reorder_point": 160,
-      "unit_cost_tnd": 41,
-      "volume_m3": 0.0266,
-      "sales_last_6_months": [
-        28,
-        93,
-        58,
-        62,
-        79,
-        6
-      ],
-      "supplier_lead_time_days": 40
-    },
-    {
-      "sku": "JAC-WHI-S-37",
-      "category": "Jackets",
-      "color": "White",
-      "size": "S",
-      "current_stock": 94,
-      "reorder_point": 199,
-      "unit_cost_tnd": 12,
-      "volume_m3": 0.0208,
-      "sales_last_6_months": [
-        87,
-        86,
-        49,
-        31,
-        58,
-        37
-      ],
-      "supplier_lead_time_days": 18
-    },
-    {
-      "sku": "HOO-WHI-S-38",
-      "category": "Hoodies",
-      "color": "White",
-      "size": "S",
-      "current_stock": 25,
-      "reorder_point": 185,
-      "unit_cost_tnd": 31,
-      "volume_m3": 0.0056,
-      "sales_last_6_months": [
-        22,
-        67,
-        32,
-        73,
-        19,
-        53
-      ],
-      "supplier_lead_time_days": 40
-    },
-    {
-      "sku": "T-S-WHI-XL-39",
-      "category": "T-Shirts",
-      "color": "White",
-      "size": "XL",
-      "current_stock": 254,
-      "reorder_point": 159,
-      "unit_cost_tnd": 25,
-      "volume_m3": 0.0129,
-      "sales_last_6_months": [
-        83,
-        70,
-        84,
-        73,
-        73,
-        59
-      ],
-      "supplier_lead_time_days": 43
-    },
-    {
-      "sku": "JAC-BLU-S-40",
-      "category": "Jackets",
-      "color": "Blue",
-      "size": "S",
-      "current_stock": 93,
-      "reorder_point": 166,
-      "unit_cost_tnd": 14,
-      "volume_m3": 0.0201,
-      "sales_last_6_months": [
-        66,
-        46,
-        49,
-        42,
-        100,
-        78
-      ],
-      "supplier_lead_time_days": 43
-    },
-    {
-      "sku": "CAR-RED-S-41",
-      "category": "Cargo Pants",
-      "color": "Red",
-      "size": "S",
-      "current_stock": 444,
-      "reorder_point": 107,
-      "unit_cost_tnd": 41,
-      "volume_m3": 0.0157,
-      "sales_last_6_months": [
-        92,
-        40,
-        9,
-        7,
-        20,
-        12
-      ],
-      "supplier_lead_time_days": 34
-    },
-    {
-      "sku": "HOO-BLA-S-42",
-      "category": "Hoodies",
-      "color": "Black",
-      "size": "S",
-      "current_stock": 346,
-      "reorder_point": 147,
-      "unit_cost_tnd": 16,
-      "volume_m3": 0.008,
-      "sales_last_6_months": [
-        95,
-        60,
-        52,
-        93,
-        71,
-        61
-      ],
-      "supplier_lead_time_days": 14
-    },
-    {
-      "sku": "T-S-BLA-XL-43",
-      "category": "T-Shirts",
-      "color": "Black",
-      "size": "XL",
-      "current_stock": 292,
-      "reorder_point": 191,
-      "unit_cost_tnd": 15,
-      "volume_m3": 0.0194,
-      "sales_last_6_months": [
-        12,
-        82,
-        16,
-        88,
-        20,
-        29
-      ],
-      "supplier_lead_time_days": 11
-    },
-    {
-      "sku": "CAR-OLI-L-44",
-      "category": "Cargo Pants",
-      "color": "Olive",
-      "size": "L",
-      "current_stock": 350,
-      "reorder_point": 65,
-      "unit_cost_tnd": 22,
-      "volume_m3": 0.0062,
-      "sales_last_6_months": [
-        10,
-        25,
-        50,
-        120,
-        300,
-        800
-      ],
-      "supplier_lead_time_days": 27
-    },
-    {
-      "sku": "SNE-RED-XL-45",
-      "category": "Sneakers",
-      "color": "Red",
-      "size": "XL",
-      "current_stock": 120,
-      "reorder_point": 116,
-      "unit_cost_tnd": 11,
-      "volume_m3": 0.0065,
-      "sales_last_6_months": [
-        33,
-        21,
-        65,
-        24,
-        42,
-        86
-      ],
-      "supplier_lead_time_days": 41
-    },
-    {
-      "sku": "JEA-GRE-M-46",
-      "category": "Jeans",
-      "color": "Grey",
-      "size": "M",
-      "current_stock": 472,
-      "reorder_point": 163,
-      "unit_cost_tnd": 14,
-      "volume_m3": 0.0272,
-      "sales_last_6_months": [
-        85,
-        95,
-        97,
-        58,
-        38,
-        89
-      ],
-      "supplier_lead_time_days": 43
-    },
-    {
-      "sku": "T-S-OLI-L-47",
-      "category": "T-Shirts",
-      "color": "Olive",
-      "size": "L",
-      "current_stock": 187,
-      "reorder_point": 121,
-      "unit_cost_tnd": 35,
-      "volume_m3": 0.012,
-      "sales_last_6_months": [
-        39,
-        56,
-        58,
-        70,
-        89,
-        17
-      ],
-      "supplier_lead_time_days": 15
-    },
-    {
-      "sku": "CAR-GRE-S-48",
-      "category": "Cargo Pants",
-      "color": "Grey",
-      "size": "S",
-      "current_stock": 297,
-      "reorder_point": 117,
-      "unit_cost_tnd": 10,
-      "volume_m3": 0.0161,
-      "sales_last_6_months": [
-        73,
-        78,
-        7,
-        77,
-        11,
-        79
-      ],
-      "supplier_lead_time_days": 22
-    },
-    {
-      "sku": "T-S-WHI-M-49",
-      "category": "T-Shirts",
-      "color": "White",
-      "size": "M",
-      "current_stock": 311,
-      "reorder_point": 66,
-      "unit_cost_tnd": 19,
-      "volume_m3": 0.0081,
-      "sales_last_6_months": [
-        89,
-        42,
-        75,
-        47,
-        31,
-        7
-      ],
-      "supplier_lead_time_days": 42
-    },
-    {
-      "sku": "JAC-WHI-XL-50",
-      "category": "Jackets",
-      "color": "White",
-      "size": "XL",
-      "current_stock": 115,
-      "reorder_point": 109,
-      "unit_cost_tnd": 35,
-      "volume_m3": 0.0274,
-      "sales_last_6_months": [
-        23,
-        100,
-        82,
-        98,
-        44,
-        61
-      ],
-      "supplier_lead_time_days": 19
-    },
-    {
-      "sku": "CAR-GRE-M-51",
-      "category": "Cargo Pants",
-      "color": "Grey",
-      "size": "M",
-      "current_stock": 159,
-      "reorder_point": 118,
-      "unit_cost_tnd": 12,
-      "volume_m3": 0.0234,
-      "sales_last_6_months": [
-        76,
-        39,
-        56,
-        49,
-        7,
-        19
-      ],
-      "supplier_lead_time_days": 13
-    },
-    {
-      "sku": "T-S-GRE-S-52",
-      "category": "T-Shirts",
-      "color": "Grey",
-      "size": "S",
-      "current_stock": 7,
-      "reorder_point": 130,
-      "unit_cost_tnd": 19,
-      "volume_m3": 0.0152,
-      "sales_last_6_months": [
-        51,
-        9,
-        19,
-        53,
-        42,
-        47
-      ],
-      "supplier_lead_time_days": 32
-    },
-    {
-      "sku": "T-S-WHI-M-53",
-      "category": "T-Shirts",
-      "color": "White",
-      "size": "M",
-      "current_stock": 43,
-      "reorder_point": 78,
-      "unit_cost_tnd": 12,
-      "volume_m3": 0.0088,
-      "sales_last_6_months": [
-        81,
-        62,
-        88,
-        54,
-        34,
-        29
-      ],
-      "supplier_lead_time_days": 12
-    },
-    {
-      "sku": "SNE-BLU-L-54",
-      "category": "Sneakers",
-      "color": "Blue",
-      "size": "L",
-      "current_stock": 459,
-      "reorder_point": 76,
-      "unit_cost_tnd": 13,
-      "volume_m3": 0.0207,
-      "sales_last_6_months": [
-        58,
-        59,
-        75,
-        27,
-        19,
-        18
-      ],
-      "supplier_lead_time_days": 9
-    },
-    {
-      "sku": "T-S-RED-XL-55",
-      "category": "T-Shirts",
-      "color": "Red",
-      "size": "XL",
-      "current_stock": 311,
-      "reorder_point": 198,
-      "unit_cost_tnd": 11,
-      "volume_m3": 0.0222,
-      "sales_last_6_months": [
-        64,
-        81,
-        91,
-        53,
-        93,
-        27
-      ],
-      "supplier_lead_time_days": 35
-    },
-    {
-      "sku": "JAC-GRE-S-56",
-      "category": "Jackets",
-      "color": "Grey",
-      "size": "S",
-      "current_stock": 166,
-      "reorder_point": 91,
-      "unit_cost_tnd": 33,
-      "volume_m3": 0.0298,
-      "sales_last_6_months": [
-        64,
-        39,
-        49,
-        53,
-        42,
-        34
-      ],
-      "supplier_lead_time_days": 37
-    },
-    {
-      "sku": "JAC-BLA-L-57",
-      "category": "Jackets",
-      "color": "Black",
-      "size": "L",
-      "current_stock": 203,
-      "reorder_point": 98,
-      "unit_cost_tnd": 44,
-      "volume_m3": 0.018,
-      "sales_last_6_months": [
-        86,
-        92,
-        71,
-        10,
-        87,
-        6
-      ],
-      "supplier_lead_time_days": 8
-    },
-    {
-      "sku": "JEA-BLU-S-58",
-      "category": "Jeans",
-      "color": "Blue",
-      "size": "S",
-      "current_stock": 240,
-      "reorder_point": 68,
-      "unit_cost_tnd": 39,
-      "volume_m3": 0.0231,
-      "sales_last_6_months": [
-        62,
-        84,
-        75,
-        51,
-        30,
-        67
-      ],
-      "supplier_lead_time_days": 25
-    },
-    {
-      "sku": "T-S-OLI-M-59",
-      "category": "T-Shirts",
-      "color": "Olive",
-      "size": "M",
-      "current_stock": 94,
-      "reorder_point": 154,
-      "unit_cost_tnd": 36,
-      "volume_m3": 0.0257,
-      "sales_last_6_months": [
-        20,
-        18,
-        32,
-        41,
-        94,
-        85
-      ],
-      "supplier_lead_time_days": 18
-    },
-    {
-      "sku": "JAC-WHI-M-60",
-      "category": "Jackets",
-      "color": "White",
-      "size": "M",
-      "current_stock": 372,
-      "reorder_point": 148,
-      "unit_cost_tnd": 33,
-      "volume_m3": 0.0295,
-      "sales_last_6_months": [
-        38,
-        78,
-        23,
-        36,
-        26,
-        92
-      ],
-      "supplier_lead_time_days": 15
-    },
-    {
-      "sku": "JAC-BLU-M-61",
-      "category": "Jackets",
-      "color": "Blue",
-      "size": "M",
-      "current_stock": 13,
-      "reorder_point": 180,
-      "unit_cost_tnd": 21,
-      "volume_m3": 0.0215,
-      "sales_last_6_months": [
-        91,
-        29,
-        71,
-        94,
-        64,
-        62
-      ],
-      "supplier_lead_time_days": 9
-    },
-    {
-      "sku": "HOO-GRE-L-62",
-      "category": "Hoodies",
-      "color": "Grey",
-      "size": "L",
-      "current_stock": 287,
-      "reorder_point": 181,
-      "unit_cost_tnd": 47,
-      "volume_m3": 0.0075,
-      "sales_last_6_months": [
-        68,
-        98,
-        85,
-        53,
-        67,
-        74
-      ],
-      "supplier_lead_time_days": 29
-    },
-    {
-      "sku": "T-S-BLA-L-63",
-      "category": "T-Shirts",
-      "color": "Black",
-      "size": "L",
-      "current_stock": 170,
-      "reorder_point": 199,
-      "unit_cost_tnd": 38,
-      "volume_m3": 0.015,
-      "sales_last_6_months": [
-        81,
-        7,
-        93,
-        32,
-        50,
-        38
-      ],
-      "supplier_lead_time_days": 21
-    },
-    {
-      "sku": "JEA-BLU-S-64",
-      "category": "Jeans",
-      "color": "Blue",
-      "size": "S",
-      "current_stock": 216,
-      "reorder_point": 113,
-      "unit_cost_tnd": 48,
-      "volume_m3": 0.0155,
-      "sales_last_6_months": [
-        97,
-        27,
-        66,
-        32,
-        53,
-        59
-      ],
-      "supplier_lead_time_days": 30
-    },
-    {
-      "sku": "T-S-OLI-S-65",
-      "category": "T-Shirts",
-      "color": "Olive",
-      "size": "S",
-      "current_stock": 167,
-      "reorder_point": 134,
-      "unit_cost_tnd": 31,
-      "volume_m3": 0.0077,
-      "sales_last_6_months": [
-        81,
-        52,
-        30,
-        41,
-        74,
-        41
-      ],
-      "supplier_lead_time_days": 14
-    },
-    {
-      "sku": "JAC-BLU-L-66",
-      "category": "Jackets",
-      "color": "Blue",
-      "size": "L",
-      "current_stock": 322,
-      "reorder_point": 55,
-      "unit_cost_tnd": 39,
-      "volume_m3": 0.028,
-      "sales_last_6_months": [
-        100,
-        77,
-        37,
-        25,
-        63,
-        100
-      ],
-      "supplier_lead_time_days": 17
-    },
-    {
-      "sku": "T-S-WHI-M-67",
-      "category": "T-Shirts",
-      "color": "White",
-      "size": "M",
-      "current_stock": 485,
-      "reorder_point": 126,
-      "unit_cost_tnd": 35,
-      "volume_m3": 0.0095,
-      "sales_last_6_months": [
-        64,
-        31,
-        5,
-        80,
-        88,
-        35
-      ],
-      "supplier_lead_time_days": 22
-    },
-    {
-      "sku": "SNE-GRE-L-68",
-      "category": "Sneakers",
-      "color": "Grey",
-      "size": "L",
-      "current_stock": 214,
-      "reorder_point": 114,
-      "unit_cost_tnd": 12,
-      "volume_m3": 0.0264,
-      "sales_last_6_months": [
-        6,
-        41,
-        60,
-        94,
-        62,
-        49
-      ],
-      "supplier_lead_time_days": 38
-    },
-    {
-      "sku": "SNE-OLI-XL-69",
-      "category": "Sneakers",
-      "color": "Olive",
-      "size": "XL",
-      "current_stock": 22,
-      "reorder_point": 55,
-      "unit_cost_tnd": 26,
-      "volume_m3": 0.0103,
-      "sales_last_6_months": [
-        24,
-        65,
-        14,
-        43,
-        20,
-        74
-      ],
-      "supplier_lead_time_days": 30
-    },
-    {
-      "sku": "JAC-BLU-L-70",
-      "category": "Jackets",
-      "color": "Blue",
-      "size": "L",
-      "current_stock": 269,
-      "reorder_point": 197,
-      "unit_cost_tnd": 28,
-      "volume_m3": 0.0097,
-      "sales_last_6_months": [
-        86,
-        53,
-        92,
-        98,
-        26,
-        93
-      ],
-      "supplier_lead_time_days": 42
-    },
-    {
-      "sku": "JAC-OLI-M-71",
-      "category": "Jackets",
-      "color": "Olive",
-      "size": "M",
-      "current_stock": 468,
-      "reorder_point": 97,
-      "unit_cost_tnd": 12,
-      "volume_m3": 0.0201,
-      "sales_last_6_months": [
-        56,
-        99,
-        14,
-        63,
-        37,
-        37
-      ],
-      "supplier_lead_time_days": 17
-    },
-    {
-      "sku": "JEA-GRE-S-72",
-      "category": "Jeans",
-      "color": "Grey",
-      "size": "S",
-      "current_stock": 351,
-      "reorder_point": 50,
-      "unit_cost_tnd": 37,
-      "volume_m3": 0.0177,
-      "sales_last_6_months": [
-        82,
-        86,
-        49,
-        73,
-        53,
-        86
-      ],
-      "supplier_lead_time_days": 11
-    },
-    {
-      "sku": "CAR-BLU-M-73",
-      "category": "Cargo Pants",
-      "color": "Blue",
-      "size": "M",
-      "current_stock": 298,
-      "reorder_point": 58,
-      "unit_cost_tnd": 10,
-      "volume_m3": 0.0203,
-      "sales_last_6_months": [
-        70,
-        28,
-        91,
-        79,
-        89,
-        77
-      ],
-      "supplier_lead_time_days": 9
-    },
-    {
-      "sku": "T-S-BLA-S-74",
-      "category": "T-Shirts",
-      "color": "Black",
-      "size": "S",
-      "current_stock": 88,
-      "reorder_point": 149,
-      "unit_cost_tnd": 45,
-      "volume_m3": 0.008,
-      "sales_last_6_months": [
-        5,
-        82,
-        67,
-        55,
-        72,
-        72
-      ],
-      "supplier_lead_time_days": 14
-    },
-    {
-      "sku": "HOO-GRE-M-75",
-      "category": "Hoodies",
-      "color": "Grey",
-      "size": "M",
-      "current_stock": 254,
-      "reorder_point": 187,
-      "unit_cost_tnd": 39,
-      "volume_m3": 0.0288,
-      "sales_last_6_months": [
-        22,
-        61,
-        21,
-        34,
-        25,
-        50
-      ],
-      "supplier_lead_time_days": 8
-    },
-    {
-      "sku": "JAC-BLU-L-76",
-      "category": "Jackets",
-      "color": "Blue",
-      "size": "L",
-      "current_stock": 409,
-      "reorder_point": 124,
-      "unit_cost_tnd": 38,
-      "volume_m3": 0.0209,
-      "sales_last_6_months": [
-        75,
-        70,
-        17,
-        37,
-        90,
-        24
-      ],
-      "supplier_lead_time_days": 24
-    },
-    {
-      "sku": "SNE-BLA-S-77",
-      "category": "Sneakers",
-      "color": "Black",
-      "size": "S",
-      "current_stock": 291,
-      "reorder_point": 190,
-      "unit_cost_tnd": 15,
-      "volume_m3": 0.0299,
-      "sales_last_6_months": [
-        65,
-        74,
-        29,
-        85,
-        94,
-        30
-      ],
-      "supplier_lead_time_days": 13
-    },
-    {
-      "sku": "JAC-OLI-S-78",
-      "category": "Jackets",
-      "color": "Olive",
-      "size": "S",
-      "current_stock": 493,
-      "reorder_point": 96,
-      "unit_cost_tnd": 18,
-      "volume_m3": 0.0232,
-      "sales_last_6_months": [
-        73,
-        48,
-        45,
-        100,
-        63,
-        38
-      ],
-      "supplier_lead_time_days": 20
-    },
-    {
-      "sku": "T-S-RED-S-79",
-      "category": "T-Shirts",
-      "color": "Red",
-      "size": "S",
-      "current_stock": 443,
-      "reorder_point": 109,
-      "unit_cost_tnd": 48,
-      "volume_m3": 0.0229,
-      "sales_last_6_months": [
-        81,
-        56,
-        93,
-        53,
-        98,
-        65
-      ],
-      "supplier_lead_time_days": 28
-    },
-    {
-      "sku": "CAR-GRE-M-80",
-      "category": "Cargo Pants",
-      "color": "Grey",
-      "size": "M",
-      "current_stock": 448,
-      "reorder_point": 72,
-      "unit_cost_tnd": 10,
-      "volume_m3": 0.0294,
-      "sales_last_6_months": [
-        43,
-        72,
-        81,
-        94,
-        36,
-        77
-      ],
-      "supplier_lead_time_days": 21
-    },
-    {
-      "sku": "HOO-GRE-L-81",
-      "category": "Hoodies",
-      "color": "Grey",
-      "size": "L",
-      "current_stock": 387,
-      "reorder_point": 89,
-      "unit_cost_tnd": 10,
-      "volume_m3": 0.0087,
-      "sales_last_6_months": [
-        7,
-        22,
-        14,
-        20,
-        94,
-        79
-      ],
-      "supplier_lead_time_days": 39
-    },
-    {
-      "sku": "CAR-GRE-S-82",
-      "category": "Cargo Pants",
-      "color": "Grey",
-      "size": "S",
-      "current_stock": 448,
-      "reorder_point": 88,
-      "unit_cost_tnd": 23,
-      "volume_m3": 0.0125,
-      "sales_last_6_months": [
-        31,
-        24,
-        89,
-        86,
-        79,
-        88
-      ],
-      "supplier_lead_time_days": 26
-    },
-    {
-      "sku": "JAC-GRE-XL-83",
-      "category": "Jackets",
-      "color": "Grey",
-      "size": "XL",
-      "current_stock": 470,
-      "reorder_point": 61,
-      "unit_cost_tnd": 22,
-      "volume_m3": 0.0222,
-      "sales_last_6_months": [
-        34,
-        22,
-        90,
-        54,
-        46,
-        46
-      ],
-      "supplier_lead_time_days": 27
-    },
-    {
-      "sku": "HOO-BLA-S-84",
-      "category": "Hoodies",
-      "color": "Black",
-      "size": "S",
-      "current_stock": 446,
-      "reorder_point": 183,
-      "unit_cost_tnd": 48,
-      "volume_m3": 0.0139,
-      "sales_last_6_months": [
-        23,
-        80,
-        67,
-        98,
-        92,
-        90
-      ],
-      "supplier_lead_time_days": 41
-    },
-    {
-      "sku": "SNE-WHI-XL-85",
-      "category": "Sneakers",
-      "color": "White",
-      "size": "XL",
-      "current_stock": 165,
-      "reorder_point": 174,
-      "unit_cost_tnd": 23,
-      "volume_m3": 0.0066,
-      "sales_last_6_months": [
-        44,
-        54,
-        97,
-        51,
-        21,
-        69
-      ],
-      "supplier_lead_time_days": 42
-    },
-    {
-      "sku": "JEA-RED-L-86",
-      "category": "Jeans",
-      "color": "Red",
-      "size": "L",
-      "current_stock": 276,
-      "reorder_point": 67,
-      "unit_cost_tnd": 12,
-      "volume_m3": 0.0116,
-      "sales_last_6_months": [
-        43,
-        21,
-        50,
-        86,
-        70,
-        28
-      ],
-      "supplier_lead_time_days": 31
-    },
-    {
-      "sku": "HOO-OLI-XL-87",
-      "category": "Hoodies",
-      "color": "Olive",
-      "size": "XL",
       "current_stock": 290,
-      "reorder_point": 57,
-      "unit_cost_tnd": 21,
-      "volume_m3": 0.0095,
+      "reorder_point": 183,
+      "unit_cost_tnd": 31,
+      "volume_m3": 0.0163,
       "sales_last_6_months": [
-        74,
-        73,
-        69,
-        40,
-        42,
-        75
-      ],
-      "supplier_lead_time_days": 43
-    },
-    {
-      "sku": "HOO-OLI-XL-88",
-      "category": "Hoodies",
-      "color": "Olive",
-      "size": "XL",
-      "current_stock": 382,
-      "reorder_point": 184,
-      "unit_cost_tnd": 36,
-      "volume_m3": 0.0291,
-      "sales_last_6_months": [
-        77,
-        81,
-        56,
-        51,
-        84,
-        8
-      ],
-      "supplier_lead_time_days": 8
-    },
-    {
-      "sku": "JAC-RED-XL-89",
-      "category": "Jackets",
-      "color": "Red",
-      "size": "XL",
-      "current_stock": 90,
-      "reorder_point": 197,
-      "unit_cost_tnd": 11,
-      "volume_m3": 0.0096,
-      "sales_last_6_months": [
-        75,
-        76,
-        62,
-        63,
-        83,
-        5
-      ],
-      "supplier_lead_time_days": 36
-    },
-    {
-      "sku": "JEA-WHI-XL-90",
-      "category": "Jeans",
-      "color": "White",
-      "size": "XL",
-      "current_stock": 170,
-      "reorder_point": 74,
-      "unit_cost_tnd": 29,
-      "volume_m3": 0.0208,
-      "sales_last_6_months": [
-        40,
-        54,
-        77,
-        53,
-        92,
-        53
-      ],
-      "supplier_lead_time_days": 10
-    },
-    {
-      "sku": "CAR-WHI-XL-91",
-      "category": "Cargo Pants",
-      "color": "White",
-      "size": "XL",
-      "current_stock": 240,
-      "reorder_point": 126,
-      "unit_cost_tnd": 29,
-      "volume_m3": 0.024,
-      "sales_last_6_months": [
-        93,
+        10,
         20,
-        57,
-        34,
-        62,
-        70
-      ],
-      "supplier_lead_time_days": 7
-    },
-    {
-      "sku": "HOO-BLU-L-92",
-      "category": "Hoodies",
-      "color": "Blue",
-      "size": "L",
-      "current_stock": 189,
-      "reorder_point": 128,
-      "unit_cost_tnd": 42,
-      "volume_m3": 0.0079,
-      "sales_last_6_months": [
-        58,
-        81,
-        21,
-        59,
-        6,
-        37
-      ],
-      "supplier_lead_time_days": 15
-    },
-    {
-      "sku": "JEA-BLU-S-93",
-      "category": "Jeans",
-      "color": "Blue",
-      "size": "S",
-      "current_stock": 270,
-      "reorder_point": 187,
-      "unit_cost_tnd": 37,
-      "volume_m3": 0.0179,
-      "sales_last_6_months": [
-        8,
-        86,
-        88,
-        11,
-        46,
-        77
-      ],
-      "supplier_lead_time_days": 21
-    },
-    {
-      "sku": "JAC-RED-M-94",
-      "category": "Jackets",
-      "color": "Red",
-      "size": "M",
-      "current_stock": 83,
-      "reorder_point": 105,
-      "unit_cost_tnd": 21,
-      "volume_m3": 0.023,
-      "sales_last_6_months": [
-        21,
-        17,
         50,
-        51,
-        69,
-        65
-      ],
-      "supplier_lead_time_days": 40
-    },
-    {
-      "sku": "JAC-RED-XL-95",
-      "category": "Jackets",
-      "color": "Red",
-      "size": "XL",
-      "current_stock": 406,
-      "reorder_point": 108,
-      "unit_cost_tnd": 20,
-      "volume_m3": 0.0191,
-      "sales_last_6_months": [
-        42,
-        87,
-        61,
-        75,
-        91,
-        47
-      ],
-      "supplier_lead_time_days": 38
-    },
-    {
-      "sku": "JAC-GRE-M-96",
-      "category": "Jackets",
-      "color": "Grey",
-      "size": "M",
-      "current_stock": 45,
-      "reorder_point": 93,
-      "unit_cost_tnd": 33,
-      "volume_m3": 0.0158,
-      "sales_last_6_months": [
-        7,
-        80,
-        76,
-        91,
-        38,
-        95
-      ],
-      "supplier_lead_time_days": 26
-    },
-    {
-      "sku": "JEA-OLI-XL-97",
-      "category": "Jeans",
-      "color": "Olive",
-      "size": "XL",
-      "current_stock": 15,
-      "reorder_point": 188,
-      "unit_cost_tnd": 30,
-      "volume_m3": 0.0063,
-      "sales_last_6_months": [
-        36,
-        74,
-        14,
-        10,
-        75,
-        72
-      ],
-      "supplier_lead_time_days": 32
-    },
-    {
-      "sku": "CAR-WHI-XL-98",
-      "category": "Cargo Pants",
-      "color": "White",
-      "size": "XL",
-      "current_stock": 51,
-      "reorder_point": 78,
-      "unit_cost_tnd": 42,
-      "volume_m3": 0.0259,
-      "sales_last_6_months": [
-        45,
-        71,
-        38,
-        24,
-        28,
-        9
-      ],
-      "supplier_lead_time_days": 20
-    },
-    {
-      "sku": "CAR-WHI-M-99",
-      "category": "Cargo Pants",
-      "color": "White",
-      "size": "M",
-      "current_stock": 269,
-      "reorder_point": 113,
-      "unit_cost_tnd": 46,
-      "volume_m3": 0.0262,
-      "sales_last_6_months": [
-        78,
-        8,
-        93,
-        43,
-        8,
-        41
-      ],
-      "supplier_lead_time_days": 23
-    },
-    {
-      "sku": "CAR-GRE-M-100",
-      "category": "Cargo Pants",
-      "color": "Grey",
-      "size": "M",
-      "current_stock": 415,
-      "reorder_point": 55,
-      "unit_cost_tnd": 32,
-      "volume_m3": 0.0221,
-      "sales_last_6_months": [
-        75,
-        95,
-        32,
-        83,
-        96,
-        94
-      ],
-      "supplier_lead_time_days": 42
-    },
-    {
-      "sku": "JEA-GRE-M-101",
-      "category": "Jeans",
-      "color": "Grey",
-      "size": "M",
-      "current_stock": 386,
-      "reorder_point": 73,
-      "unit_cost_tnd": 37,
-      "volume_m3": 0.0108,
-      "sales_last_6_months": [
-        82,
-        11,
-        32,
-        8,
-        18,
-        13
-      ],
-      "supplier_lead_time_days": 33
-    },
-    {
-      "sku": "HOO-WHI-S-102",
-      "category": "Hoodies",
-      "color": "White",
-      "size": "S",
-      "current_stock": 321,
-      "reorder_point": 192,
-      "unit_cost_tnd": 10,
-      "volume_m3": 0.0084,
-      "sales_last_6_months": [
-        24,
-        41,
-        60,
-        68,
-        64,
-        62
-      ],
-      "supplier_lead_time_days": 28
-    },
-    {
-      "sku": "JAC-BLA-M-103",
-      "category": "Jackets",
-      "color": "Black",
-      "size": "M",
-      "current_stock": 441,
-      "reorder_point": 129,
-      "unit_cost_tnd": 16,
-      "volume_m3": 0.028,
-      "sales_last_6_months": [
-        75,
-        14,
-        12,
-        61,
-        45,
-        46
-      ],
-      "supplier_lead_time_days": 27
-    },
-    {
-      "sku": "T-S-GRE-L-104",
-      "category": "T-Shirts",
-      "color": "Grey",
-      "size": "L",
-      "current_stock": 267,
-      "reorder_point": 75,
-      "unit_cost_tnd": 22,
-      "volume_m3": 0.0294,
-      "sales_last_6_months": [
-        75,
-        94,
-        64,
-        12,
-        71,
-        89
-      ],
-      "supplier_lead_time_days": 24
-    },
-    {
-      "sku": "T-S-BLU-M-105",
-      "category": "T-Shirts",
-      "color": "Blue",
-      "size": "M",
-      "current_stock": 176,
-      "reorder_point": 189,
-      "unit_cost_tnd": 24,
-      "volume_m3": 0.007,
-      "sales_last_6_months": [
-        35,
-        97,
-        81,
-        46,
-        99,
-        14
-      ],
-      "supplier_lead_time_days": 20
-    },
-    {
-      "sku": "SNE-WHI-L-106",
-      "category": "Sneakers",
-      "color": "White",
-      "size": "L",
-      "current_stock": 436,
-      "reorder_point": 171,
-      "unit_cost_tnd": 44,
-      "volume_m3": 0.0093,
-      "sales_last_6_months": [
-        26,
-        22,
-        55,
-        36,
-        10,
-        60
-      ],
-      "supplier_lead_time_days": 29
-    },
-    {
-      "sku": "T-S-OLI-S-107",
-      "category": "T-Shirts",
-      "color": "Olive",
-      "size": "S",
-      "current_stock": 126,
-      "reorder_point": 138,
-      "unit_cost_tnd": 40,
-      "volume_m3": 0.0247,
-      "sales_last_6_months": [
-        62,
-        90,
-        26,
-        63,
-        92,
-        45
+        150,
+        400,
+        1200
       ],
       "supplier_lead_time_days": 17
     },
     {
-      "sku": "SNE-BLA-L-108",
-      "category": "Sneakers",
+      "sku": "OVE-BLA-L-17",
+      "category": "Oversized Hoodies",
       "color": "Black",
       "size": "L",
-      "current_stock": 323,
-      "reorder_point": 154,
-      "unit_cost_tnd": 46,
-      "volume_m3": 0.0127,
-      "sales_last_6_months": [
-        59,
-        84,
-        27,
-        61,
-        28,
-        47
-      ],
-      "supplier_lead_time_days": 12
-    },
-    {
-      "sku": "CAR-WHI-L-109",
-      "category": "Cargo Pants",
-      "color": "White",
-      "size": "L",
-      "current_stock": 438,
-      "reorder_point": 163,
-      "unit_cost_tnd": 17,
-      "volume_m3": 0.0257,
-      "sales_last_6_months": [
-        83,
-        6,
-        15,
-        70,
-        49,
-        34
-      ],
-      "supplier_lead_time_days": 18
-    },
-    {
-      "sku": "SNE-GRE-M-110",
-      "category": "Sneakers",
-      "color": "Grey",
-      "size": "M",
-      "current_stock": 34,
-      "reorder_point": 154,
-      "unit_cost_tnd": 16,
-      "volume_m3": 0.0234,
-      "sales_last_6_months": [
-        56,
-        54,
-        81,
-        29,
-        12,
-        97
-      ],
-      "supplier_lead_time_days": 23
-    },
-    {
-      "sku": "SNE-GRE-XL-111",
-      "category": "Sneakers",
-      "color": "Grey",
-      "size": "XL",
-      "current_stock": 451,
-      "reorder_point": 174,
-      "unit_cost_tnd": 27,
-      "volume_m3": 0.0199,
-      "sales_last_6_months": [
-        68,
-        59,
-        9,
-        57,
-        74,
-        46
-      ],
-      "supplier_lead_time_days": 17
-    },
-    {
-      "sku": "T-S-BLU-S-112",
-      "category": "T-Shirts",
-      "color": "Blue",
-      "size": "S",
-      "current_stock": 361,
-      "reorder_point": 58,
-      "unit_cost_tnd": 46,
-      "volume_m3": 0.0141,
-      "sales_last_6_months": [
-        44,
-        29,
-        76,
-        45,
-        20,
-        68
-      ],
-      "supplier_lead_time_days": 40
-    },
-    {
-      "sku": "JEA-GRE-XL-113",
-      "category": "Jeans",
-      "color": "Grey",
-      "size": "XL",
-      "current_stock": 226,
-      "reorder_point": 194,
-      "unit_cost_tnd": 37,
-      "volume_m3": 0.0113,
-      "sales_last_6_months": [
-        85,
-        92,
-        50,
-        34,
-        70,
-        24
-      ],
-      "supplier_lead_time_days": 10
-    },
-    {
-      "sku": "JAC-OLI-M-114",
-      "category": "Jackets",
-      "color": "Olive",
-      "size": "M",
-      "current_stock": 344,
-      "reorder_point": 60,
-      "unit_cost_tnd": 46,
+      "current_stock": 228,
+      "reorder_point": 176,
+      "unit_cost_tnd": 25,
       "volume_m3": 0.0097,
       "sales_last_6_months": [
-        85,
-        95,
-        6,
-        71,
-        43,
-        64
-      ],
-      "supplier_lead_time_days": 39
-    },
-    {
-      "sku": "JEA-WHI-M-115",
-      "category": "Jeans",
-      "color": "White",
-      "size": "M",
-      "current_stock": 436,
-      "reorder_point": 185,
-      "unit_cost_tnd": 39,
-      "volume_m3": 0.0271,
-      "sales_last_6_months": [
-        34,
-        76,
-        83,
-        73,
-        32,
-        35
-      ],
-      "supplier_lead_time_days": 8
-    },
-    {
-      "sku": "T-S-GRE-XL-116",
-      "category": "T-Shirts",
-      "color": "Grey",
-      "size": "XL",
-      "current_stock": 320,
-      "reorder_point": 59,
-      "unit_cost_tnd": 25,
-      "volume_m3": 0.018,
-      "sales_last_6_months": [
-        28,
-        13,
-        96,
-        5,
-        26,
-        75
-      ],
-      "supplier_lead_time_days": 25
-    },
-    {
-      "sku": "HOO-BLA-XL-117",
-      "category": "Hoodies",
-      "color": "Black",
-      "size": "XL",
-      "current_stock": 231,
-      "reorder_point": 186,
-      "unit_cost_tnd": 34,
-      "volume_m3": 0.0131,
-      "sales_last_6_months": [
-        82,
-        73,
-        21,
-        69,
-        43,
-        56
-      ],
-      "supplier_lead_time_days": 30
-    },
-    {
-      "sku": "SNE-BLA-XL-118",
-      "category": "Sneakers",
-      "color": "Black",
-      "size": "XL",
-      "current_stock": 413,
-      "reorder_point": 96,
-      "unit_cost_tnd": 12,
-      "volume_m3": 0.0235,
-      "sales_last_6_months": [
-        27,
-        85,
-        78,
-        22,
-        49,
-        48
-      ],
-      "supplier_lead_time_days": 35
-    },
-    {
-      "sku": "JAC-GRE-XL-119",
-      "category": "Jackets",
-      "color": "Grey",
-      "size": "XL",
-      "current_stock": 29,
-      "reorder_point": 161,
-      "unit_cost_tnd": 25,
-      "volume_m3": 0.013,
-      "sales_last_6_months": [
-        86,
-        74,
-        93,
-        10,
-        16,
-        35
-      ],
-      "supplier_lead_time_days": 30
-    },
-    {
-      "sku": "T-S-GRE-XL-120",
-      "category": "T-Shirts",
-      "color": "Grey",
-      "size": "XL",
-      "current_stock": 259,
-      "reorder_point": 188,
-      "unit_cost_tnd": 34,
-      "volume_m3": 0.0088,
-      "sales_last_6_months": [
-        75,
-        12,
-        21,
-        77,
-        20,
-        64
-      ],
-      "supplier_lead_time_days": 12
-    },
-    {
-      "sku": "JEA-RED-XL-121",
-      "category": "Jeans",
-      "color": "Red",
-      "size": "XL",
-      "current_stock": 83,
-      "reorder_point": 160,
-      "unit_cost_tnd": 45,
-      "volume_m3": 0.0139,
-      "sales_last_6_months": [
-        97,
-        37,
-        26,
-        87,
-        48,
-        64
-      ],
-      "supplier_lead_time_days": 12
-    },
-    {
-      "sku": "SNE-WHI-S-122",
-      "category": "Sneakers",
-      "color": "White",
-      "size": "S",
-      "current_stock": 150,
-      "reorder_point": 199,
-      "unit_cost_tnd": 22,
-      "volume_m3": 0.0079,
-      "sales_last_6_months": [
-        51,
-        18,
-        72,
-        19,
-        62,
-        62
-      ],
-      "supplier_lead_time_days": 30
-    },
-    {
-      "sku": "SNE-OLI-L-123",
-      "category": "Sneakers",
-      "color": "Olive",
-      "size": "L",
-      "current_stock": 276,
-      "reorder_point": 83,
-      "unit_cost_tnd": 10,
-      "volume_m3": 0.021,
-      "sales_last_6_months": [
-        83,
-        43,
-        39,
-        51,
-        23,
-        92
-      ],
-      "supplier_lead_time_days": 25
-    },
-    {
-      "sku": "T-S-BLA-L-124",
-      "category": "T-Shirts",
-      "color": "Black",
-      "size": "L",
-      "current_stock": 401,
-      "reorder_point": 79,
-      "unit_cost_tnd": 46,
-      "volume_m3": 0.0249,
-      "sales_last_6_months": [
-        14,
-        14,
-        67,
-        62,
-        23,
-        68
-      ],
-      "supplier_lead_time_days": 33
-    },
-    {
-      "sku": "JAC-GRE-XL-125",
-      "category": "Jackets",
-      "color": "Grey",
-      "size": "XL",
-      "current_stock": 404,
-      "reorder_point": 95,
-      "unit_cost_tnd": 45,
-      "volume_m3": 0.0296,
-      "sales_last_6_months": [
-        18,
-        7,
-        88,
-        60,
-        79,
-        10
-      ],
-      "supplier_lead_time_days": 25
-    },
-    {
-      "sku": "SNE-OLI-L-126",
-      "category": "Sneakers",
-      "color": "Olive",
-      "size": "L",
-      "current_stock": 422,
-      "reorder_point": 98,
-      "unit_cost_tnd": 20,
-      "volume_m3": 0.0224,
-      "sales_last_6_months": [
-        18,
-        49,
-        82,
-        73,
-        38,
-        73
-      ],
-      "supplier_lead_time_days": 18
-    },
-    {
-      "sku": "T-S-OLI-M-127",
-      "category": "T-Shirts",
-      "color": "Olive",
-      "size": "M",
-      "current_stock": 371,
-      "reorder_point": 182,
-      "unit_cost_tnd": 22,
-      "volume_m3": 0.0266,
-      "sales_last_6_months": [
-        9,
-        67,
-        78,
-        7,
-        32,
-        72
-      ],
-      "supplier_lead_time_days": 19
-    },
-    {
-      "sku": "CAR-OLI-M-128",
-      "category": "Cargo Pants",
-      "color": "Olive",
-      "size": "M",
-      "current_stock": 439,
-      "reorder_point": 188,
-      "unit_cost_tnd": 38,
-      "volume_m3": 0.0051,
-      "sales_last_6_months": [
-        10,
-        25,
-        50,
-        120,
-        300,
-        800
-      ],
-      "supplier_lead_time_days": 28
-    },
-    {
-      "sku": "SNE-RED-M-129",
-      "category": "Sneakers",
-      "color": "Red",
-      "size": "M",
-      "current_stock": 268,
-      "reorder_point": 71,
-      "unit_cost_tnd": 18,
-      "volume_m3": 0.0123,
-      "sales_last_6_months": [
-        36,
-        49,
-        39,
-        42,
-        48,
-        67
-      ],
-      "supplier_lead_time_days": 28
-    },
-    {
-      "sku": "T-S-BLU-S-130",
-      "category": "T-Shirts",
-      "color": "Blue",
-      "size": "S",
-      "current_stock": 314,
-      "reorder_point": 176,
-      "unit_cost_tnd": 36,
-      "volume_m3": 0.0214,
-      "sales_last_6_months": [
-        42,
-        6,
-        95,
-        69,
-        31,
-        85
-      ],
-      "supplier_lead_time_days": 35
-    },
-    {
-      "sku": "JEA-GRE-S-131",
-      "category": "Jeans",
-      "color": "Grey",
-      "size": "S",
-      "current_stock": 274,
-      "reorder_point": 98,
-      "unit_cost_tnd": 12,
-      "volume_m3": 0.0091,
-      "sales_last_6_months": [
-        91,
-        38,
-        38,
-        77,
-        86,
-        58
-      ],
-      "supplier_lead_time_days": 34
-    },
-    {
-      "sku": "T-S-OLI-L-132",
-      "category": "T-Shirts",
-      "color": "Olive",
-      "size": "L",
-      "current_stock": 497,
-      "reorder_point": 101,
-      "unit_cost_tnd": 14,
-      "volume_m3": 0.0165,
-      "sales_last_6_months": [
-        95,
-        10,
-        93,
-        53,
-        41,
-        89
-      ],
-      "supplier_lead_time_days": 42
-    },
-    {
-      "sku": "HOO-RED-M-133",
-      "category": "Hoodies",
-      "color": "Red",
-      "size": "M",
-      "current_stock": 175,
-      "reorder_point": 103,
-      "unit_cost_tnd": 17,
-      "volume_m3": 0.0269,
-      "sales_last_6_months": [
-        78,
-        96,
-        77,
-        61,
-        54,
-        68
-      ],
-      "supplier_lead_time_days": 7
-    },
-    {
-      "sku": "SNE-BLA-XL-134",
-      "category": "Sneakers",
-      "color": "Black",
-      "size": "XL",
-      "current_stock": 44,
-      "reorder_point": 161,
-      "unit_cost_tnd": 13,
-      "volume_m3": 0.0177,
-      "sales_last_6_months": [
-        96,
-        37,
-        50,
-        93,
-        80,
-        64
-      ],
-      "supplier_lead_time_days": 23
-    },
-    {
-      "sku": "T-S-RED-S-135",
-      "category": "T-Shirts",
-      "color": "Red",
-      "size": "S",
-      "current_stock": 151,
-      "reorder_point": 64,
-      "unit_cost_tnd": 13,
-      "volume_m3": 0.0203,
-      "sales_last_6_months": [
-        14,
-        99,
-        48,
-        68,
-        49,
+        800,
+        600,
+        400,
+        200,
+        100,
         20
-      ],
-      "supplier_lead_time_days": 37
-    },
-    {
-      "sku": "CAR-GRE-L-136",
-      "category": "Cargo Pants",
-      "color": "Grey",
-      "size": "L",
-      "current_stock": 250,
-      "reorder_point": 171,
-      "unit_cost_tnd": 34,
-      "volume_m3": 0.0233,
-      "sales_last_6_months": [
-        13,
-        14,
-        96,
-        52,
-        49,
-        12
-      ],
-      "supplier_lead_time_days": 26
-    },
-    {
-      "sku": "SNE-BLU-M-137",
-      "category": "Sneakers",
-      "color": "Blue",
-      "size": "M",
-      "current_stock": 456,
-      "reorder_point": 102,
-      "unit_cost_tnd": 50,
-      "volume_m3": 0.0192,
-      "sales_last_6_months": [
-        16,
-        22,
-        94,
-        25,
-        85,
-        25
-      ],
-      "supplier_lead_time_days": 39
-    },
-    {
-      "sku": "SNE-GRE-S-138",
-      "category": "Sneakers",
-      "color": "Grey",
-      "size": "S",
-      "current_stock": 152,
-      "reorder_point": 128,
-      "unit_cost_tnd": 35,
-      "volume_m3": 0.0155,
-      "sales_last_6_months": [
-        24,
-        53,
-        100,
-        33,
-        5,
-        100
-      ],
-      "supplier_lead_time_days": 44
-    },
-    {
-      "sku": "HOO-WHI-S-139",
-      "category": "Hoodies",
-      "color": "White",
-      "size": "S",
-      "current_stock": 108,
-      "reorder_point": 113,
-      "unit_cost_tnd": 11,
-      "volume_m3": 0.0138,
-      "sales_last_6_months": [
-        44,
-        97,
-        94,
-        72,
-        47,
-        19
-      ],
-      "supplier_lead_time_days": 30
-    },
-    {
-      "sku": "SNE-OLI-S-140",
-      "category": "Sneakers",
-      "color": "Olive",
-      "size": "S",
-      "current_stock": 2,
-      "reorder_point": 92,
-      "unit_cost_tnd": 20,
-      "volume_m3": 0.0122,
-      "sales_last_6_months": [
-        44,
-        79,
-        66,
-        52,
-        64,
-        41
-      ],
-      "supplier_lead_time_days": 33
-    },
-    {
-      "sku": "T-S-GRE-XL-141",
-      "category": "T-Shirts",
-      "color": "Grey",
-      "size": "XL",
-      "current_stock": 97,
-      "reorder_point": 88,
-      "unit_cost_tnd": 40,
-      "volume_m3": 0.0205,
-      "sales_last_6_months": [
-        8,
-        20,
-        85,
-        30,
-        60,
-        42
-      ],
-      "supplier_lead_time_days": 36
-    },
-    {
-      "sku": "SNE-OLI-S-142",
-      "category": "Sneakers",
-      "color": "Olive",
-      "size": "S",
-      "current_stock": 215,
-      "reorder_point": 131,
-      "unit_cost_tnd": 23,
-      "volume_m3": 0.0281,
-      "sales_last_6_months": [
-        12,
-        81,
-        95,
-        94,
-        44,
-        45
-      ],
-      "supplier_lead_time_days": 22
-    },
-    {
-      "sku": "SNE-RED-XL-143",
-      "category": "Sneakers",
-      "color": "Red",
-      "size": "XL",
-      "current_stock": 354,
-      "reorder_point": 68,
-      "unit_cost_tnd": 40,
-      "volume_m3": 0.0189,
-      "sales_last_6_months": [
-        57,
-        91,
-        97,
-        41,
-        10,
-        52
-      ],
-      "supplier_lead_time_days": 29
-    },
-    {
-      "sku": "HOO-BLU-S-144",
-      "category": "Hoodies",
-      "color": "Blue",
-      "size": "S",
-      "current_stock": 470,
-      "reorder_point": 166,
-      "unit_cost_tnd": 32,
-      "volume_m3": 0.0135,
-      "sales_last_6_months": [
-        18,
-        21,
-        90,
-        41,
-        26,
-        93
-      ],
-      "supplier_lead_time_days": 10
-    },
-    {
-      "sku": "T-S-OLI-M-145",
-      "category": "T-Shirts",
-      "color": "Olive",
-      "size": "M",
-      "current_stock": 116,
-      "reorder_point": 193,
-      "unit_cost_tnd": 33,
-      "volume_m3": 0.012,
-      "sales_last_6_months": [
-        17,
-        38,
-        36,
-        58,
-        61,
-        8
-      ],
-      "supplier_lead_time_days": 35
-    },
-    {
-      "sku": "JAC-BLU-M-146",
-      "category": "Jackets",
-      "color": "Blue",
-      "size": "M",
-      "current_stock": 122,
-      "reorder_point": 66,
-      "unit_cost_tnd": 28,
-      "volume_m3": 0.0297,
-      "sales_last_6_months": [
-        71,
-        46,
-        43,
-        70,
-        80,
-        98
-      ],
-      "supplier_lead_time_days": 11
-    },
-    {
-      "sku": "T-S-BLA-S-147",
-      "category": "T-Shirts",
-      "color": "Black",
-      "size": "S",
-      "current_stock": 494,
-      "reorder_point": 67,
-      "unit_cost_tnd": 21,
-      "volume_m3": 0.0106,
-      "sales_last_6_months": [
-        40,
-        54,
-        11,
-        13,
-        44,
-        67
-      ],
-      "supplier_lead_time_days": 29
-    },
-    {
-      "sku": "HOO-BLU-XL-148",
-      "category": "Hoodies",
-      "color": "Blue",
-      "size": "XL",
-      "current_stock": 95,
-      "reorder_point": 161,
-      "unit_cost_tnd": 35,
-      "volume_m3": 0.0252,
-      "sales_last_6_months": [
-        67,
-        44,
-        98,
-        18,
-        87,
-        61
-      ],
-      "supplier_lead_time_days": 10
-    },
-    {
-      "sku": "JEA-WHI-L-149",
-      "category": "Jeans",
-      "color": "White",
-      "size": "L",
-      "current_stock": 307,
-      "reorder_point": 157,
-      "unit_cost_tnd": 34,
-      "volume_m3": 0.008,
-      "sales_last_6_months": [
-        98,
-        46,
-        20,
-        97,
-        63,
-        93
-      ],
-      "supplier_lead_time_days": 36
-    },
-    {
-      "sku": "T-S-BLU-XL-150",
-      "category": "T-Shirts",
-      "color": "Blue",
-      "size": "XL",
-      "current_stock": 348,
-      "reorder_point": 121,
-      "unit_cost_tnd": 23,
-      "volume_m3": 0.0227,
-      "sales_last_6_months": [
-        44,
-        87,
-        77,
-        54,
-        74,
-        29
-      ],
-      "supplier_lead_time_days": 38
-    },
-    {
-      "sku": "T-S-BLU-XL-151",
-      "category": "T-Shirts",
-      "color": "Blue",
-      "size": "XL",
-      "current_stock": 50,
-      "reorder_point": 50,
-      "unit_cost_tnd": 42,
-      "volume_m3": 0.0275,
-      "sales_last_6_months": [
-        94,
-        12,
-        58,
-        70,
-        49,
-        84
-      ],
-      "supplier_lead_time_days": 8
-    },
-    {
-      "sku": "HOO-OLI-XL-152",
-      "category": "Hoodies",
-      "color": "Olive",
-      "size": "XL",
-      "current_stock": 147,
-      "reorder_point": 83,
-      "unit_cost_tnd": 44,
-      "volume_m3": 0.0291,
-      "sales_last_6_months": [
-        17,
-        50,
-        41,
-        82,
-        24,
-        70
-      ],
-      "supplier_lead_time_days": 7
-    },
-    {
-      "sku": "HOO-WHI-S-153",
-      "category": "Hoodies",
-      "color": "White",
-      "size": "S",
-      "current_stock": 235,
-      "reorder_point": 196,
-      "unit_cost_tnd": 46,
-      "volume_m3": 0.0285,
-      "sales_last_6_months": [
-        42,
-        99,
-        29,
-        24,
-        77,
-        6
-      ],
-      "supplier_lead_time_days": 7
-    },
-    {
-      "sku": "T-S-OLI-S-154",
-      "category": "T-Shirts",
-      "color": "Olive",
-      "size": "S",
-      "current_stock": 143,
-      "reorder_point": 51,
-      "unit_cost_tnd": 27,
-      "volume_m3": 0.0152,
-      "sales_last_6_months": [
-        49,
-        15,
-        99,
-        10,
-        45,
-        39
-      ],
-      "supplier_lead_time_days": 34
-    },
-    {
-      "sku": "HOO-BLU-M-155",
-      "category": "Hoodies",
-      "color": "Blue",
-      "size": "M",
-      "current_stock": 325,
-      "reorder_point": 154,
-      "unit_cost_tnd": 18,
-      "volume_m3": 0.0296,
-      "sales_last_6_months": [
-        88,
-        11,
-        7,
-        54,
-        9,
-        82
-      ],
-      "supplier_lead_time_days": 30
-    },
-    {
-      "sku": "HOO-BLA-S-156",
-      "category": "Hoodies",
-      "color": "Black",
-      "size": "S",
-      "current_stock": 91,
-      "reorder_point": 170,
-      "unit_cost_tnd": 19,
-      "volume_m3": 0.0124,
-      "sales_last_6_months": [
-        28,
-        71,
-        65,
-        19,
-        99,
-        36
-      ],
-      "supplier_lead_time_days": 22
-    },
-    {
-      "sku": "HOO-GRE-L-157",
-      "category": "Hoodies",
-      "color": "Grey",
-      "size": "L",
-      "current_stock": 453,
-      "reorder_point": 83,
-      "unit_cost_tnd": 12,
-      "volume_m3": 0.0246,
-      "sales_last_6_months": [
-        15,
-        12,
-        72,
-        19,
-        97,
-        92
-      ],
-      "supplier_lead_time_days": 25
-    },
-    {
-      "sku": "HOO-OLI-L-158",
-      "category": "Hoodies",
-      "color": "Olive",
-      "size": "L",
-      "current_stock": 463,
-      "reorder_point": 125,
-      "unit_cost_tnd": 46,
-      "volume_m3": 0.0189,
-      "sales_last_6_months": [
-        58,
-        95,
-        62,
-        27,
-        17,
-        5
-      ],
-      "supplier_lead_time_days": 30
-    },
-    {
-      "sku": "SNE-BLU-L-159",
-      "category": "Sneakers",
-      "color": "Blue",
-      "size": "L",
-      "current_stock": 157,
-      "reorder_point": 154,
-      "unit_cost_tnd": 50,
-      "volume_m3": 0.0126,
-      "sales_last_6_months": [
-        55,
-        100,
-        91,
-        9,
-        46,
-        14
-      ],
-      "supplier_lead_time_days": 23
-    },
-    {
-      "sku": "SNE-OLI-M-160",
-      "category": "Sneakers",
-      "color": "Olive",
-      "size": "M",
-      "current_stock": 263,
-      "reorder_point": 183,
-      "unit_cost_tnd": 41,
-      "volume_m3": 0.0122,
-      "sales_last_6_months": [
-        7,
-        64,
-        31,
-        23,
-        74,
-        27
       ],
       "supplier_lead_time_days": 16
     },
     {
-      "sku": "HOO-BLU-S-161",
-      "category": "Hoodies",
-      "color": "Blue",
-      "size": "S",
-      "current_stock": 458,
+      "sku": "SNE-BLA-L-18",
+      "category": "Sneakers",
+      "color": "Black",
+      "size": "L",
+      "current_stock": 345,
       "reorder_point": 181,
-      "unit_cost_tnd": 31,
-      "volume_m3": 0.0081,
+      "unit_cost_tnd": 101,
+      "volume_m3": 0.0121,
       "sales_last_6_months": [
-        25,
-        79,
-        68,
-        30,
-        77,
-        71
-      ],
-      "supplier_lead_time_days": 14
-    },
-    {
-      "sku": "T-S-RED-S-162",
-      "category": "T-Shirts",
-      "color": "Red",
-      "size": "S",
-      "current_stock": 395,
-      "reorder_point": 115,
-      "unit_cost_tnd": 24,
-      "volume_m3": 0.015,
-      "sales_last_6_months": [
-        28,
-        66,
-        60,
+        88,
+        76,
+        73,
         61,
-        46,
-        64
-      ],
-      "supplier_lead_time_days": 30
-    },
-    {
-      "sku": "CAR-GRE-XL-163",
-      "category": "Cargo Pants",
-      "color": "Grey",
-      "size": "XL",
-      "current_stock": 497,
-      "reorder_point": 157,
-      "unit_cost_tnd": 41,
-      "volume_m3": 0.0257,
-      "sales_last_6_months": [
-        82,
-        18,
-        31,
-        44,
-        50,
-        94
+        6,
+        47
       ],
       "supplier_lead_time_days": 33
     },
     {
-      "sku": "JEA-BLA-S-164",
-      "category": "Jeans",
-      "color": "Black",
-      "size": "S",
-      "current_stock": 304,
-      "reorder_point": 64,
-      "unit_cost_tnd": 47,
-      "volume_m3": 0.0163,
-      "sales_last_6_months": [
-        51,
-        93,
-        25,
-        38,
-        40,
-        91
-      ],
-      "supplier_lead_time_days": 31
-    },
-    {
-      "sku": "T-S-BLU-XL-165",
-      "category": "T-Shirts",
-      "color": "Blue",
-      "size": "XL",
-      "current_stock": 46,
-      "reorder_point": 124,
-      "unit_cost_tnd": 10,
-      "volume_m3": 0.0213,
-      "sales_last_6_months": [
-        87,
-        42,
-        40,
-        17,
-        12,
-        5
-      ],
-      "supplier_lead_time_days": 18
-    },
-    {
-      "sku": "SNE-OLI-S-166",
-      "category": "Sneakers",
+      "sku": "LIN-OLI-S-19",
+      "category": "Linen Shirts",
       "color": "Olive",
       "size": "S",
-      "current_stock": 180,
-      "reorder_point": 122,
-      "unit_cost_tnd": 17,
-      "volume_m3": 0.0231,
+      "current_stock": 226,
+      "reorder_point": 95,
+      "unit_cost_tnd": 107,
+      "volume_m3": 0.0272,
       "sales_last_6_months": [
-        6,
-        77,
-        12,
-        16,
-        90,
-        23
-      ],
-      "supplier_lead_time_days": 28
-    },
-    {
-      "sku": "JEA-OLI-L-167",
-      "category": "Jeans",
-      "color": "Olive",
-      "size": "L",
-      "current_stock": 200,
-      "reorder_point": 137,
-      "unit_cost_tnd": 34,
-      "volume_m3": 0.0278,
-      "sales_last_6_months": [
-        80,
-        84,
-        55,
-        54,
-        79,
-        77
-      ],
-      "supplier_lead_time_days": 36
-    },
-    {
-      "sku": "T-S-BLU-S-168",
-      "category": "T-Shirts",
-      "color": "Blue",
-      "size": "S",
-      "current_stock": 446,
-      "reorder_point": 92,
-      "unit_cost_tnd": 10,
-      "volume_m3": 0.0147,
-      "sales_last_6_months": [
-        36,
-        81,
-        42,
-        8,
-        31,
-        29
-      ],
-      "supplier_lead_time_days": 32
-    },
-    {
-      "sku": "JAC-BLA-S-169",
-      "category": "Jackets",
-      "color": "Black",
-      "size": "S",
-      "current_stock": 436,
-      "reorder_point": 190,
-      "unit_cost_tnd": 32,
-      "volume_m3": 0.0076,
-      "sales_last_6_months": [
-        27,
-        98,
-        90,
-        53,
-        100,
-        59
-      ],
-      "supplier_lead_time_days": 8
-    },
-    {
-      "sku": "JAC-WHI-L-170",
-      "category": "Jackets",
-      "color": "White",
-      "size": "L",
-      "current_stock": 223,
-      "reorder_point": 187,
-      "unit_cost_tnd": 22,
-      "volume_m3": 0.0271,
-      "sales_last_6_months": [
-        84,
-        55,
-        83,
-        61,
-        70,
-        12
-      ],
-      "supplier_lead_time_days": 21
-    },
-    {
-      "sku": "CAR-GRE-L-171",
-      "category": "Cargo Pants",
-      "color": "Grey",
-      "size": "L",
-      "current_stock": 427,
-      "reorder_point": 107,
-      "unit_cost_tnd": 39,
-      "volume_m3": 0.0267,
-      "sales_last_6_months": [
-        64,
-        5,
-        42,
-        81,
-        23,
-        68
-      ],
-      "supplier_lead_time_days": 43
-    },
-    {
-      "sku": "CAR-RED-L-172",
-      "category": "Cargo Pants",
-      "color": "Red",
-      "size": "L",
-      "current_stock": 308,
-      "reorder_point": 100,
-      "unit_cost_tnd": 11,
-      "volume_m3": 0.0145,
-      "sales_last_6_months": [
-        57,
-        55,
-        6,
-        31,
-        41,
-        47
-      ],
-      "supplier_lead_time_days": 29
-    },
-    {
-      "sku": "JAC-GRE-L-173",
-      "category": "Jackets",
-      "color": "Grey",
-      "size": "L",
-      "current_stock": 417,
-      "reorder_point": 162,
-      "unit_cost_tnd": 12,
-      "volume_m3": 0.0147,
-      "sales_last_6_months": [
-        90,
-        24,
-        76,
-        33,
-        67,
-        9
-      ],
-      "supplier_lead_time_days": 38
-    },
-    {
-      "sku": "HOO-BLA-S-174",
-      "category": "Hoodies",
-      "color": "Black",
-      "size": "S",
-      "current_stock": 174,
-      "reorder_point": 126,
-      "unit_cost_tnd": 48,
-      "volume_m3": 0.0065,
-      "sales_last_6_months": [
-        76,
-        40,
-        39,
-        95,
-        43,
-        99
-      ],
-      "supplier_lead_time_days": 24
-    },
-    {
-      "sku": "CAR-BLU-XL-175",
-      "category": "Cargo Pants",
-      "color": "Blue",
-      "size": "XL",
-      "current_stock": 344,
-      "reorder_point": 59,
-      "unit_cost_tnd": 34,
-      "volume_m3": 0.0107,
-      "sales_last_6_months": [
-        94,
-        59,
-        38,
-        100,
-        9,
-        43
-      ],
-      "supplier_lead_time_days": 31
-    },
-    {
-      "sku": "T-S-RED-XL-176",
-      "category": "T-Shirts",
-      "color": "Red",
-      "size": "XL",
-      "current_stock": 10,
-      "reorder_point": 179,
-      "unit_cost_tnd": 17,
-      "volume_m3": 0.0294,
-      "sales_last_6_months": [
-        36,
-        21,
-        24,
-        84,
-        85,
-        86
-      ],
-      "supplier_lead_time_days": 32
-    },
-    {
-      "sku": "T-S-BLU-XL-177",
-      "category": "T-Shirts",
-      "color": "Blue",
-      "size": "XL",
-      "current_stock": 398,
-      "reorder_point": 88,
-      "unit_cost_tnd": 26,
-      "volume_m3": 0.0153,
-      "sales_last_6_months": [
-        9,
-        67,
-        54,
-        38,
-        75,
-        10
-      ],
-      "supplier_lead_time_days": 15
-    },
-    {
-      "sku": "SNE-WHI-XL-178",
-      "category": "Sneakers",
-      "color": "White",
-      "size": "XL",
-      "current_stock": 208,
-      "reorder_point": 129,
-      "unit_cost_tnd": 24,
-      "volume_m3": 0.0271,
-      "sales_last_6_months": [
-        38,
-        65,
-        75,
-        34,
-        44,
-        5
-      ],
-      "supplier_lead_time_days": 39
-    },
-    {
-      "sku": "JAC-WHI-L-179",
-      "category": "Jackets",
-      "color": "White",
-      "size": "L",
-      "current_stock": 343,
-      "reorder_point": 180,
-      "unit_cost_tnd": 25,
-      "volume_m3": 0.0224,
-      "sales_last_6_months": [
-        41,
-        89,
-        5,
-        98,
-        23,
-        93
-      ],
-      "supplier_lead_time_days": 12
-    },
-    {
-      "sku": "T-S-RED-S-180",
-      "category": "T-Shirts",
-      "color": "Red",
-      "size": "S",
-      "current_stock": 400,
-      "reorder_point": 181,
-      "unit_cost_tnd": 24,
-      "volume_m3": 0.019,
-      "sales_last_6_months": [
-        25,
+        10,
         20,
-        64,
-        86,
-        32,
-        100
+        50,
+        150,
+        400,
+        1200
       ],
-      "supplier_lead_time_days": 23
+      "supplier_lead_time_days": 25
     },
     {
-      "sku": "CAR-BLU-XL-181",
-      "category": "Cargo Pants",
-      "color": "Blue",
-      "size": "XL",
-      "current_stock": 464,
-      "reorder_point": 193,
-      "unit_cost_tnd": 45,
-      "volume_m3": 0.0224,
-      "sales_last_6_months": [
-        36,
-        66,
-        8,
-        68,
-        6,
-        5
-      ],
-      "supplier_lead_time_days": 26
-    },
-    {
-      "sku": "T-S-GRE-M-182",
-      "category": "T-Shirts",
+      "sku": "SNE-GRE-M-20",
+      "category": "Sneakers",
       "color": "Grey",
       "size": "M",
-      "current_stock": 157,
-      "reorder_point": 136,
-      "unit_cost_tnd": 18,
-      "volume_m3": 0.0257,
+      "current_stock": 152,
+      "reorder_point": 158,
+      "unit_cost_tnd": 106,
+      "volume_m3": 0.0129,
       "sales_last_6_months": [
-        33,
-        59,
-        73,
-        77,
-        92,
-        59
-      ],
-      "supplier_lead_time_days": 42
-    },
-    {
-      "sku": "T-S-BLA-XL-183",
-      "category": "T-Shirts",
-      "color": "Black",
-      "size": "XL",
-      "current_stock": 389,
-      "reorder_point": 114,
-      "unit_cost_tnd": 25,
-      "volume_m3": 0.0178,
-      "sales_last_6_months": [
-        47,
-        5,
-        11,
-        76,
         32,
-        45
-      ],
-      "supplier_lead_time_days": 27
-    },
-    {
-      "sku": "HOO-BLA-L-184",
-      "category": "Hoodies",
-      "color": "Black",
-      "size": "L",
-      "current_stock": 122,
-      "reorder_point": 184,
-      "unit_cost_tnd": 50,
-      "volume_m3": 0.0268,
-      "sales_last_6_months": [
-        53,
-        49,
-        68,
-        16,
-        69,
-        84
-      ],
-      "supplier_lead_time_days": 22
-    },
-    {
-      "sku": "JEA-WHI-XL-185",
-      "category": "Jeans",
-      "color": "White",
-      "size": "XL",
-      "current_stock": 356,
-      "reorder_point": 103,
-      "unit_cost_tnd": 14,
-      "volume_m3": 0.0115,
-      "sales_last_6_months": [
-        6,
-        34,
-        70,
-        62,
         75,
-        30
-      ],
-      "supplier_lead_time_days": 9
-    },
-    {
-      "sku": "HOO-BLU-L-186",
-      "category": "Hoodies",
-      "color": "Blue",
-      "size": "L",
-      "current_stock": 74,
-      "reorder_point": 191,
-      "unit_cost_tnd": 16,
-      "volume_m3": 0.0254,
-      "sales_last_6_months": [
-        18,
-        69,
-        30,
-        59,
-        95,
-        93
-      ],
-      "supplier_lead_time_days": 11
-    },
-    {
-      "sku": "JEA-OLI-M-187",
-      "category": "Jeans",
-      "color": "Olive",
-      "size": "M",
-      "current_stock": 125,
-      "reorder_point": 176,
-      "unit_cost_tnd": 32,
-      "volume_m3": 0.0106,
-      "sales_last_6_months": [
-        43,
-        24,
-        64,
-        19,
-        83,
-        29
-      ],
-      "supplier_lead_time_days": 37
-    },
-    {
-      "sku": "SNE-BLU-S-188",
-      "category": "Sneakers",
-      "color": "Blue",
-      "size": "S",
-      "current_stock": 29,
-      "reorder_point": 170,
-      "unit_cost_tnd": 39,
-      "volume_m3": 0.026,
-      "sales_last_6_months": [
-        74,
-        56,
-        41,
-        90,
-        23,
-        7
-      ],
-      "supplier_lead_time_days": 38
-    },
-    {
-      "sku": "CAR-RED-M-189",
-      "category": "Cargo Pants",
-      "color": "Red",
-      "size": "M",
-      "current_stock": 280,
-      "reorder_point": 57,
-      "unit_cost_tnd": 48,
-      "volume_m3": 0.0216,
-      "sales_last_6_months": [
-        34,
-        95,
-        89,
-        13,
-        76,
-        9
-      ],
-      "supplier_lead_time_days": 12
-    },
-    {
-      "sku": "SNE-BLU-M-190",
-      "category": "Sneakers",
-      "color": "Blue",
-      "size": "M",
-      "current_stock": 272,
-      "reorder_point": 123,
-      "unit_cost_tnd": 16,
-      "volume_m3": 0.022,
-      "sales_last_6_months": [
-        74,
-        53,
-        27,
-        63,
-        30,
-        14
-      ],
-      "supplier_lead_time_days": 7
-    },
-    {
-      "sku": "CAR-BLU-L-191",
-      "category": "Cargo Pants",
-      "color": "Blue",
-      "size": "L",
-      "current_stock": 13,
-      "reorder_point": 181,
-      "unit_cost_tnd": 35,
-      "volume_m3": 0.0213,
-      "sales_last_6_months": [
-        26,
-        86,
-        29,
-        80,
-        78,
-        75
+        54,
+        73,
+        9,
+        10
       ],
       "supplier_lead_time_days": 40
     },
     {
-      "sku": "T-S-BLA-M-192",
-      "category": "T-Shirts",
+      "sku": "LIN-BLA-L-21",
+      "category": "Linen Shirts",
       "color": "Black",
-      "size": "M",
-      "current_stock": 120,
-      "reorder_point": 106,
-      "unit_cost_tnd": 44,
-      "volume_m3": 0.0232,
-      "sales_last_6_months": [
-        14,
-        25,
-        100,
-        17,
-        76,
-        26
-      ],
-      "supplier_lead_time_days": 24
-    },
-    {
-      "sku": "HOO-OLI-S-193",
-      "category": "Hoodies",
-      "color": "Olive",
-      "size": "S",
-      "current_stock": 418,
-      "reorder_point": 92,
-      "unit_cost_tnd": 34,
-      "volume_m3": 0.0101,
-      "sales_last_6_months": [
-        62,
-        25,
-        57,
-        66,
-        24,
-        31
-      ],
-      "supplier_lead_time_days": 27
-    },
-    {
-      "sku": "HOO-BLA-XL-194",
-      "category": "Hoodies",
-      "color": "Black",
-      "size": "XL",
-      "current_stock": 471,
-      "reorder_point": 95,
-      "unit_cost_tnd": 50,
-      "volume_m3": 0.0167,
-      "sales_last_6_months": [
-        53,
-        86,
-        76,
-        62,
-        65,
-        58
-      ],
-      "supplier_lead_time_days": 8
-    },
-    {
-      "sku": "JEA-GRE-L-195",
-      "category": "Jeans",
-      "color": "Grey",
       "size": "L",
-      "current_stock": 169,
-      "reorder_point": 102,
-      "unit_cost_tnd": 15,
-      "volume_m3": 0.0259,
+      "current_stock": 348,
+      "reorder_point": 120,
+      "unit_cost_tnd": 92,
+      "volume_m3": 0.029,
       "sales_last_6_months": [
-        27,
-        67,
-        22,
-        78,
-        99,
-        97
-      ],
-      "supplier_lead_time_days": 29
-    },
-    {
-      "sku": "JEA-GRE-S-196",
-      "category": "Jeans",
-      "color": "Grey",
-      "size": "S",
-      "current_stock": 459,
-      "reorder_point": 58,
-      "unit_cost_tnd": 24,
-      "volume_m3": 0.0296,
-      "sales_last_6_months": [
-        85,
-        74,
-        49,
-        59,
-        26,
-        77
-      ],
-      "supplier_lead_time_days": 28
-    },
-    {
-      "sku": "HOO-BLU-XL-197",
-      "category": "Hoodies",
-      "color": "Blue",
-      "size": "XL",
-      "current_stock": 225,
-      "reorder_point": 193,
-      "unit_cost_tnd": 49,
-      "volume_m3": 0.0155,
-      "sales_last_6_months": [
-        45,
-        26,
-        33,
-        77,
-        13,
-        65
+        10,
+        20,
+        50,
+        150,
+        400,
+        1200
       ],
       "supplier_lead_time_days": 33
     },
     {
-      "sku": "T-S-OLI-XL-198",
-      "category": "T-Shirts",
+      "sku": "CAR-WHI-M-22",
+      "category": "Cargo Pants",
+      "color": "White",
+      "size": "M",
+      "current_stock": 291,
+      "reorder_point": 53,
+      "unit_cost_tnd": 80,
+      "volume_m3": 0.012,
+      "sales_last_6_months": [
+        50,
+        70,
+        100,
+        150,
+        220,
+        300
+      ],
+      "supplier_lead_time_days": 31
+    },
+    {
+      "sku": "CAS-BLA-S-23",
+      "category": "Cashmere Sweaters",
+      "color": "Black",
+      "size": "S",
+      "current_stock": 193,
+      "reorder_point": 125,
+      "unit_cost_tnd": 100,
+      "volume_m3": 0.02,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 41
+    },
+    {
+      "sku": "TAI-BEI-XL-24",
+      "category": "Tailored Trousers",
+      "color": "Beige",
+      "size": "XL",
+      "current_stock": 240,
+      "reorder_point": 132,
+      "unit_cost_tnd": 63,
+      "volume_m3": 0.0258,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 7
+    },
+    {
+      "sku": "TAI-WHI-L-25",
+      "category": "Tailored Trousers",
+      "color": "White",
+      "size": "L",
+      "current_stock": 286,
+      "reorder_point": 140,
+      "unit_cost_tnd": 32,
+      "volume_m3": 0.0111,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 8
+    },
+    {
+      "sku": "CAR-OLI-M-26",
+      "category": "Cargo Pants",
+      "color": "Olive",
+      "size": "M",
+      "current_stock": 253,
+      "reorder_point": 187,
+      "unit_cost_tnd": 76,
+      "volume_m3": 0.0145,
+      "sales_last_6_months": [
+        50,
+        70,
+        100,
+        150,
+        220,
+        300
+      ],
+      "supplier_lead_time_days": 18
+    },
+    {
+      "sku": "CAR-BEI-M-27",
+      "category": "Cargo Pants",
+      "color": "Beige",
+      "size": "M",
+      "current_stock": 14,
+      "reorder_point": 67,
+      "unit_cost_tnd": 69,
+      "volume_m3": 0.0196,
+      "sales_last_6_months": [
+        50,
+        70,
+        100,
+        150,
+        220,
+        300
+      ],
+      "supplier_lead_time_days": 41
+    },
+    {
+      "sku": "OVE-WHI-XL-28",
+      "category": "Oversized Hoodies",
+      "color": "White",
+      "size": "XL",
+      "current_stock": 434,
+      "reorder_point": 145,
+      "unit_cost_tnd": 38,
+      "volume_m3": 0.0259,
+      "sales_last_6_months": [
+        800,
+        600,
+        400,
+        200,
+        100,
+        20
+      ],
+      "supplier_lead_time_days": 33
+    },
+    {
+      "sku": "LIN-GRE-L-29",
+      "category": "Linen Shirts",
+      "color": "Grey",
+      "size": "L",
+      "current_stock": 378,
+      "reorder_point": 102,
+      "unit_cost_tnd": 84,
+      "volume_m3": 0.0087,
+      "sales_last_6_months": [
+        10,
+        20,
+        50,
+        150,
+        400,
+        1200
+      ],
+      "supplier_lead_time_days": 34
+    },
+    {
+      "sku": "SNE-BEI-M-30",
+      "category": "Sneakers",
+      "color": "Beige",
+      "size": "M",
+      "current_stock": 215,
+      "reorder_point": 81,
+      "unit_cost_tnd": 65,
+      "volume_m3": 0.0192,
+      "sales_last_6_months": [
+        88,
+        53,
+        68,
+        44,
+        69,
+        90
+      ],
+      "supplier_lead_time_days": 33
+    },
+    {
+      "sku": "TAI-GRE-XL-31",
+      "category": "Tailored Trousers",
+      "color": "Grey",
+      "size": "XL",
+      "current_stock": 425,
+      "reorder_point": 147,
+      "unit_cost_tnd": 92,
+      "volume_m3": 0.0108,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 10
+    },
+    {
+      "sku": "OVE-BEI-XL-32",
+      "category": "Oversized Hoodies",
+      "color": "Beige",
+      "size": "XL",
+      "current_stock": 117,
+      "reorder_point": 89,
+      "unit_cost_tnd": 50,
+      "volume_m3": 0.0207,
+      "sales_last_6_months": [
+        800,
+        600,
+        400,
+        200,
+        100,
+        20
+      ],
+      "supplier_lead_time_days": 28
+    },
+    {
+      "sku": "CAR-BEI-M-33",
+      "category": "Cargo Pants",
+      "color": "Beige",
+      "size": "M",
+      "current_stock": 218,
+      "reorder_point": 179,
+      "unit_cost_tnd": 57,
+      "volume_m3": 0.0181,
+      "sales_last_6_months": [
+        50,
+        70,
+        100,
+        150,
+        220,
+        300
+      ],
+      "supplier_lead_time_days": 9
+    },
+    {
+      "sku": "CAR-OLI-L-34",
+      "category": "Cargo Pants",
+      "color": "Olive",
+      "size": "L",
+      "current_stock": 105,
+      "reorder_point": 51,
+      "unit_cost_tnd": 87,
+      "volume_m3": 0.0079,
+      "sales_last_6_months": [
+        50,
+        70,
+        100,
+        150,
+        220,
+        300
+      ],
+      "supplier_lead_time_days": 36
+    },
+    {
+      "sku": "CAS-GRE-XL-35",
+      "category": "Cashmere Sweaters",
+      "color": "Grey",
+      "size": "XL",
+      "current_stock": 257,
+      "reorder_point": 93,
+      "unit_cost_tnd": 33,
+      "volume_m3": 0.0237,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 33
+    },
+    {
+      "sku": "OVE-WHI-XL-36",
+      "category": "Oversized Hoodies",
+      "color": "White",
+      "size": "XL",
+      "current_stock": 483,
+      "reorder_point": 153,
+      "unit_cost_tnd": 90,
+      "volume_m3": 0.0292,
+      "sales_last_6_months": [
+        800,
+        600,
+        400,
+        200,
+        100,
+        20
+      ],
+      "supplier_lead_time_days": 38
+    },
+    {
+      "sku": "SNE-NAV-M-37",
+      "category": "Sneakers",
+      "color": "Navy",
+      "size": "M",
+      "current_stock": 38,
+      "reorder_point": 67,
+      "unit_cost_tnd": 81,
+      "volume_m3": 0.0214,
+      "sales_last_6_months": [
+        96,
+        98,
+        15,
+        98,
+        96,
+        97
+      ],
+      "supplier_lead_time_days": 20
+    },
+    {
+      "sku": "OVE-OLI-L-38",
+      "category": "Oversized Hoodies",
+      "color": "Olive",
+      "size": "L",
+      "current_stock": 137,
+      "reorder_point": 78,
+      "unit_cost_tnd": 51,
+      "volume_m3": 0.0278,
+      "sales_last_6_months": [
+        800,
+        600,
+        400,
+        200,
+        100,
+        20
+      ],
+      "supplier_lead_time_days": 25
+    },
+    {
+      "sku": "TAI-NAV-L-39",
+      "category": "Tailored Trousers",
+      "color": "Navy",
+      "size": "L",
+      "current_stock": 216,
+      "reorder_point": 113,
+      "unit_cost_tnd": 90,
+      "volume_m3": 0.0183,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 26
+    },
+    {
+      "sku": "LIN-BLA-S-40",
+      "category": "Linen Shirts",
+      "color": "Black",
+      "size": "S",
+      "current_stock": 107,
+      "reorder_point": 169,
+      "unit_cost_tnd": 24,
+      "volume_m3": 0.0136,
+      "sales_last_6_months": [
+        10,
+        20,
+        50,
+        150,
+        400,
+        1200
+      ],
+      "supplier_lead_time_days": 10
+    },
+    {
+      "sku": "OVE-BEI-XL-41",
+      "category": "Oversized Hoodies",
+      "color": "Beige",
+      "size": "XL",
+      "current_stock": 405,
+      "reorder_point": 56,
+      "unit_cost_tnd": 81,
+      "volume_m3": 0.0242,
+      "sales_last_6_months": [
+        800,
+        600,
+        400,
+        200,
+        100,
+        20
+      ],
+      "supplier_lead_time_days": 27
+    },
+    {
+      "sku": "TAI-WHI-L-42",
+      "category": "Tailored Trousers",
+      "color": "White",
+      "size": "L",
+      "current_stock": 309,
+      "reorder_point": 157,
+      "unit_cost_tnd": 22,
+      "volume_m3": 0.0281,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 42
+    },
+    {
+      "sku": "SNE-GRE-S-43",
+      "category": "Sneakers",
+      "color": "Grey",
+      "size": "S",
+      "current_stock": 134,
+      "reorder_point": 133,
+      "unit_cost_tnd": 51,
+      "volume_m3": 0.0255,
+      "sales_last_6_months": [
+        97,
+        29,
+        39,
+        24,
+        7,
+        51
+      ],
+      "supplier_lead_time_days": 30
+    },
+    {
+      "sku": "LIN-BEI-L-44",
+      "category": "Linen Shirts",
+      "color": "Beige",
+      "size": "L",
+      "current_stock": 228,
+      "reorder_point": 58,
+      "unit_cost_tnd": 100,
+      "volume_m3": 0.0144,
+      "sales_last_6_months": [
+        10,
+        20,
+        50,
+        150,
+        400,
+        1200
+      ],
+      "supplier_lead_time_days": 38
+    },
+    {
+      "sku": "TAI-GRE-S-45",
+      "category": "Tailored Trousers",
+      "color": "Grey",
+      "size": "S",
+      "current_stock": 365,
+      "reorder_point": 198,
+      "unit_cost_tnd": 60,
+      "volume_m3": 0.0266,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 39
+    },
+    {
+      "sku": "TAI-OLI-XL-46",
+      "category": "Tailored Trousers",
       "color": "Olive",
       "size": "XL",
-      "current_stock": 497,
-      "reorder_point": 132,
-      "unit_cost_tnd": 50,
-      "volume_m3": 0.0143,
+      "current_stock": 139,
+      "reorder_point": 113,
+      "unit_cost_tnd": 98,
+      "volume_m3": 0.0172,
       "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 32
+    },
+    {
+      "sku": "TAI-BEI-S-47",
+      "category": "Tailored Trousers",
+      "color": "Beige",
+      "size": "S",
+      "current_stock": 87,
+      "reorder_point": 105,
+      "unit_cost_tnd": 81,
+      "volume_m3": 0.0184,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 23
+    },
+    {
+      "sku": "OVE-BLA-S-48",
+      "category": "Oversized Hoodies",
+      "color": "Black",
+      "size": "S",
+      "current_stock": 170,
+      "reorder_point": 187,
+      "unit_cost_tnd": 106,
+      "volume_m3": 0.0297,
+      "sales_last_6_months": [
+        800,
+        600,
+        400,
+        200,
+        100,
+        20
+      ],
+      "supplier_lead_time_days": 10
+    },
+    {
+      "sku": "CAR-NAV-M-49",
+      "category": "Cargo Pants",
+      "color": "Navy",
+      "size": "M",
+      "current_stock": 463,
+      "reorder_point": 68,
+      "unit_cost_tnd": 74,
+      "volume_m3": 0.0111,
+      "sales_last_6_months": [
+        50,
         70,
-        40,
-        98,
-        52,
-        48,
-        62
+        100,
+        150,
+        220,
+        300
+      ],
+      "supplier_lead_time_days": 37
+    },
+    {
+      "sku": "CAS-BLA-L-50",
+      "category": "Cashmere Sweaters",
+      "color": "Black",
+      "size": "L",
+      "current_stock": 161,
+      "reorder_point": 111,
+      "unit_cost_tnd": 65,
+      "volume_m3": 0.0248,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 45
+    },
+    {
+      "sku": "LIN-BEI-XL-51",
+      "category": "Linen Shirts",
+      "color": "Beige",
+      "size": "XL",
+      "current_stock": 4,
+      "reorder_point": 101,
+      "unit_cost_tnd": 29,
+      "volume_m3": 0.0122,
+      "sales_last_6_months": [
+        10,
+        20,
+        50,
+        150,
+        400,
+        1200
+      ],
+      "supplier_lead_time_days": 25
+    },
+    {
+      "sku": "CAS-BLA-L-52",
+      "category": "Cashmere Sweaters",
+      "color": "Black",
+      "size": "L",
+      "current_stock": 22,
+      "reorder_point": 145,
+      "unit_cost_tnd": 43,
+      "volume_m3": 0.0231,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 41
+    },
+    {
+      "sku": "TAI-WHI-M-53",
+      "category": "Tailored Trousers",
+      "color": "White",
+      "size": "M",
+      "current_stock": 232,
+      "reorder_point": 149,
+      "unit_cost_tnd": 31,
+      "volume_m3": 0.019,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 29
+    },
+    {
+      "sku": "CAS-BEI-L-54",
+      "category": "Cashmere Sweaters",
+      "color": "Beige",
+      "size": "L",
+      "current_stock": 355,
+      "reorder_point": 188,
+      "unit_cost_tnd": 78,
+      "volume_m3": 0.0136,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 16
+    },
+    {
+      "sku": "TAI-GRE-S-55",
+      "category": "Tailored Trousers",
+      "color": "Grey",
+      "size": "S",
+      "current_stock": 188,
+      "reorder_point": 58,
+      "unit_cost_tnd": 71,
+      "volume_m3": 0.0153,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 14
+    },
+    {
+      "sku": "CAS-GRE-M-56",
+      "category": "Cashmere Sweaters",
+      "color": "Grey",
+      "size": "M",
+      "current_stock": 394,
+      "reorder_point": 92,
+      "unit_cost_tnd": 56,
+      "volume_m3": 0.0275,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 42
+    },
+    {
+      "sku": "OVE-OLI-M-57",
+      "category": "Oversized Hoodies",
+      "color": "Olive",
+      "size": "M",
+      "current_stock": 427,
+      "reorder_point": 97,
+      "unit_cost_tnd": 80,
+      "volume_m3": 0.0125,
+      "sales_last_6_months": [
+        800,
+        600,
+        400,
+        200,
+        100,
+        20
+      ],
+      "supplier_lead_time_days": 20
+    },
+    {
+      "sku": "LIN-GRE-S-58",
+      "category": "Linen Shirts",
+      "color": "Grey",
+      "size": "S",
+      "current_stock": 173,
+      "reorder_point": 192,
+      "unit_cost_tnd": 68,
+      "volume_m3": 0.0267,
+      "sales_last_6_months": [
+        10,
+        20,
+        50,
+        150,
+        400,
+        1200
+      ],
+      "supplier_lead_time_days": 26
+    },
+    {
+      "sku": "CAR-NAV-L-59",
+      "category": "Cargo Pants",
+      "color": "Navy",
+      "size": "L",
+      "current_stock": 338,
+      "reorder_point": 67,
+      "unit_cost_tnd": 26,
+      "volume_m3": 0.0206,
+      "sales_last_6_months": [
+        50,
+        70,
+        100,
+        150,
+        220,
+        300
+      ],
+      "supplier_lead_time_days": 24
+    },
+    {
+      "sku": "LIN-BEI-M-60",
+      "category": "Linen Shirts",
+      "color": "Beige",
+      "size": "M",
+      "current_stock": 305,
+      "reorder_point": 155,
+      "unit_cost_tnd": 53,
+      "volume_m3": 0.0064,
+      "sales_last_6_months": [
+        10,
+        20,
+        50,
+        150,
+        400,
+        1200
+      ],
+      "supplier_lead_time_days": 37
+    },
+    {
+      "sku": "CAR-GRE-S-61",
+      "category": "Cargo Pants",
+      "color": "Grey",
+      "size": "S",
+      "current_stock": 350,
+      "reorder_point": 94,
+      "unit_cost_tnd": 39,
+      "volume_m3": 0.0126,
+      "sales_last_6_months": [
+        50,
+        70,
+        100,
+        150,
+        220,
+        300
+      ],
+      "supplier_lead_time_days": 25
+    },
+    {
+      "sku": "SNE-GRE-L-62",
+      "category": "Sneakers",
+      "color": "Grey",
+      "size": "L",
+      "current_stock": 464,
+      "reorder_point": 168,
+      "unit_cost_tnd": 50,
+      "volume_m3": 0.0055,
+      "sales_last_6_months": [
+        76,
+        61,
+        74,
+        19,
+        80,
+        100
+      ],
+      "supplier_lead_time_days": 10
+    },
+    {
+      "sku": "OVE-BEI-L-63",
+      "category": "Oversized Hoodies",
+      "color": "Beige",
+      "size": "L",
+      "current_stock": 345,
+      "reorder_point": 59,
+      "unit_cost_tnd": 74,
+      "volume_m3": 0.0258,
+      "sales_last_6_months": [
+        800,
+        600,
+        400,
+        200,
+        100,
+        20
+      ],
+      "supplier_lead_time_days": 15
+    },
+    {
+      "sku": "CAR-OLI-S-64",
+      "category": "Cargo Pants",
+      "color": "Olive",
+      "size": "S",
+      "current_stock": 230,
+      "reorder_point": 176,
+      "unit_cost_tnd": 37,
+      "volume_m3": 0.0275,
+      "sales_last_6_months": [
+        50,
+        70,
+        100,
+        150,
+        220,
+        300
+      ],
+      "supplier_lead_time_days": 7
+    },
+    {
+      "sku": "LIN-NAV-L-65",
+      "category": "Linen Shirts",
+      "color": "Navy",
+      "size": "L",
+      "current_stock": 490,
+      "reorder_point": 176,
+      "unit_cost_tnd": 44,
+      "volume_m3": 0.0228,
+      "sales_last_6_months": [
+        10,
+        20,
+        50,
+        150,
+        400,
+        1200
+      ],
+      "supplier_lead_time_days": 45
+    },
+    {
+      "sku": "LIN-WHI-L-66",
+      "category": "Linen Shirts",
+      "color": "White",
+      "size": "L",
+      "current_stock": 426,
+      "reorder_point": 154,
+      "unit_cost_tnd": 29,
+      "volume_m3": 0.0131,
+      "sales_last_6_months": [
+        10,
+        20,
+        50,
+        150,
+        400,
+        1200
+      ],
+      "supplier_lead_time_days": 33
+    },
+    {
+      "sku": "TAI-WHI-S-67",
+      "category": "Tailored Trousers",
+      "color": "White",
+      "size": "S",
+      "current_stock": 271,
+      "reorder_point": 60,
+      "unit_cost_tnd": 75,
+      "volume_m3": 0.0092,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 23
+    },
+    {
+      "sku": "OVE-BLA-XL-68",
+      "category": "Oversized Hoodies",
+      "color": "Black",
+      "size": "XL",
+      "current_stock": 102,
+      "reorder_point": 99,
+      "unit_cost_tnd": 84,
+      "volume_m3": 0.0069,
+      "sales_last_6_months": [
+        800,
+        600,
+        400,
+        200,
+        100,
+        20
+      ],
+      "supplier_lead_time_days": 24
+    },
+    {
+      "sku": "LIN-OLI-XL-69",
+      "category": "Linen Shirts",
+      "color": "Olive",
+      "size": "XL",
+      "current_stock": 133,
+      "reorder_point": 50,
+      "unit_cost_tnd": 93,
+      "volume_m3": 0.0231,
+      "sales_last_6_months": [
+        10,
+        20,
+        50,
+        150,
+        400,
+        1200
+      ],
+      "supplier_lead_time_days": 26
+    },
+    {
+      "sku": "SNE-OLI-XL-70",
+      "category": "Sneakers",
+      "color": "Olive",
+      "size": "XL",
+      "current_stock": 113,
+      "reorder_point": 181,
+      "unit_cost_tnd": 50,
+      "volume_m3": 0.0129,
+      "sales_last_6_months": [
+        99,
+        96,
+        81,
+        9,
+        22,
+        50
+      ],
+      "supplier_lead_time_days": 15
+    },
+    {
+      "sku": "TAI-WHI-S-71",
+      "category": "Tailored Trousers",
+      "color": "White",
+      "size": "S",
+      "current_stock": 19,
+      "reorder_point": 164,
+      "unit_cost_tnd": 67,
+      "volume_m3": 0.0278,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 32
+    },
+    {
+      "sku": "CAS-BEI-M-72",
+      "category": "Cashmere Sweaters",
+      "color": "Beige",
+      "size": "M",
+      "current_stock": 352,
+      "reorder_point": 145,
+      "unit_cost_tnd": 81,
+      "volume_m3": 0.014,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 29
+    },
+    {
+      "sku": "SNE-GRE-M-73",
+      "category": "Sneakers",
+      "color": "Grey",
+      "size": "M",
+      "current_stock": 234,
+      "reorder_point": 116,
+      "unit_cost_tnd": 107,
+      "volume_m3": 0.0057,
+      "sales_last_6_months": [
+        61,
+        57,
+        97,
+        17,
+        49,
+        35
+      ],
+      "supplier_lead_time_days": 21
+    },
+    {
+      "sku": "CAS-NAV-L-74",
+      "category": "Cashmere Sweaters",
+      "color": "Navy",
+      "size": "L",
+      "current_stock": 357,
+      "reorder_point": 163,
+      "unit_cost_tnd": 22,
+      "volume_m3": 0.0259,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 38
+    },
+    {
+      "sku": "CAR-GRE-L-75",
+      "category": "Cargo Pants",
+      "color": "Grey",
+      "size": "L",
+      "current_stock": 308,
+      "reorder_point": 128,
+      "unit_cost_tnd": 49,
+      "volume_m3": 0.0252,
+      "sales_last_6_months": [
+        50,
+        70,
+        100,
+        150,
+        220,
+        300
+      ],
+      "supplier_lead_time_days": 26
+    },
+    {
+      "sku": "LIN-GRE-S-76",
+      "category": "Linen Shirts",
+      "color": "Grey",
+      "size": "S",
+      "current_stock": 132,
+      "reorder_point": 181,
+      "unit_cost_tnd": 99,
+      "volume_m3": 0.026,
+      "sales_last_6_months": [
+        10,
+        20,
+        50,
+        150,
+        400,
+        1200
+      ],
+      "supplier_lead_time_days": 44
+    },
+    {
+      "sku": "SNE-OLI-XL-77",
+      "category": "Sneakers",
+      "color": "Olive",
+      "size": "XL",
+      "current_stock": 402,
+      "reorder_point": 97,
+      "unit_cost_tnd": 68,
+      "volume_m3": 0.0141,
+      "sales_last_6_months": [
+        13,
+        84,
+        42,
+        83,
+        97,
+        78
+      ],
+      "supplier_lead_time_days": 28
+    },
+    {
+      "sku": "TAI-NAV-M-78",
+      "category": "Tailored Trousers",
+      "color": "Navy",
+      "size": "M",
+      "current_stock": 11,
+      "reorder_point": 129,
+      "unit_cost_tnd": 75,
+      "volume_m3": 0.0283,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 42
+    },
+    {
+      "sku": "TAI-WHI-XL-79",
+      "category": "Tailored Trousers",
+      "color": "White",
+      "size": "XL",
+      "current_stock": 45,
+      "reorder_point": 185,
+      "unit_cost_tnd": 35,
+      "volume_m3": 0.0123,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 45
+    },
+    {
+      "sku": "SNE-BEI-L-80",
+      "category": "Sneakers",
+      "color": "Beige",
+      "size": "L",
+      "current_stock": 236,
+      "reorder_point": 160,
+      "unit_cost_tnd": 84,
+      "volume_m3": 0.0181,
+      "sales_last_6_months": [
+        64,
+        45,
+        11,
+        64,
+        63,
+        48
+      ],
+      "supplier_lead_time_days": 20
+    },
+    {
+      "sku": "CAR-OLI-S-81",
+      "category": "Cargo Pants",
+      "color": "Olive",
+      "size": "S",
+      "current_stock": 48,
+      "reorder_point": 58,
+      "unit_cost_tnd": 47,
+      "volume_m3": 0.0117,
+      "sales_last_6_months": [
+        50,
+        70,
+        100,
+        150,
+        220,
+        300
+      ],
+      "supplier_lead_time_days": 23
+    },
+    {
+      "sku": "CAR-WHI-S-82",
+      "category": "Cargo Pants",
+      "color": "White",
+      "size": "S",
+      "current_stock": 224,
+      "reorder_point": 199,
+      "unit_cost_tnd": 36,
+      "volume_m3": 0.0104,
+      "sales_last_6_months": [
+        50,
+        70,
+        100,
+        150,
+        220,
+        300
+      ],
+      "supplier_lead_time_days": 37
+    },
+    {
+      "sku": "CAR-OLI-L-83",
+      "category": "Cargo Pants",
+      "color": "Olive",
+      "size": "L",
+      "current_stock": 113,
+      "reorder_point": 112,
+      "unit_cost_tnd": 107,
+      "volume_m3": 0.0205,
+      "sales_last_6_months": [
+        50,
+        70,
+        100,
+        150,
+        220,
+        300
+      ],
+      "supplier_lead_time_days": 36
+    },
+    {
+      "sku": "LIN-BLA-M-84",
+      "category": "Linen Shirts",
+      "color": "Black",
+      "size": "M",
+      "current_stock": 405,
+      "reorder_point": 68,
+      "unit_cost_tnd": 96,
+      "volume_m3": 0.02,
+      "sales_last_6_months": [
+        10,
+        20,
+        50,
+        150,
+        400,
+        1200
+      ],
+      "supplier_lead_time_days": 10
+    },
+    {
+      "sku": "SNE-NAV-S-85",
+      "category": "Sneakers",
+      "color": "Navy",
+      "size": "S",
+      "current_stock": 434,
+      "reorder_point": 98,
+      "unit_cost_tnd": 23,
+      "volume_m3": 0.0221,
+      "sales_last_6_months": [
+        66,
+        95,
+        50,
+        90,
+        96,
+        35
+      ],
+      "supplier_lead_time_days": 26
+    },
+    {
+      "sku": "TAI-NAV-XL-86",
+      "category": "Tailored Trousers",
+      "color": "Navy",
+      "size": "XL",
+      "current_stock": 41,
+      "reorder_point": 95,
+      "unit_cost_tnd": 115,
+      "volume_m3": 0.0113,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 23
+    },
+    {
+      "sku": "TAI-GRE-XL-87",
+      "category": "Tailored Trousers",
+      "color": "Grey",
+      "size": "XL",
+      "current_stock": 228,
+      "reorder_point": 157,
+      "unit_cost_tnd": 20,
+      "volume_m3": 0.0107,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 19
+    },
+    {
+      "sku": "TAI-BLA-XL-88",
+      "category": "Tailored Trousers",
+      "color": "Black",
+      "size": "XL",
+      "current_stock": 274,
+      "reorder_point": 58,
+      "unit_cost_tnd": 44,
+      "volume_m3": 0.0287,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 38
+    },
+    {
+      "sku": "LIN-NAV-XL-89",
+      "category": "Linen Shirts",
+      "color": "Navy",
+      "size": "XL",
+      "current_stock": 260,
+      "reorder_point": 167,
+      "unit_cost_tnd": 48,
+      "volume_m3": 0.0096,
+      "sales_last_6_months": [
+        10,
+        20,
+        50,
+        150,
+        400,
+        1200
+      ],
+      "supplier_lead_time_days": 41
+    },
+    {
+      "sku": "CAR-OLI-M-90",
+      "category": "Cargo Pants",
+      "color": "Olive",
+      "size": "M",
+      "current_stock": 345,
+      "reorder_point": 99,
+      "unit_cost_tnd": 55,
+      "volume_m3": 0.0132,
+      "sales_last_6_months": [
+        50,
+        70,
+        100,
+        150,
+        220,
+        300
+      ],
+      "supplier_lead_time_days": 7
+    },
+    {
+      "sku": "TAI-NAV-L-91",
+      "category": "Tailored Trousers",
+      "color": "Navy",
+      "size": "L",
+      "current_stock": 62,
+      "reorder_point": 107,
+      "unit_cost_tnd": 49,
+      "volume_m3": 0.0253,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 21
+    },
+    {
+      "sku": "LIN-OLI-L-92",
+      "category": "Linen Shirts",
+      "color": "Olive",
+      "size": "L",
+      "current_stock": 217,
+      "reorder_point": 186,
+      "unit_cost_tnd": 32,
+      "volume_m3": 0.0116,
+      "sales_last_6_months": [
+        10,
+        20,
+        50,
+        150,
+        400,
+        1200
+      ],
+      "supplier_lead_time_days": 35
+    },
+    {
+      "sku": "SNE-BEI-M-93",
+      "category": "Sneakers",
+      "color": "Beige",
+      "size": "M",
+      "current_stock": 394,
+      "reorder_point": 51,
+      "unit_cost_tnd": 24,
+      "volume_m3": 0.0231,
+      "sales_last_6_months": [
+        67,
+        73,
+        15,
+        33,
+        79,
+        18
+      ],
+      "supplier_lead_time_days": 26
+    },
+    {
+      "sku": "OVE-WHI-XL-94",
+      "category": "Oversized Hoodies",
+      "color": "White",
+      "size": "XL",
+      "current_stock": 483,
+      "reorder_point": 77,
+      "unit_cost_tnd": 65,
+      "volume_m3": 0.0062,
+      "sales_last_6_months": [
+        800,
+        600,
+        400,
+        200,
+        100,
+        20
+      ],
+      "supplier_lead_time_days": 15
+    },
+    {
+      "sku": "TAI-NAV-M-95",
+      "category": "Tailored Trousers",
+      "color": "Navy",
+      "size": "M",
+      "current_stock": 446,
+      "reorder_point": 162,
+      "unit_cost_tnd": 52,
+      "volume_m3": 0.0266,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 35
+    },
+    {
+      "sku": "LIN-WHI-M-96",
+      "category": "Linen Shirts",
+      "color": "White",
+      "size": "M",
+      "current_stock": 310,
+      "reorder_point": 78,
+      "unit_cost_tnd": 43,
+      "volume_m3": 0.0239,
+      "sales_last_6_months": [
+        10,
+        20,
+        50,
+        150,
+        400,
+        1200
+      ],
+      "supplier_lead_time_days": 29
+    },
+    {
+      "sku": "LIN-BLA-L-97",
+      "category": "Linen Shirts",
+      "color": "Black",
+      "size": "L",
+      "current_stock": 8,
+      "reorder_point": 100,
+      "unit_cost_tnd": 98,
+      "volume_m3": 0.0235,
+      "sales_last_6_months": [
+        10,
+        20,
+        50,
+        150,
+        400,
+        1200
+      ],
+      "supplier_lead_time_days": 29
+    },
+    {
+      "sku": "CAR-OLI-S-98",
+      "category": "Cargo Pants",
+      "color": "Olive",
+      "size": "S",
+      "current_stock": 369,
+      "reorder_point": 150,
+      "unit_cost_tnd": 115,
+      "volume_m3": 0.0161,
+      "sales_last_6_months": [
+        50,
+        70,
+        100,
+        150,
+        220,
+        300
+      ],
+      "supplier_lead_time_days": 21
+    },
+    {
+      "sku": "OVE-BLA-L-99",
+      "category": "Oversized Hoodies",
+      "color": "Black",
+      "size": "L",
+      "current_stock": 472,
+      "reorder_point": 102,
+      "unit_cost_tnd": 77,
+      "volume_m3": 0.0083,
+      "sales_last_6_months": [
+        800,
+        600,
+        400,
+        200,
+        100,
+        20
+      ],
+      "supplier_lead_time_days": 43
+    },
+    {
+      "sku": "TAI-GRE-L-100",
+      "category": "Tailored Trousers",
+      "color": "Grey",
+      "size": "L",
+      "current_stock": 448,
+      "reorder_point": 189,
+      "unit_cost_tnd": 71,
+      "volume_m3": 0.025,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 42
+    },
+    {
+      "sku": "OVE-WHI-XL-101",
+      "category": "Oversized Hoodies",
+      "color": "White",
+      "size": "XL",
+      "current_stock": 464,
+      "reorder_point": 140,
+      "unit_cost_tnd": 23,
+      "volume_m3": 0.0151,
+      "sales_last_6_months": [
+        800,
+        600,
+        400,
+        200,
+        100,
+        20
+      ],
+      "supplier_lead_time_days": 24
+    },
+    {
+      "sku": "CAR-OLI-S-102",
+      "category": "Cargo Pants",
+      "color": "Olive",
+      "size": "S",
+      "current_stock": 43,
+      "reorder_point": 174,
+      "unit_cost_tnd": 38,
+      "volume_m3": 0.0204,
+      "sales_last_6_months": [
+        50,
+        70,
+        100,
+        150,
+        220,
+        300
+      ],
+      "supplier_lead_time_days": 42
+    },
+    {
+      "sku": "CAR-WHI-XL-103",
+      "category": "Cargo Pants",
+      "color": "White",
+      "size": "XL",
+      "current_stock": 86,
+      "reorder_point": 85,
+      "unit_cost_tnd": 93,
+      "volume_m3": 0.0291,
+      "sales_last_6_months": [
+        50,
+        70,
+        100,
+        150,
+        220,
+        300
+      ],
+      "supplier_lead_time_days": 9
+    },
+    {
+      "sku": "CAR-WHI-XL-104",
+      "category": "Cargo Pants",
+      "color": "White",
+      "size": "XL",
+      "current_stock": 27,
+      "reorder_point": 80,
+      "unit_cost_tnd": 94,
+      "volume_m3": 0.0274,
+      "sales_last_6_months": [
+        50,
+        70,
+        100,
+        150,
+        220,
+        300
+      ],
+      "supplier_lead_time_days": 9
+    },
+    {
+      "sku": "CAR-OLI-XL-105",
+      "category": "Cargo Pants",
+      "color": "Olive",
+      "size": "XL",
+      "current_stock": 233,
+      "reorder_point": 82,
+      "unit_cost_tnd": 79,
+      "volume_m3": 0.0243,
+      "sales_last_6_months": [
+        50,
+        70,
+        100,
+        150,
+        220,
+        300
+      ],
+      "supplier_lead_time_days": 39
+    },
+    {
+      "sku": "CAS-NAV-XL-106",
+      "category": "Cashmere Sweaters",
+      "color": "Navy",
+      "size": "XL",
+      "current_stock": 316,
+      "reorder_point": 73,
+      "unit_cost_tnd": 24,
+      "volume_m3": 0.0054,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 21
+    },
+    {
+      "sku": "OVE-NAV-S-107",
+      "category": "Oversized Hoodies",
+      "color": "Navy",
+      "size": "S",
+      "current_stock": 397,
+      "reorder_point": 105,
+      "unit_cost_tnd": 120,
+      "volume_m3": 0.0192,
+      "sales_last_6_months": [
+        800,
+        600,
+        400,
+        200,
+        100,
+        20
+      ],
+      "supplier_lead_time_days": 11
+    },
+    {
+      "sku": "CAS-BLA-S-108",
+      "category": "Cashmere Sweaters",
+      "color": "Black",
+      "size": "S",
+      "current_stock": 423,
+      "reorder_point": 184,
+      "unit_cost_tnd": 83,
+      "volume_m3": 0.0104,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 24
+    },
+    {
+      "sku": "CAR-BLA-M-109",
+      "category": "Cargo Pants",
+      "color": "Black",
+      "size": "M",
+      "current_stock": 458,
+      "reorder_point": 183,
+      "unit_cost_tnd": 39,
+      "volume_m3": 0.0084,
+      "sales_last_6_months": [
+        50,
+        70,
+        100,
+        150,
+        220,
+        300
+      ],
+      "supplier_lead_time_days": 41
+    },
+    {
+      "sku": "CAR-NAV-L-110",
+      "category": "Cargo Pants",
+      "color": "Navy",
+      "size": "L",
+      "current_stock": 353,
+      "reorder_point": 192,
+      "unit_cost_tnd": 66,
+      "volume_m3": 0.0189,
+      "sales_last_6_months": [
+        50,
+        70,
+        100,
+        150,
+        220,
+        300
+      ],
+      "supplier_lead_time_days": 13
+    },
+    {
+      "sku": "OVE-OLI-XL-111",
+      "category": "Oversized Hoodies",
+      "color": "Olive",
+      "size": "XL",
+      "current_stock": 166,
+      "reorder_point": 199,
+      "unit_cost_tnd": 99,
+      "volume_m3": 0.0102,
+      "sales_last_6_months": [
+        800,
+        600,
+        400,
+        200,
+        100,
+        20
+      ],
+      "supplier_lead_time_days": 35
+    },
+    {
+      "sku": "CAS-GRE-L-112",
+      "category": "Cashmere Sweaters",
+      "color": "Grey",
+      "size": "L",
+      "current_stock": 438,
+      "reorder_point": 60,
+      "unit_cost_tnd": 80,
+      "volume_m3": 0.0173,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 27
+    },
+    {
+      "sku": "OVE-WHI-S-113",
+      "category": "Oversized Hoodies",
+      "color": "White",
+      "size": "S",
+      "current_stock": 259,
+      "reorder_point": 175,
+      "unit_cost_tnd": 83,
+      "volume_m3": 0.0145,
+      "sales_last_6_months": [
+        800,
+        600,
+        400,
+        200,
+        100,
+        20
+      ],
+      "supplier_lead_time_days": 9
+    },
+    {
+      "sku": "CAS-GRE-S-114",
+      "category": "Cashmere Sweaters",
+      "color": "Grey",
+      "size": "S",
+      "current_stock": 283,
+      "reorder_point": 155,
+      "unit_cost_tnd": 96,
+      "volume_m3": 0.0084,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 29
+    },
+    {
+      "sku": "CAS-BLA-S-115",
+      "category": "Cashmere Sweaters",
+      "color": "Black",
+      "size": "S",
+      "current_stock": 278,
+      "reorder_point": 175,
+      "unit_cost_tnd": 83,
+      "volume_m3": 0.0062,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 30
+    },
+    {
+      "sku": "OVE-WHI-XL-116",
+      "category": "Oversized Hoodies",
+      "color": "White",
+      "size": "XL",
+      "current_stock": 485,
+      "reorder_point": 192,
+      "unit_cost_tnd": 39,
+      "volume_m3": 0.0157,
+      "sales_last_6_months": [
+        800,
+        600,
+        400,
+        200,
+        100,
+        20
       ],
       "supplier_lead_time_days": 17
     },
     {
-      "sku": "JEA-OLI-L-199",
-      "category": "Jeans",
+      "sku": "TAI-GRE-XL-117",
+      "category": "Tailored Trousers",
+      "color": "Grey",
+      "size": "XL",
+      "current_stock": 475,
+      "reorder_point": 57,
+      "unit_cost_tnd": 110,
+      "volume_m3": 0.0097,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 22
+    },
+    {
+      "sku": "SNE-OLI-XL-118",
+      "category": "Sneakers",
+      "color": "Olive",
+      "size": "XL",
+      "current_stock": 149,
+      "reorder_point": 184,
+      "unit_cost_tnd": 87,
+      "volume_m3": 0.0078,
+      "sales_last_6_months": [
+        57,
+        46,
+        37,
+        12,
+        81,
+        54
+      ],
+      "supplier_lead_time_days": 30
+    },
+    {
+      "sku": "CAS-NAV-XL-119",
+      "category": "Cashmere Sweaters",
+      "color": "Navy",
+      "size": "XL",
+      "current_stock": 61,
+      "reorder_point": 70,
+      "unit_cost_tnd": 35,
+      "volume_m3": 0.0121,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 43
+    },
+    {
+      "sku": "OVE-NAV-S-120",
+      "category": "Oversized Hoodies",
+      "color": "Navy",
+      "size": "S",
+      "current_stock": 420,
+      "reorder_point": 140,
+      "unit_cost_tnd": 28,
+      "volume_m3": 0.0166,
+      "sales_last_6_months": [
+        800,
+        600,
+        400,
+        200,
+        100,
+        20
+      ],
+      "supplier_lead_time_days": 19
+    },
+    {
+      "sku": "CAR-BLA-S-121",
+      "category": "Cargo Pants",
+      "color": "Black",
+      "size": "S",
+      "current_stock": 280,
+      "reorder_point": 92,
+      "unit_cost_tnd": 39,
+      "volume_m3": 0.0096,
+      "sales_last_6_months": [
+        50,
+        70,
+        100,
+        150,
+        220,
+        300
+      ],
+      "supplier_lead_time_days": 22
+    },
+    {
+      "sku": "OVE-BEI-XL-122",
+      "category": "Oversized Hoodies",
+      "color": "Beige",
+      "size": "XL",
+      "current_stock": 143,
+      "reorder_point": 179,
+      "unit_cost_tnd": 100,
+      "volume_m3": 0.0052,
+      "sales_last_6_months": [
+        800,
+        600,
+        400,
+        200,
+        100,
+        20
+      ],
+      "supplier_lead_time_days": 28
+    },
+    {
+      "sku": "CAS-BLA-XL-123",
+      "category": "Cashmere Sweaters",
+      "color": "Black",
+      "size": "XL",
+      "current_stock": 4,
+      "reorder_point": 128,
+      "unit_cost_tnd": 114,
+      "volume_m3": 0.0101,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 19
+    },
+    {
+      "sku": "TAI-GRE-S-124",
+      "category": "Tailored Trousers",
+      "color": "Grey",
+      "size": "S",
+      "current_stock": 14,
+      "reorder_point": 129,
+      "unit_cost_tnd": 97,
+      "volume_m3": 0.0287,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 41
+    },
+    {
+      "sku": "SNE-BLA-S-125",
+      "category": "Sneakers",
+      "color": "Black",
+      "size": "S",
+      "current_stock": 36,
+      "reorder_point": 183,
+      "unit_cost_tnd": 120,
+      "volume_m3": 0.0124,
+      "sales_last_6_months": [
+        39,
+        42,
+        21,
+        29,
+        88,
+        37
+      ],
+      "supplier_lead_time_days": 34
+    },
+    {
+      "sku": "LIN-NAV-M-126",
+      "category": "Linen Shirts",
+      "color": "Navy",
+      "size": "M",
+      "current_stock": 486,
+      "reorder_point": 101,
+      "unit_cost_tnd": 49,
+      "volume_m3": 0.0186,
+      "sales_last_6_months": [
+        10,
+        20,
+        50,
+        150,
+        400,
+        1200
+      ],
+      "supplier_lead_time_days": 9
+    },
+    {
+      "sku": "OVE-OLI-S-127",
+      "category": "Oversized Hoodies",
+      "color": "Olive",
+      "size": "S",
+      "current_stock": 154,
+      "reorder_point": 134,
+      "unit_cost_tnd": 59,
+      "volume_m3": 0.015,
+      "sales_last_6_months": [
+        800,
+        600,
+        400,
+        200,
+        100,
+        20
+      ],
+      "supplier_lead_time_days": 38
+    },
+    {
+      "sku": "LIN-BEI-XL-128",
+      "category": "Linen Shirts",
+      "color": "Beige",
+      "size": "XL",
+      "current_stock": 317,
+      "reorder_point": 127,
+      "unit_cost_tnd": 33,
+      "volume_m3": 0.0112,
+      "sales_last_6_months": [
+        10,
+        20,
+        50,
+        150,
+        400,
+        1200
+      ],
+      "supplier_lead_time_days": 30
+    },
+    {
+      "sku": "SNE-NAV-L-129",
+      "category": "Sneakers",
+      "color": "Navy",
+      "size": "L",
+      "current_stock": 210,
+      "reorder_point": 62,
+      "unit_cost_tnd": 111,
+      "volume_m3": 0.0084,
+      "sales_last_6_months": [
+        37,
+        97,
+        7,
+        64,
+        53,
+        58
+      ],
+      "supplier_lead_time_days": 18
+    },
+    {
+      "sku": "TAI-GRE-XL-130",
+      "category": "Tailored Trousers",
+      "color": "Grey",
+      "size": "XL",
+      "current_stock": 112,
+      "reorder_point": 200,
+      "unit_cost_tnd": 88,
+      "volume_m3": 0.0181,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 15
+    },
+    {
+      "sku": "SNE-WHI-XL-131",
+      "category": "Sneakers",
+      "color": "White",
+      "size": "XL",
+      "current_stock": 227,
+      "reorder_point": 54,
+      "unit_cost_tnd": 120,
+      "volume_m3": 0.0162,
+      "sales_last_6_months": [
+        73,
+        51,
+        59,
+        13,
+        76,
+        83
+      ],
+      "supplier_lead_time_days": 35
+    },
+    {
+      "sku": "CAR-WHI-XL-132",
+      "category": "Cargo Pants",
+      "color": "White",
+      "size": "XL",
+      "current_stock": 364,
+      "reorder_point": 172,
+      "unit_cost_tnd": 54,
+      "volume_m3": 0.0263,
+      "sales_last_6_months": [
+        50,
+        70,
+        100,
+        150,
+        220,
+        300
+      ],
+      "supplier_lead_time_days": 23
+    },
+    {
+      "sku": "TAI-WHI-M-133",
+      "category": "Tailored Trousers",
+      "color": "White",
+      "size": "M",
+      "current_stock": 435,
+      "reorder_point": 69,
+      "unit_cost_tnd": 68,
+      "volume_m3": 0.0082,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 42
+    },
+    {
+      "sku": "CAS-GRE-XL-134",
+      "category": "Cashmere Sweaters",
+      "color": "Grey",
+      "size": "XL",
+      "current_stock": 258,
+      "reorder_point": 174,
+      "unit_cost_tnd": 38,
+      "volume_m3": 0.0245,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 24
+    },
+    {
+      "sku": "CAR-BLA-XL-135",
+      "category": "Cargo Pants",
+      "color": "Black",
+      "size": "XL",
+      "current_stock": 214,
+      "reorder_point": 126,
+      "unit_cost_tnd": 91,
+      "volume_m3": 0.0297,
+      "sales_last_6_months": [
+        50,
+        70,
+        100,
+        150,
+        220,
+        300
+      ],
+      "supplier_lead_time_days": 25
+    },
+    {
+      "sku": "CAS-NAV-L-136",
+      "category": "Cashmere Sweaters",
+      "color": "Navy",
+      "size": "L",
+      "current_stock": 156,
+      "reorder_point": 56,
+      "unit_cost_tnd": 117,
+      "volume_m3": 0.0118,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 26
+    },
+    {
+      "sku": "CAR-WHI-S-137",
+      "category": "Cargo Pants",
+      "color": "White",
+      "size": "S",
+      "current_stock": 293,
+      "reorder_point": 138,
+      "unit_cost_tnd": 27,
+      "volume_m3": 0.0068,
+      "sales_last_6_months": [
+        50,
+        70,
+        100,
+        150,
+        220,
+        300
+      ],
+      "supplier_lead_time_days": 45
+    },
+    {
+      "sku": "CAR-GRE-M-138",
+      "category": "Cargo Pants",
+      "color": "Grey",
+      "size": "M",
+      "current_stock": 218,
+      "reorder_point": 103,
+      "unit_cost_tnd": 117,
+      "volume_m3": 0.0202,
+      "sales_last_6_months": [
+        50,
+        70,
+        100,
+        150,
+        220,
+        300
+      ],
+      "supplier_lead_time_days": 22
+    },
+    {
+      "sku": "TAI-BLA-L-139",
+      "category": "Tailored Trousers",
+      "color": "Black",
+      "size": "L",
+      "current_stock": 49,
+      "reorder_point": 108,
+      "unit_cost_tnd": 53,
+      "volume_m3": 0.0297,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 22
+    },
+    {
+      "sku": "CAS-NAV-L-140",
+      "category": "Cashmere Sweaters",
+      "color": "Navy",
+      "size": "L",
+      "current_stock": 383,
+      "reorder_point": 133,
+      "unit_cost_tnd": 88,
+      "volume_m3": 0.0194,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 18
+    },
+    {
+      "sku": "SNE-NAV-XL-141",
+      "category": "Sneakers",
+      "color": "Navy",
+      "size": "XL",
+      "current_stock": 286,
+      "reorder_point": 109,
+      "unit_cost_tnd": 94,
+      "volume_m3": 0.0186,
+      "sales_last_6_months": [
+        66,
+        82,
+        45,
+        46,
+        62,
+        26
+      ],
+      "supplier_lead_time_days": 19
+    },
+    {
+      "sku": "SNE-WHI-S-142",
+      "category": "Sneakers",
+      "color": "White",
+      "size": "S",
+      "current_stock": 226,
+      "reorder_point": 149,
+      "unit_cost_tnd": 111,
+      "volume_m3": 0.0215,
+      "sales_last_6_months": [
+        85,
+        44,
+        9,
+        80,
+        46,
+        21
+      ],
+      "supplier_lead_time_days": 33
+    },
+    {
+      "sku": "TAI-BLA-S-143",
+      "category": "Tailored Trousers",
+      "color": "Black",
+      "size": "S",
+      "current_stock": 321,
+      "reorder_point": 115,
+      "unit_cost_tnd": 62,
+      "volume_m3": 0.0217,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 29
+    },
+    {
+      "sku": "CAR-GRE-L-144",
+      "category": "Cargo Pants",
+      "color": "Grey",
+      "size": "L",
+      "current_stock": 173,
+      "reorder_point": 193,
+      "unit_cost_tnd": 103,
+      "volume_m3": 0.0157,
+      "sales_last_6_months": [
+        50,
+        70,
+        100,
+        150,
+        220,
+        300
+      ],
+      "supplier_lead_time_days": 23
+    },
+    {
+      "sku": "CAR-OLI-L-145",
+      "category": "Cargo Pants",
       "color": "Olive",
       "size": "L",
-      "current_stock": 498,
-      "reorder_point": 112,
-      "unit_cost_tnd": 20,
+      "current_stock": 389,
+      "reorder_point": 108,
+      "unit_cost_tnd": 42,
+      "volume_m3": 0.007,
+      "sales_last_6_months": [
+        50,
+        70,
+        100,
+        150,
+        220,
+        300
+      ],
+      "supplier_lead_time_days": 7
+    },
+    {
+      "sku": "OVE-WHI-M-146",
+      "category": "Oversized Hoodies",
+      "color": "White",
+      "size": "M",
+      "current_stock": 223,
+      "reorder_point": 175,
+      "unit_cost_tnd": 83,
+      "volume_m3": 0.0271,
+      "sales_last_6_months": [
+        800,
+        600,
+        400,
+        200,
+        100,
+        20
+      ],
+      "supplier_lead_time_days": 29
+    },
+    {
+      "sku": "TAI-OLI-M-147",
+      "category": "Tailored Trousers",
+      "color": "Olive",
+      "size": "M",
+      "current_stock": 394,
+      "reorder_point": 139,
+      "unit_cost_tnd": 61,
+      "volume_m3": 0.0247,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 40
+    },
+    {
+      "sku": "CAR-BEI-L-148",
+      "category": "Cargo Pants",
+      "color": "Beige",
+      "size": "L",
+      "current_stock": 466,
+      "reorder_point": 198,
+      "unit_cost_tnd": 84,
+      "volume_m3": 0.0189,
+      "sales_last_6_months": [
+        50,
+        70,
+        100,
+        150,
+        220,
+        300
+      ],
+      "supplier_lead_time_days": 12
+    },
+    {
+      "sku": "CAR-GRE-XL-149",
+      "category": "Cargo Pants",
+      "color": "Grey",
+      "size": "XL",
+      "current_stock": 314,
+      "reorder_point": 102,
+      "unit_cost_tnd": 80,
+      "volume_m3": 0.0205,
+      "sales_last_6_months": [
+        50,
+        70,
+        100,
+        150,
+        220,
+        300
+      ],
+      "supplier_lead_time_days": 39
+    },
+    {
+      "sku": "OVE-OLI-XL-150",
+      "category": "Oversized Hoodies",
+      "color": "Olive",
+      "size": "XL",
+      "current_stock": 44,
+      "reorder_point": 76,
+      "unit_cost_tnd": 30,
+      "volume_m3": 0.0253,
+      "sales_last_6_months": [
+        800,
+        600,
+        400,
+        200,
+        100,
+        20
+      ],
+      "supplier_lead_time_days": 36
+    },
+    {
+      "sku": "TAI-WHI-XL-151",
+      "category": "Tailored Trousers",
+      "color": "White",
+      "size": "XL",
+      "current_stock": 346,
+      "reorder_point": 190,
+      "unit_cost_tnd": 52,
+      "volume_m3": 0.0103,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 7
+    },
+    {
+      "sku": "OVE-BLA-XL-152",
+      "category": "Oversized Hoodies",
+      "color": "Black",
+      "size": "XL",
+      "current_stock": 337,
+      "reorder_point": 195,
+      "unit_cost_tnd": 50,
+      "volume_m3": 0.0251,
+      "sales_last_6_months": [
+        800,
+        600,
+        400,
+        200,
+        100,
+        20
+      ],
+      "supplier_lead_time_days": 26
+    },
+    {
+      "sku": "OVE-OLI-M-153",
+      "category": "Oversized Hoodies",
+      "color": "Olive",
+      "size": "M",
+      "current_stock": 414,
+      "reorder_point": 166,
+      "unit_cost_tnd": 53,
+      "volume_m3": 0.007,
+      "sales_last_6_months": [
+        800,
+        600,
+        400,
+        200,
+        100,
+        20
+      ],
+      "supplier_lead_time_days": 28
+    },
+    {
+      "sku": "OVE-GRE-M-154",
+      "category": "Oversized Hoodies",
+      "color": "Grey",
+      "size": "M",
+      "current_stock": 157,
+      "reorder_point": 129,
+      "unit_cost_tnd": 25,
+      "volume_m3": 0.0239,
+      "sales_last_6_months": [
+        800,
+        600,
+        400,
+        200,
+        100,
+        20
+      ],
+      "supplier_lead_time_days": 7
+    },
+    {
+      "sku": "SNE-OLI-L-155",
+      "category": "Sneakers",
+      "color": "Olive",
+      "size": "L",
+      "current_stock": 229,
+      "reorder_point": 160,
+      "unit_cost_tnd": 89,
+      "volume_m3": 0.0133,
+      "sales_last_6_months": [
+        44,
+        100,
+        85,
+        51,
+        81,
+        70
+      ],
+      "supplier_lead_time_days": 14
+    },
+    {
+      "sku": "LIN-WHI-M-156",
+      "category": "Linen Shirts",
+      "color": "White",
+      "size": "M",
+      "current_stock": 113,
+      "reorder_point": 74,
+      "unit_cost_tnd": 95,
+      "volume_m3": 0.0255,
+      "sales_last_6_months": [
+        10,
+        20,
+        50,
+        150,
+        400,
+        1200
+      ],
+      "supplier_lead_time_days": 10
+    },
+    {
+      "sku": "OVE-BEI-M-157",
+      "category": "Oversized Hoodies",
+      "color": "Beige",
+      "size": "M",
+      "current_stock": 223,
+      "reorder_point": 139,
+      "unit_cost_tnd": 46,
+      "volume_m3": 0.0281,
+      "sales_last_6_months": [
+        800,
+        600,
+        400,
+        200,
+        100,
+        20
+      ],
+      "supplier_lead_time_days": 38
+    },
+    {
+      "sku": "CAR-NAV-L-158",
+      "category": "Cargo Pants",
+      "color": "Navy",
+      "size": "L",
+      "current_stock": 247,
+      "reorder_point": 172,
+      "unit_cost_tnd": 60,
+      "volume_m3": 0.0161,
+      "sales_last_6_months": [
+        50,
+        70,
+        100,
+        150,
+        220,
+        300
+      ],
+      "supplier_lead_time_days": 9
+    },
+    {
+      "sku": "CAR-BEI-M-159",
+      "category": "Cargo Pants",
+      "color": "Beige",
+      "size": "M",
+      "current_stock": 67,
+      "reorder_point": 146,
+      "unit_cost_tnd": 30,
+      "volume_m3": 0.0099,
+      "sales_last_6_months": [
+        50,
+        70,
+        100,
+        150,
+        220,
+        300
+      ],
+      "supplier_lead_time_days": 41
+    },
+    {
+      "sku": "TAI-GRE-L-160",
+      "category": "Tailored Trousers",
+      "color": "Grey",
+      "size": "L",
+      "current_stock": 89,
+      "reorder_point": 87,
+      "unit_cost_tnd": 61,
+      "volume_m3": 0.0157,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 31
+    },
+    {
+      "sku": "TAI-WHI-S-161",
+      "category": "Tailored Trousers",
+      "color": "White",
+      "size": "S",
+      "current_stock": 125,
+      "reorder_point": 73,
+      "unit_cost_tnd": 26,
+      "volume_m3": 0.013,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 39
+    },
+    {
+      "sku": "SNE-BLA-L-162",
+      "category": "Sneakers",
+      "color": "Black",
+      "size": "L",
+      "current_stock": 473,
+      "reorder_point": 88,
+      "unit_cost_tnd": 104,
+      "volume_m3": 0.0122,
+      "sales_last_6_months": [
+        71,
+        46,
+        5,
+        84,
+        30,
+        75
+      ],
+      "supplier_lead_time_days": 21
+    },
+    {
+      "sku": "TAI-NAV-M-163",
+      "category": "Tailored Trousers",
+      "color": "Navy",
+      "size": "M",
+      "current_stock": 123,
+      "reorder_point": 101,
+      "unit_cost_tnd": 60,
+      "volume_m3": 0.0133,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 38
+    },
+    {
+      "sku": "CAS-BEI-L-164",
+      "category": "Cashmere Sweaters",
+      "color": "Beige",
+      "size": "L",
+      "current_stock": 346,
+      "reorder_point": 117,
+      "unit_cost_tnd": 41,
+      "volume_m3": 0.0258,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 12
+    },
+    {
+      "sku": "SNE-NAV-M-165",
+      "category": "Sneakers",
+      "color": "Navy",
+      "size": "M",
+      "current_stock": 433,
+      "reorder_point": 59,
+      "unit_cost_tnd": 49,
+      "volume_m3": 0.0144,
+      "sales_last_6_months": [
+        64,
+        86,
+        23,
+        46,
+        65,
+        98
+      ],
+      "supplier_lead_time_days": 38
+    },
+    {
+      "sku": "LIN-GRE-S-166",
+      "category": "Linen Shirts",
+      "color": "Grey",
+      "size": "S",
+      "current_stock": 41,
+      "reorder_point": 179,
+      "unit_cost_tnd": 79,
       "volume_m3": 0.0076,
       "sales_last_6_months": [
-        19,
-        71,
+        10,
+        20,
+        50,
+        150,
+        400,
+        1200
+      ],
+      "supplier_lead_time_days": 7
+    },
+    {
+      "sku": "CAS-BLA-M-167",
+      "category": "Cashmere Sweaters",
+      "color": "Black",
+      "size": "M",
+      "current_stock": 413,
+      "reorder_point": 148,
+      "unit_cost_tnd": 70,
+      "volume_m3": 0.0178,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 33
+    },
+    {
+      "sku": "CAS-GRE-S-168",
+      "category": "Cashmere Sweaters",
+      "color": "Grey",
+      "size": "S",
+      "current_stock": 25,
+      "reorder_point": 61,
+      "unit_cost_tnd": 73,
+      "volume_m3": 0.006,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 35
+    },
+    {
+      "sku": "LIN-WHI-M-169",
+      "category": "Linen Shirts",
+      "color": "White",
+      "size": "M",
+      "current_stock": 403,
+      "reorder_point": 112,
+      "unit_cost_tnd": 78,
+      "volume_m3": 0.0162,
+      "sales_last_6_months": [
+        10,
+        20,
+        50,
+        150,
+        400,
+        1200
+      ],
+      "supplier_lead_time_days": 30
+    },
+    {
+      "sku": "CAR-OLI-XL-170",
+      "category": "Cargo Pants",
+      "color": "Olive",
+      "size": "XL",
+      "current_stock": 205,
+      "reorder_point": 64,
+      "unit_cost_tnd": 42,
+      "volume_m3": 0.0098,
+      "sales_last_6_months": [
+        50,
+        70,
+        100,
+        150,
+        220,
+        300
+      ],
+      "supplier_lead_time_days": 7
+    },
+    {
+      "sku": "SNE-GRE-S-171",
+      "category": "Sneakers",
+      "color": "Grey",
+      "size": "S",
+      "current_stock": 124,
+      "reorder_point": 160,
+      "unit_cost_tnd": 21,
+      "volume_m3": 0.0219,
+      "sales_last_6_months": [
+        76,
+        61,
+        48,
         13,
-        47,
+        97,
+        82
+      ],
+      "supplier_lead_time_days": 45
+    },
+    {
+      "sku": "CAS-OLI-XL-172",
+      "category": "Cashmere Sweaters",
+      "color": "Olive",
+      "size": "XL",
+      "current_stock": 130,
+      "reorder_point": 87,
+      "unit_cost_tnd": 34,
+      "volume_m3": 0.0085,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 23
+    },
+    {
+      "sku": "SNE-OLI-XL-173",
+      "category": "Sneakers",
+      "color": "Olive",
+      "size": "XL",
+      "current_stock": 237,
+      "reorder_point": 85,
+      "unit_cost_tnd": 29,
+      "volume_m3": 0.0257,
+      "sales_last_6_months": [
+        42,
+        29,
+        8,
+        73,
+        26,
+        9
+      ],
+      "supplier_lead_time_days": 15
+    },
+    {
+      "sku": "SNE-GRE-XL-174",
+      "category": "Sneakers",
+      "color": "Grey",
+      "size": "XL",
+      "current_stock": 151,
+      "reorder_point": 50,
+      "unit_cost_tnd": 52,
+      "volume_m3": 0.0257,
+      "sales_last_6_months": [
+        70,
+        28,
+        9,
+        63,
+        66,
+        80
+      ],
+      "supplier_lead_time_days": 35
+    },
+    {
+      "sku": "SNE-WHI-M-175",
+      "category": "Sneakers",
+      "color": "White",
+      "size": "M",
+      "current_stock": 283,
+      "reorder_point": 64,
+      "unit_cost_tnd": 118,
+      "volume_m3": 0.0199,
+      "sales_last_6_months": [
+        18,
+        29,
+        11,
+        98,
+        82,
+        68
+      ],
+      "supplier_lead_time_days": 21
+    },
+    {
+      "sku": "TAI-OLI-M-176",
+      "category": "Tailored Trousers",
+      "color": "Olive",
+      "size": "M",
+      "current_stock": 241,
+      "reorder_point": 91,
+      "unit_cost_tnd": 76,
+      "volume_m3": 0.0148,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 11
+    },
+    {
+      "sku": "CAR-BEI-M-177",
+      "category": "Cargo Pants",
+      "color": "Beige",
+      "size": "M",
+      "current_stock": 456,
+      "reorder_point": 92,
+      "unit_cost_tnd": 36,
+      "volume_m3": 0.0121,
+      "sales_last_6_months": [
+        50,
+        70,
+        100,
+        150,
+        220,
+        300
+      ],
+      "supplier_lead_time_days": 15
+    },
+    {
+      "sku": "CAS-NAV-M-178",
+      "category": "Cashmere Sweaters",
+      "color": "Navy",
+      "size": "M",
+      "current_stock": 207,
+      "reorder_point": 109,
+      "unit_cost_tnd": 33,
+      "volume_m3": 0.0252,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 17
+    },
+    {
+      "sku": "LIN-NAV-XL-179",
+      "category": "Linen Shirts",
+      "color": "Navy",
+      "size": "XL",
+      "current_stock": 214,
+      "reorder_point": 50,
+      "unit_cost_tnd": 31,
+      "volume_m3": 0.0208,
+      "sales_last_6_months": [
+        10,
+        20,
+        50,
+        150,
+        400,
+        1200
+      ],
+      "supplier_lead_time_days": 39
+    },
+    {
+      "sku": "OVE-NAV-L-180",
+      "category": "Oversized Hoodies",
+      "color": "Navy",
+      "size": "L",
+      "current_stock": 122,
+      "reorder_point": 152,
+      "unit_cost_tnd": 36,
+      "volume_m3": 0.0265,
+      "sales_last_6_months": [
+        800,
+        600,
+        400,
+        200,
+        100,
+        20
+      ],
+      "supplier_lead_time_days": 9
+    },
+    {
+      "sku": "OVE-BEI-M-181",
+      "category": "Oversized Hoodies",
+      "color": "Beige",
+      "size": "M",
+      "current_stock": 153,
+      "reorder_point": 90,
+      "unit_cost_tnd": 59,
+      "volume_m3": 0.015,
+      "sales_last_6_months": [
+        800,
+        600,
+        400,
+        200,
+        100,
+        20
+      ],
+      "supplier_lead_time_days": 20
+    },
+    {
+      "sku": "LIN-BEI-L-182",
+      "category": "Linen Shirts",
+      "color": "Beige",
+      "size": "L",
+      "current_stock": 65,
+      "reorder_point": 107,
+      "unit_cost_tnd": 93,
+      "volume_m3": 0.0089,
+      "sales_last_6_months": [
+        10,
+        20,
+        50,
+        150,
+        400,
+        1200
+      ],
+      "supplier_lead_time_days": 17
+    },
+    {
+      "sku": "CAS-BLA-L-183",
+      "category": "Cashmere Sweaters",
+      "color": "Black",
+      "size": "L",
+      "current_stock": 372,
+      "reorder_point": 119,
+      "unit_cost_tnd": 27,
+      "volume_m3": 0.0193,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 8
+    },
+    {
+      "sku": "CAS-WHI-XL-184",
+      "category": "Cashmere Sweaters",
+      "color": "White",
+      "size": "XL",
+      "current_stock": 263,
+      "reorder_point": 76,
+      "unit_cost_tnd": 57,
+      "volume_m3": 0.0228,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 22
+    },
+    {
+      "sku": "CAS-BEI-XL-185",
+      "category": "Cashmere Sweaters",
+      "color": "Beige",
+      "size": "XL",
+      "current_stock": 219,
+      "reorder_point": 188,
+      "unit_cost_tnd": 90,
+      "volume_m3": 0.0246,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 20
+    },
+    {
+      "sku": "TAI-GRE-S-186",
+      "category": "Tailored Trousers",
+      "color": "Grey",
+      "size": "S",
+      "current_stock": 462,
+      "reorder_point": 105,
+      "unit_cost_tnd": 96,
+      "volume_m3": 0.0141,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 34
+    },
+    {
+      "sku": "SNE-OLI-XL-187",
+      "category": "Sneakers",
+      "color": "Olive",
+      "size": "XL",
+      "current_stock": 130,
+      "reorder_point": 56,
+      "unit_cost_tnd": 87,
+      "volume_m3": 0.0074,
+      "sales_last_6_months": [
+        30,
+        41,
+        26,
+        23,
+        91,
+        37
+      ],
+      "supplier_lead_time_days": 10
+    },
+    {
+      "sku": "LIN-BEI-S-188",
+      "category": "Linen Shirts",
+      "color": "Beige",
+      "size": "S",
+      "current_stock": 373,
+      "reorder_point": 64,
+      "unit_cost_tnd": 86,
+      "volume_m3": 0.0298,
+      "sales_last_6_months": [
+        10,
+        20,
+        50,
+        150,
+        400,
+        1200
+      ],
+      "supplier_lead_time_days": 41
+    },
+    {
+      "sku": "LIN-BEI-XL-189",
+      "category": "Linen Shirts",
+      "color": "Beige",
+      "size": "XL",
+      "current_stock": 47,
+      "reorder_point": 96,
+      "unit_cost_tnd": 47,
+      "volume_m3": 0.0104,
+      "sales_last_6_months": [
+        10,
+        20,
+        50,
+        150,
+        400,
+        1200
+      ],
+      "supplier_lead_time_days": 41
+    },
+    {
+      "sku": "LIN-BLA-S-190",
+      "category": "Linen Shirts",
+      "color": "Black",
+      "size": "S",
+      "current_stock": 330,
+      "reorder_point": 134,
+      "unit_cost_tnd": 119,
+      "volume_m3": 0.0293,
+      "sales_last_6_months": [
+        10,
+        20,
+        50,
+        150,
+        400,
+        1200
+      ],
+      "supplier_lead_time_days": 15
+    },
+    {
+      "sku": "LIN-WHI-S-191",
+      "category": "Linen Shirts",
+      "color": "White",
+      "size": "S",
+      "current_stock": 209,
+      "reorder_point": 144,
+      "unit_cost_tnd": 87,
+      "volume_m3": 0.0157,
+      "sales_last_6_months": [
+        10,
+        20,
+        50,
+        150,
+        400,
+        1200
+      ],
+      "supplier_lead_time_days": 7
+    },
+    {
+      "sku": "OVE-BEI-M-192",
+      "category": "Oversized Hoodies",
+      "color": "Beige",
+      "size": "M",
+      "current_stock": 191,
+      "reorder_point": 164,
+      "unit_cost_tnd": 117,
+      "volume_m3": 0.0083,
+      "sales_last_6_months": [
+        800,
+        600,
+        400,
+        200,
+        100,
+        20
+      ],
+      "supplier_lead_time_days": 40
+    },
+    {
+      "sku": "CAS-WHI-S-193",
+      "category": "Cashmere Sweaters",
+      "color": "White",
+      "size": "S",
+      "current_stock": 40,
+      "reorder_point": 102,
+      "unit_cost_tnd": 28,
+      "volume_m3": 0.0083,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 34
+    },
+    {
+      "sku": "SNE-OLI-XL-194",
+      "category": "Sneakers",
+      "color": "Olive",
+      "size": "XL",
+      "current_stock": 31,
+      "reorder_point": 192,
+      "unit_cost_tnd": 70,
+      "volume_m3": 0.0184,
+      "sales_last_6_months": [
+        19,
+        31,
+        9,
+        37,
         64,
-        61
+        86
+      ],
+      "supplier_lead_time_days": 36
+    },
+    {
+      "sku": "OVE-OLI-XL-195",
+      "category": "Oversized Hoodies",
+      "color": "Olive",
+      "size": "XL",
+      "current_stock": 389,
+      "reorder_point": 52,
+      "unit_cost_tnd": 110,
+      "volume_m3": 0.0219,
+      "sales_last_6_months": [
+        800,
+        600,
+        400,
+        200,
+        100,
+        20
+      ],
+      "supplier_lead_time_days": 39
+    },
+    {
+      "sku": "CAS-BEI-XL-196",
+      "category": "Cashmere Sweaters",
+      "color": "Beige",
+      "size": "XL",
+      "current_stock": 419,
+      "reorder_point": 172,
+      "unit_cost_tnd": 71,
+      "volume_m3": 0.0097,
+      "sales_last_6_months": [
+        100,
+        105,
+        95,
+        110,
+        100,
+        98
+      ],
+      "supplier_lead_time_days": 35
+    },
+    {
+      "sku": "LIN-WHI-XL-197",
+      "category": "Linen Shirts",
+      "color": "White",
+      "size": "XL",
+      "current_stock": 465,
+      "reorder_point": 150,
+      "unit_cost_tnd": 107,
+      "volume_m3": 0.0113,
+      "sales_last_6_months": [
+        10,
+        20,
+        50,
+        150,
+        400,
+        1200
+      ],
+      "supplier_lead_time_days": 29
+    },
+    {
+      "sku": "SNE-BLA-XL-198",
+      "category": "Sneakers",
+      "color": "Black",
+      "size": "XL",
+      "current_stock": 442,
+      "reorder_point": 157,
+      "unit_cost_tnd": 62,
+      "volume_m3": 0.0166,
+      "sales_last_6_months": [
+        71,
+        49,
+        100,
+        22,
+        99,
+        100
+      ],
+      "supplier_lead_time_days": 32
+    },
+    {
+      "sku": "CAR-BEI-L-199",
+      "category": "Cargo Pants",
+      "color": "Beige",
+      "size": "L",
+      "current_stock": 457,
+      "reorder_point": 116,
+      "unit_cost_tnd": 117,
+      "volume_m3": 0.0056,
+      "sales_last_6_months": [
+        50,
+        70,
+        100,
+        150,
+        220,
+        300
       ],
       "supplier_lead_time_days": 24
     }

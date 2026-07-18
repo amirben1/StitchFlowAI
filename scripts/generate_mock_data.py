@@ -3,8 +3,8 @@ import random
 from datetime import datetime, timedelta
 
 def generate_erp_data():
-    categories = ["Hoodies", "T-Shirts", "Cargo Pants", "Jeans", "Jackets", "Sneakers"]
-    colors = ["Black", "White", "Red", "Blue", "Olive", "Grey"]
+    categories = ["Linen Shirts", "Oversized Hoodies", "Cargo Pants", "Cashmere Sweaters", "Tailored Trousers", "Sneakers"]
+    colors = ["Black", "White", "Navy", "Olive", "Beige", "Grey"]
     sizes = ["S", "M", "L", "XL"]
     
     inventory = []
@@ -16,15 +16,20 @@ def generate_erp_data():
         sz = random.choice(sizes)
         
         # Base stats
-        base_cost = random.randint(10, 50)
+        base_cost = random.randint(20, 120)
         volume = round(random.uniform(0.005, 0.03), 4)
         
         # Historical sales (last 6 months)
-        sales_history = [random.randint(5, 100) for _ in range(6)]
-        
-        # If it's an Olive Cargo Pant, make it trend upwards rapidly
-        if cat == "Cargo Pants" and col == "Olive":
-            sales_history = [10, 25, 50, 120, 300, 800]
+        if cat == "Linen Shirts":
+            sales_history = [10, 20, 50, 150, 400, 1200]
+        elif cat == "Cargo Pants":
+            sales_history = [50, 70, 100, 150, 220, 300]
+        elif cat == "Oversized Hoodies":
+            sales_history = [800, 600, 400, 200, 100, 20]
+        elif cat in ["Cashmere Sweaters", "Tailored Trousers"]:
+            sales_history = [100, 105, 95, 110, 100, 98]
+        else:
+            sales_history = [random.randint(5, 100) for _ in range(6)]
             
         inventory.append({
             "sku": f"{cat[:3].upper()}-{col[:3].upper()}-{sz}-{i}",
@@ -55,21 +60,31 @@ def generate_market_data():
     market_intel = []
     for _ in range(50):
         comp = random.choice(competitors)
+        product = random.choice(["Linen Shirt", "Oversized Hoodie", "Cargo Pants", "Cashmere Sweater"])
+        
+        if product == "Linen Shirt" or product == "Cargo Pants":
+            stock = random.choice(["Low Stock", "Out of Stock", "Out of Stock"])
+        elif product == "Oversized Hoodie":
+            stock = random.choice(["In Stock", "In Stock", "Overstocked"])
+        else:
+            stock = random.choice(["In Stock", "Low Stock", "Out of Stock"])
+
         market_intel.append({
             "competitor": comp,
-            "observed_product": random.choice(["Oversized Hoodie", "Parachute Pants", "Olive Cargo Pants", "Graphic Tees"]),
-            "price_tnd": random.randint(40, 150),
-            "stock_status": random.choice(["In Stock", "Low Stock", "Out of Stock", "Out of Stock"]),
-            "promotion_active": random.choice([True, False, False]),
+            "observed_product": product,
+            "price_tnd": random.randint(40, 250),
+            "stock_status": stock,
+            "promotion_active": product == "Oversized Hoodie",
             "date_observed": (datetime.now() - timedelta(days=random.randint(1, 14))).strftime("%Y-%m-%d")
         })
         
     data = {
         "competitor_pricing": market_intel,
         "customer_sentiment": [
-            {"keyword": "Olive Cargo", "sentiment_score": 0.95, "mentions": 1450},
-            {"keyword": "Skinny Jeans", "sentiment_score": -0.4, "mentions": 120},
-            {"keyword": "Heavyweight Hoodie", "sentiment_score": 0.8, "mentions": 890}
+            {"keyword": "Linen Shirt", "sentiment_score": 0.97, "mentions": 3450},
+            {"keyword": "Cargo Pants", "sentiment_score": 0.87, "mentions": 2120},
+            {"keyword": "Quiet Luxury", "sentiment_score": 0.65, "mentions": 1890},
+            {"keyword": "Oversized Hoodie", "sentiment_score": -0.45, "mentions": 120}
         ]
     }
     
