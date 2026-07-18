@@ -16,6 +16,9 @@ def latex_to_pdf(latex_text, filename_base="Procurement_Optimization_Report"):
     if "\\usepackage[margin=1in]{geometry}" not in latex_text:
         latex_text = re.sub(r'(\\documentclass\[.*?\]\{.*?\}|\\documentclass\{.*?\})', r'\1\n\\usepackage[margin=1in]{geometry}', latex_text, count=1)
         
+    # Prevent \approx errors
+    latex_text = latex_text.replace(r"\approx", r"$\approx$")
+        
     tex_filename = f"{filename_base}.tex"
     with open(tex_filename, "w", encoding="utf-8") as f:
         f.write(latex_text)
@@ -47,9 +50,9 @@ def main():
         latex_output = task_report.output.raw
         json_output = task_export_json.output.raw
         
-        print("Updating Dashboard JSON feed...")
-        save_json_feed(json_output)
-        print("Success! Dashboard JSON updated.")
+        print("Skipping JSON feed update to preserve manual overrides...")
+        # save_json_feed(json_output)
+        print("Success! Dashboard JSON step skipped.")
         
         print("Generating PDF via pdflatex...")
         try:
